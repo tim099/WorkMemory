@@ -3,10 +3,10 @@ id: state_2026-08-03-pushed-and-partly-superseded
 topic: awakening-flow-rework
 title: 已 push；往返連號驗過，三項仍 pending
 type: state
-status: active
+status: superseded
 created_at: 2026-08-03
 created_by: kiara
-links: [awakening-flow-rework/state_2026-07-31-goodnight-shipped]
+links: [awakening-flow-rework/state_2026-07-31-goodnight-shipped, awakening-flow-rework/state_2026-08-05-morning-compare-fixed-p1-stashed]
 related_docs: [ucl_core:Docs~/zh-Hant/Plan/Plan_Goodnight_Flow_Simplification.md, ucl_core:Docs~/zh-Hant/Workflows/Awakening_Ritual_Workflow.md, commit:be257e0, tavern:2026-07-31#9756]
 ---
 
