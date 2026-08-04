@@ -5,6 +5,7 @@
 ## knowhow
 - **knowhow_collapsible-sections-defaults** — 管理頁區塊折疊的預設與標頭責任
 - **knowhow_im-gui-patterns** — ControlPanel 與 UCL_GUILayout 常用模式
+- **knowhow_page-skeleton** — UCL_CommonEditorPage 頁面骨架與效能慣例  ↔ hscene-editor-rework/knowhow_existing-infra
 
 ## pitfall
 - **pitfall_contentongui-not-ongui** — 自訂 ContentOnGUI，不覆寫 OnGUI

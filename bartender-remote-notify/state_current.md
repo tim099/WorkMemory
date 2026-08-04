@@ -6,7 +6,7 @@ type: state
 status: superseded
 created_at: 2026-08-02
 created_by: basecamp
-links: [commit-identity-pipeline/state_current, bartender-remote-notify/state_2026-08-03]
+links: [commit-identity-pipeline/state_current, bartender-remote-notify/state_2026-08-03-basecamp]
 related_docs: []
 ---
 
