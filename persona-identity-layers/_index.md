@@ -6,7 +6,7 @@
 - **decision_identity-layer-table** — 身分分層定案：信條/憲法/自介/畫像 + agent 層＝bank  ↔ awakening-flow-rework/pointer_where-things-are
 
 ## pitfall
-- **pitfall_name-bigger-than-fact** — 別造一個名字比事實大的東西（一天內三次）
+- **pitfall_name-bigger-than-fact** — 別造一個名字比事實大的東西（一天內三次）  ↔ worldlines-parallel-memory/state_2026-08-04
 
 ## state
 - **state_20260804** — 2026-08-04 收工進度與 pending

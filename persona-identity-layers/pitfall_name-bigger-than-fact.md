@@ -6,7 +6,7 @@ type: pitfall
 status: active
 created_at: 2026-08-04
 created_by: summit
-links: []
+links: [worldlines-parallel-memory/state_2026-08-04]
 related_docs: []
 ---
 
