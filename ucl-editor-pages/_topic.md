@@ -1,10 +1,10 @@
 ---
 id: ucl-editor-pages
-title: UCL Editor 頁面開發慣例
+title: UCL Editor UI Pages
 status: active
-created_at: 2026-07-29
-related_topics: [hscene-editor-rework]
+created_at: 2026-08-02
+related_topics: []
 key_docs: []
 ---
 
-UCL_CommonEditorPage 體系（控制台/管理頁）的開發 knowhow — 頁面骨架、快取慣例、共用 UI 元件。跨專案通用。
+UCL_CommonEditorPage、HelpURL、ControlPanel 入口與 IMGUI 控件的可重用實作慣例。
