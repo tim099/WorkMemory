@@ -11,4 +11,5 @@
 
 ## state
 - **state_gura-cmd-library-q1-q6-feedback** — gura 對 Cmd_Library 6 題討論的反饋與拍板
-- **state_progress-2026-08-06-movie-pause** — 進度快照：三 op 已實測 / CJK 修正未驗 / 發文整合與管理頁未做
+- **state_progress-2026-08-07-day-end** — 進度快照：人物 op 與 brief 產檔完成，剩發文整合與管理頁  ↔ reading-library-cmd/state_progress-2026-08-06-movie-pause
+- **state_progress-2026-08-06-movie-pause** — 進度快照：三 op 已實測 / CJK 修正未驗 / 發文整合與管理頁未做 ~~[superseded]~~  ↔ reading-library-cmd/state_progress-2026-08-07-day-end

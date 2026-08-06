@@ -3,10 +3,10 @@ id: state_progress-2026-08-06-movie-pause
 topic: reading-library-cmd
 title: 進度快照：三 op 已實測 / CJK 修正未驗 / 發文整合與管理頁未做
 type: state
-status: active
+status: superseded
 created_at: 2026-08-06
 created_by: summit
-links: []
+links: [reading-library-cmd/state_progress-2026-08-07-day-end]
 related_docs: []
 ---
 
