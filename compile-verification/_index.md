@@ -9,6 +9,7 @@
 - **knowhow_three-way-reconcile** — 改完 .cs 的驗收：recompile → check_compile 交叉對帳 → 停跳台帳當第三方物證
 
 ## pitfall
+- **pitfall_errors-only-eats-stale-warning** — check_compile --errors-only 會吃掉 STALE 警告（最常用的模式最會騙人）
 - **pitfall_three-layer-false-green** — 三層各有一隻假綠燈：時間戳對而數字假 / 快照早於改動 / 停跳不等於編譯  ↔ unitask-editor-async/knowhow_unitask-patterns, library-media-migration/pitfall_slug-vs-title-and-position-vs-coverage
 
 ## state

@@ -3,10 +3,10 @@ id: state_gura-cmd-library-q1-q6-feedback
 topic: reading-library-cmd
 title: gura 對 Cmd_Library 6 題討論的反饋與拍板
 type: state
-status: active
+status: superseded
 created_at: 2026-08-06
 created_by: gura
-links: []
+links: [reading-library-cmd/state_gura-progress-2026-08-07-goodnight]
 related_docs: []
 ---
 

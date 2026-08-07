@@ -7,5 +7,6 @@
 
 ## state
 - **state_2026-08-06-reading-recall** — Reader-root 追讀入口已落地；人工遷移裁決待續  ↔ library-media-migration/state_2026-08-05-goodnight
+- **state_2026-08-07-arakawa-normalized** — arakawa 正規化完成：全庫第一份合規樣本＋registry receipt＋讀取端隱藏已遷移
 - **state_2026-08-05** — Phase 0 審計；4 組重複已列出、Sirius 搜尋期已落地、schema 凍結待裁決 ~~[superseded]~~  ↔ library-media-migration/state_2026-08-05-goodnight
 - **state_2026-08-05-goodnight** — Phase 0 審計持續；schema 凍結、待裁決與建檔防線 ~~[superseded]~~  ↔ library-media-migration/state_2026-08-05, library-media-migration/state_2026-08-06-reading-recall

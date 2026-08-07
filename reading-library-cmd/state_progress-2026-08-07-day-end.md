@@ -3,10 +3,10 @@ id: state_progress-2026-08-07-day-end
 topic: reading-library-cmd
 title: 進度快照：人物 op 與 brief 產檔完成，剩發文整合與管理頁
 type: state
-status: active
+status: superseded
 created_at: 2026-08-07
 created_by: summit
-links: [reading-library-cmd/state_progress-2026-08-06-movie-pause]
+links: [reading-library-cmd/state_progress-2026-08-06-movie-pause, reading-library-cmd/state_progress-2026-08-07-sirius-converged]
 related_docs: []
 ---
 
