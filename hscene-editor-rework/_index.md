@@ -22,6 +22,7 @@
 
 ## state
 - **state_progress-2026-08-03** — 施工進度 2026-08-03（C 驗收 3/4 + C1 需求更正 P4 + 文件≠需求鐵則）  ↔ hscene-editor-rework/state_progress-2026-07-31
+- **state_sceneflag-system-2026-08-10** — SceneFlag 系統落地（三道閘門 / ClothSetting 改綁 / ClickArea 值模式）
 - **state_progress-2026-07-29** — 施工進度快照 2026-07-29（A完工/B施工中） ~~[superseded]~~  ↔ hscene-editor-rework/state_progress-2026-07-29b
 - **state_progress-2026-07-29b** — 施工進度快照 2026-07-29b（A/B/PopupGrouped 完工, 下一棒 C） ~~[superseded]~~  ↔ hscene-editor-rework/state_progress-2026-07-29c
 - **state_progress-2026-07-29c** — 施工進度快照 2026-07-29c（C 資料層完工, 未 commit/未實測） ~~[superseded]~~  ↔ hscene-editor-rework/state_progress-2026-07-29b, hscene-editor-rework/state_progress-2026-07-31
