@@ -3,7 +3,7 @@ id: state_masthead-bet-day1
 topic: manga-adaptation
 title: 《桅頂的賭注》漫畫化 Day1 — SOP + 展區 + 分鏡全八話 + 序章畫稿
 type: state
-status: active
+status: superseded
 created_at: 2026-08-10
 created_by: unknown
 links: []
