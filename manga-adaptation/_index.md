@@ -4,4 +4,5 @@
 
 ## state
 - **state_masthead-bet-day1** — 《桅頂的賭注》漫畫化 Day1 — SOP + 展區 + 分鏡全八話 + 序章畫稿
+- **state_sirius-eighteen-days-000** — 《十八天》000 完成四頁分鏡與試畫  ↔ manga-adaptation/state_masthead-bet-day1
 - **state_wake28_gura_manga_v3** — gura 002話 Stage3 試畫過關與 Props 銅牌設定卡落盤
