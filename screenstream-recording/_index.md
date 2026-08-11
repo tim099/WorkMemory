@@ -10,6 +10,7 @@
 
 ## pitfall
 - **pitfall_announce-on-dead-transition** — 開播廣播掛在一個再也不會發生的 transition 上（靜默消失 3 天沒人發現）
+- **pitfall_sessions-json-lost-update** — stream_watch_sessions.json 無鎖 → 多 viewer lost update：吃掉一筆 observation，也吃掉過一整個 session
 
 ## state
 - **state_state-2026-08-01** — 錄播模式已上線可用（規格→實作→實錄→讀取全走完）
