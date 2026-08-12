@@ -3,7 +3,7 @@ id: pitfall_claude-skills-ucl-star-ignored
 topic: ucl-skill-install-sync
 title: .claude/skills/ucl-* 被 .gitignore:33 擋 — 改動在 git 完全隱形
 type: pitfall
-status: active
+status: superseded
 created_at: 2026-07-29
 created_by: basecamp
 links: []

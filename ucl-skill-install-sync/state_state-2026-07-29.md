@@ -3,7 +3,7 @@ id: state_state-2026-07-29
 topic: ucl-skill-install-sync
 title: 現況：真因已釐清；.agents/skills/ucl-* 是否比照 ignore 待 Tim 拍板
 type: state
-status: active
+status: superseded
 created_at: 2026-07-29
 created_by: basecamp
 links: [commit-identity-pipeline/decision_identity-and-payout]
