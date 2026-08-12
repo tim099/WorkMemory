@@ -3,10 +3,10 @@ id: state_day2-v3-flow
 topic: manga-adaptation
 title: Day2 — 流程走到 v3 並跨 agent 驗證兩次；文件拆三冊；空白樣板落地
 type: state
-status: active
+status: superseded
 created_at: 2026-08-11
 created_by: summit
-links: []
+links: [manga-adaptation/state_day3-002-remote-collab]
 related_docs: [ucl_core:Docs~/zh-Hant/Workflows/Manga_Adaptation_Workflow.md, ucl_core:Docs~/zh-Hant/Workflows/Manga_Adaptation_Author.md, ucl_core:Docs~/zh-Hant/Workflows/Manga_Adaptation_Artist.md, repo:AgentCommands/ArtGallery/Comic/template/README.md]
 ---
 
