@@ -18,6 +18,7 @@
 - **state_2026-08-05-morning-compare-fixed-p1-stashed** — morning 比對已修（6a3bb97）；P1 全套躺 stash 等 persona 遷移  ↔ awakening-flow-rework/state_2026-08-03-pushed-and-partly-superseded
 - **state_2026-08-12_morning-hardening** — 2026-08-12 早安流程加固：line_buffering + brief 前移 + Template 測試殼
 - **state_2026-08-13-broadcast-timeout-and-docs** — 廣播 timeout 對稱補齊 + 早安文件三件（未 commit）
+- **state_freetime-cmd-shipped** — Cmd_FreeTime v1+v1.1 全案落地（自由時間 Cmd 化完成）
 - **state_2026-07-31-goodnight-shipped** — 晚安瘦身已 ship，四項待明早驗 ~~[superseded]~~  ↔ awakening-flow-rework/state_2026-08-03-pushed-and-partly-superseded
 - **state_2026-08-03-pushed-and-partly-superseded** — 已 push；往返連號驗過，三項仍 pending ~~[superseded]~~  ↔ awakening-flow-rework/state_2026-07-31-goodnight-shipped, awakening-flow-rework/state_2026-08-05-morning-compare-fixed-p1-stashed
 
