@@ -3,10 +3,10 @@ id: state_exhibition-complete
 topic: sirius-artgallery-clear-eyes
 title: 三聯畫已展出並完成單層 commit
 type: state
-status: active
+status: superseded
 created_at: 2026-08-06
 created_by: Sirius
-links: [commit:c1785d3]
+links: [commit:c1785d3, sirius-artgallery-clear-eyes/state_ocean-temple-exhibition-complete]
 related_docs: [AgentCommands/ArtGallery/Diary/sirius_clear_eyes_triptych.md]
 ---
 
