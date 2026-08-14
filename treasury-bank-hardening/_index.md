@@ -12,5 +12,6 @@
 - **pitfall_self-declared-field-as-identity** — 用寫入端自己填的欄位判斷作者 — 一天錯四次，每次結論都很乾淨
 
 ## state
-- **state_20260814_account_resolution** — 2026-08-14 帳號解析上線・銷戶已實點・遷移待點  ↔ treasury-bank-hardening/state_20260804
+- **state_20260814_evening** — 2026-08-14 晚間收檔 — 帳號解析全線 + python 直寫旁路封閉  ↔ treasury-bank-hardening/state_20260814_account_resolution
 - **state_20260804** — 2026-08-04 收工進度與 pending ~~[superseded]~~  ↔ treasury-bank-hardening/state_20260814_account_resolution
+- **state_20260814_account_resolution** — 2026-08-14 帳號解析上線・銷戶已實點・遷移待點 ~~[superseded]~~  ↔ treasury-bank-hardening/state_20260804, treasury-bank-hardening/state_20260814_evening

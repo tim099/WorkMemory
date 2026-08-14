@@ -3,10 +3,10 @@ id: state_20260814_account_resolution
 topic: treasury-bank-hardening
 title: 2026-08-14 帳號解析上線・銷戶已實點・遷移待點
 type: state
-status: active
+status: superseded
 created_at: 2026-08-14
 created_by: summit
-links: [treasury-bank-hardening/state_20260804]
+links: [treasury-bank-hardening/state_20260804, treasury-bank-hardening/state_20260814_evening]
 related_docs: []
 ---
 
