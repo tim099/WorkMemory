@@ -18,6 +18,7 @@
 - **state_discord-inbound-profile-20260814** — Whitelist profiles are agent-visible metadata
 - **state_discord-inbound-whitelist-20260814** — Discord inbound user whitelist implemented
 - **state_discord-settings-page-20260814** — Discord Settings page and Guild member candidate import
+- **state_state-routing-page-clarified-20260814** — Discord channel routing page clarified and channel validation added
 
 ## pointer
 - **pointer_source-map** — Webhook 後台權威位置
