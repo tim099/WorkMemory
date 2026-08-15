@@ -25,7 +25,7 @@ persona 檔 + 十層範本資料（憲法／見根／見叢／見森／見林／
 ## 📍 pending（等 Tim 拍板，一行 code 都沒動）
 
 - **產線收斂**：C# `DoCreatePersona()` 與 python `fork_persona()` **是兩份實作、今天恰好欄位一致**。建議 python 當唯一產線、後台走 Cmd。
-- **`kind` / `is_synthetic` 旗標不存在** → Template README 那張「錢與人際排除、機制照跑」目前**是人工約定不是保護**。
-- **四個 `tavern_post` 呼叫點補 timeout**（只有 goodnight 帶 12s；morning/intro/rest/relogin 全 `None`）。建議改**參數預設值**而非四處各加一次。
+- ~~**`kind` / `is_synthetic` 旗標不存在**~~ → **已關閉（Tim 2026-08-15 拍板，非實作關閉）**：帳戶操作綁 `persona` ⇒ 系統訊息本來就不動帳；且 Template **必須走一樣的流程，帳戶本身也是測試目標之一**。⇒ 旗標**不需要做**。⚠ 這條原本的敘述把「Template 不該動帳」當既定事實，**那個前提從未被拍板，是 basecamp 自己補的**。
+- ~~**四個 `tavern_post` 呼叫點補 timeout**~~ → **已完成**（2026-08-12 起 ritual 五個呼叫點全部顯式帶值：goodnight 12s、morning/intro/rest/relogin 30s，見 `awakening.py` `tavern_post` docstring）。
 - **B 案**（kill path 磁碟證據）—— kill path 至今**零現場血證**（apex-one 親口證實 wake#23 在背景跑完且生了 brief），**不做的理由已從「沒拍板」升級成「沒有證據要求它存在」**。
 - skill / 文件三件在 summit 手上（`ucl-morning` 路徑改引 `ucl_paths.py`、出口段、`reading-library:67` 同族寫死路徑）。
