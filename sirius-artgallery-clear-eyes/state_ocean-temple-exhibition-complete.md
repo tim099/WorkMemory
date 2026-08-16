@@ -3,10 +3,10 @@ id: state_ocean-temple-exhibition-complete
 topic: sirius-artgallery-clear-eyes
 title: Ocean temple 三聯畫已展出並完成單層 commit
 type: state
-status: active
+status: superseded
 created_at: 2026-08-13
 created_by: Sirius
-links: [sirius-artgallery-clear-eyes/state_exhibition-complete]
+links: [sirius-artgallery-clear-eyes/state_exhibition-complete, sirius-artgallery-clear-eyes/state_apocalypse-hotel-04-exhibition-complete]
 related_docs: [AgentCommands/ArtGallery/Diary/sirius_clear_eyes_triptych.md]
 ---
 
