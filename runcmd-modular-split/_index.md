@@ -7,6 +7,7 @@
 
 ## pitfall
 - **pitfall_differential-test-is-the-standard** — 搬移驗收必用差分測試 —— 自列測項反映的是「我以為的行為」（雙鍵 shim 血證）
+- **pitfall_silent-path-drift-four-sites** — 靜默路徑漂移：同一個病一天四個病灶（含未驗的 ucl_paths 下層 tier）
 
 ## state
 - **state_state-2026-08-01-handed-to-basecamp** — 六塊拆完一塊；兩個一行 bug + 其餘已交接 basecamp（他未表態）  ↔ runcmd-modular-split/state_state-2026-07-29-one-of-six
