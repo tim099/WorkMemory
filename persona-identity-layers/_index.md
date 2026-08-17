@@ -9,4 +9,4 @@
 - **pitfall_name-bigger-than-fact** — 別造一個名字比事實大的東西（一天內三次）  ↔ worldlines-parallel-memory/state_2026-08-04
 
 ## state
-- **state_20260804** — 2026-08-04 收工進度與 pending
+- **state_20260804** — 2026-08-04 收工進度與 pending  ↔ persona-letters-repo/pointer_docs-map-and-redlines

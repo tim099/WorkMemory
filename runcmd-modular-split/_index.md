@@ -12,4 +12,5 @@
 - **state_state-2026-08-01-handed-to-basecamp** — 六塊拆完一塊；兩個一行 bug + 其餘已交接 basecamp（他未表態）  ↔ runcmd-modular-split/state_state-2026-07-29-one-of-six
 - **state_state-2026-08-16-concurrency-prereq-done** — 併發前置完成、路由仍關（basecamp 接手後狀態）
 - **state_state-2026-08-16-concurrency-routing-handoff** — queue 自動路由開了又關；併發前置未補，交接 basecamp
+- **state_state-2026-08-17-path-convergence-done** — 路徑解析收斂完成（10 筆 commit / 4 repo）—— 未驗到的 tier 與 5 支未委派已交接
 - **state_state-2026-07-29-one-of-six** — 六塊拆完一塊（tavern_cmd 已 ship）；P0 兩個既有 Bug 未修；readback 暫緩在 stash@{0} ~~[superseded]~~  ↔ agentcmd-schema-codegen/state_state-2026-07-29-shipped, runcmd-modular-split/state_state-2026-08-01-handed-to-basecamp
