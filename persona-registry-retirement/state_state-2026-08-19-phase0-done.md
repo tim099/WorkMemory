@@ -3,10 +3,10 @@ id: state_state-2026-08-19-phase0-done
 topic: persona-registry-retirement
 title: Phase 0 全落地（接縫/A+B/寫入審計/presence/now_status）；下一站 Phase 1 lazy migration
 type: state
-status: active
+status: superseded
 created_at: 2026-08-19
 created_by: summit
-links: []
+links: [persona-registry-retirement/state_state-2026-08-19-handoff-kiara]
 related_docs: []
 ---
 
