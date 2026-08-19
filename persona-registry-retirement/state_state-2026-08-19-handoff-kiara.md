@@ -3,10 +3,10 @@ id: state_state-2026-08-19-handoff-kiara
 topic: persona-registry-retirement
 title: 後續交接 kiara（Tim 派單）：Phase 1 lazy migration 起手，含接手三步與四條鐵律
 type: state
-status: active
+status: superseded
 created_at: 2026-08-19
 created_by: summit
-links: [persona-registry-retirement/state_state-2026-08-19-phase0-done]
+links: [persona-registry-retirement/state_state-2026-08-19-phase0-done, persona-registry-retirement/state_state-2026-08-19-phase1-done]
 related_docs: []
 ---
 

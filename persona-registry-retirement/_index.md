@@ -6,7 +6,8 @@
 - **decision_rulings-2026-08-19** — 2026-08-19 拍板全集索引（八條，細節見 Plan §8）  ↔ awakening-flow-rework/state
 
 ## state
-- **state_state-2026-08-19-handoff-kiara** — 後續交接 kiara（Tim 派單）：Phase 1 lazy migration 起手，含接手三步與四條鐵律  ↔ persona-registry-retirement/state_state-2026-08-19-phase0-done
+- **state_state-2026-08-19-phase1-done** — Phase 0-1 ＋ §8.1 完工，Phase 2 觀察期進行中（kiara 收工快照）  ↔ persona-registry-retirement/state_state-2026-08-19-handoff-kiara
+- **state_state-2026-08-19-handoff-kiara** — 後續交接 kiara（Tim 派單）：Phase 1 lazy migration 起手，含接手三步與四條鐵律 ~~[superseded]~~  ↔ persona-registry-retirement/state_state-2026-08-19-phase0-done, persona-registry-retirement/state_state-2026-08-19-phase1-done
 - **state_state-2026-08-19-phase0-done** — Phase 0 全落地（接縫/A+B/寫入審計/presence/now_status）；下一站 Phase 1 lazy migration ~~[superseded]~~  ↔ persona-registry-retirement/state_state-2026-08-19-handoff-kiara
 
 ## pointer
