@@ -8,4 +8,5 @@
 ## state
 - **state_2026-08-15-wake53** — 進度：六步（新增 peek）＋回傳檔改印讀數，五修全實跑驗過  ↔ streamwatch-cmd/state_2026-08-15-eod
 - **state_2026-08-17** — prepare/catchup 準備階段 ＋ 實錄匯出 ＋ 三隻同日修正（wake#61 實戰驗過）
+- **state_2026-08-19-auto-export** — 收工自動匯出上線（BUG-9/10 已修）＋ BUG-11 未 commit
 - **state_2026-08-15-eod** — 收工快照：五步全通、實跑兩場、四隻血債 ~~[superseded]~~  ↔ streamwatch-cmd/state_2026-08-15-wake53
