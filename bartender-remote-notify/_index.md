@@ -20,6 +20,7 @@
 - **state_2026-08-13-mask-ab-confirmed** — 遮蔽假說 A/B 實測確認 + debug 面上線 + 遷移陷阱
 - **state_2026-08-13-read-credit-margin-shipped** — 認列已讀往前標 15s 上線並實測 kept=1；cap 告警改為先驗生命跡象；冷卻 120s 是我拿舊快照
 - **state_2026-08-15-eod** — 2026-08-15 收工 — 資料前置完成、讀取端零改動、163 筆仍看不見
+- **state_abort-on-user-input** — 使用者操作即中斷（CTS 守衛＋合成輸入分帳），實測待 Tim
 - **state_2026-08-03** — 施工進度 2026-08-03（已讀機制完工待實測） ~~[superseded]~~  ↔ unitask-editor-async/knowhow_unitask-patterns, bartender-remote-notify/state_2026-08-03b
 - **state_2026-08-03b** — 施工進度 2026-08-03b（OCR 守門撤除 — 點標題列無害拍板） ~~[superseded]~~  ↔ bartender-remote-notify/state_2026-08-03, bartender-remote-notify/state_2026-08-03c
 - **state_current** — 現況與待辦（2026-08-02 夜） ~~[superseded]~~  ↔ commit-identity-pipeline/state_current, bartender-remote-notify/state_2026-08-03-basecamp

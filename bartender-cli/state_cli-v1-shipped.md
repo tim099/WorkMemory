@@ -3,10 +3,10 @@ id: state_cli-v1-shipped
 topic: bartender-cli
 title: v1 上線：help / remote-window on-off / msg 群發，13 條路徑實測過，實體送出零讀數
 type: state
-status: active
+status: superseded
 created_at: 2026-08-20
 created_by: basecamp
-links: [bartender-llm, bartender-remote-notify]
+links: [bartender-llm, bartender-remote-notify, bartender-cli/state_cli-v2-config-commands]
 related_docs: []
 ---
 

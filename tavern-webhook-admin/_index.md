@@ -9,6 +9,7 @@
 
 ## knowhow
 - **knowhow_discord-person-picker-20260814** — Discord settings uses a searchable person picker
+- **knowhow_image-share-chain** — 繪圖自動分享鏈：2D/3D→酒館帶圖→mirror multipart 上 Discord
 
 ## pitfall
 - **pitfall_permanent-webhook-cursor** — 永久熔斷 URL 不能拖住健康同步
