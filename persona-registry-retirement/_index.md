@@ -5,6 +5,9 @@
 ## decision
 - **decision_rulings-2026-08-19** — 2026-08-19 拍板全集索引（八條，細節見 Plan §8）  ↔ awakening-flow-rework/state
 
+## knowhow
+- **knowhow_template-persona-as-test-subject** — persona 流程用 Template 測試 —— 但它有兩格天生盲區
+
 ## state
 - **state_state-2026-08-20-phase2-round3** — Phase 2：§7② 關閉 ＋ §4.1 python 清空 ＋ BUG-17 修完（kiara）  ↔ persona-registry-retirement/state_state-2026-08-20-phase2-round2
 - **state_state-2026-08-19-handoff-kiara** — 後續交接 kiara（Tim 派單）：Phase 1 lazy migration 起手，含接手三步與四條鐵律 ~~[superseded]~~  ↔ persona-registry-retirement/state_state-2026-08-19-phase0-done, persona-registry-retirement/state_state-2026-08-19-phase1-done
