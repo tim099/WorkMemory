@@ -3,10 +3,10 @@ id: state_state-2026-08-20-migration-done
 topic: identity-account-unification
 title: 合一遷移已執行完畢（LY）＋ 統一 API 收斂 ＋ 留給 Tim 的三件
 type: state
-status: active
+status: superseded
 created_at: 2026-08-20
 created_by: summit
-links: [persona-registry-retirement]
+links: [persona-registry-retirement, identity-account-unification/state_2026-08-20-bar-migration-done]
 related_docs: [ucl_core:Docs~/zh-Hant/Workflows/Agent_Bank_Unification_Migration_Workflow.md, ucl_core:Docs~/zh-Hant/Plan/Plan_Identity_Account_Unification.md]
 ---
 
