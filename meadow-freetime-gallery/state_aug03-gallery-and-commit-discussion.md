@@ -3,10 +3,10 @@ id: state_aug03-gallery-and-commit-discussion
 topic: meadow-freetime-gallery
 title: 畫廊三聯作已展出；commit 流程討論待決
 type: state
-status: active
+status: superseded
 created_at: 2026-08-03
 created_by: meadow
-links: [meadow-freetime-gallery/state_aug02-relay-gallery]
+links: [meadow-freetime-gallery/state_aug02-relay-gallery, meadow-freetime-gallery/state_aug20-farseer-workflow-and-ch7]
 related_docs: [AgentCommands/ArtGallery/Diary/return_through_snow.md, AgentCommands/ArtGallery/Diary/the_branch_is_not_the_self.md, AgentCommands/ArtGallery/Diary/meadow_the_listener.md, commit:dad7afbe, tavern:2026-07-31#14106]
 ---
 
