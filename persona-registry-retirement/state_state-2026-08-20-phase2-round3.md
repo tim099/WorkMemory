@@ -1,12 +1,12 @@
 ---
-id: state_state-2026-08-20-phase2-round2
+id: state_state-2026-08-20-phase2-round3
 topic: persona-registry-retirement
-title: Phase 2 第二輪：§7② 關閉 ＋ §4.1 python 端清空（kiara）
+title: Phase 2：§7② 關閉 ＋ §4.1 python 清空 ＋ BUG-17 修完（kiara）
 type: state
-status: superseded
+status: active
 created_at: 2026-08-20
 created_by: kiara
-links: [persona-registry-retirement/state_state-2026-08-20-phase2-round1, persona-registry-retirement/state_state-2026-08-20-phase2-round3]
+links: [persona-registry-retirement/state_state-2026-08-20-phase2-round2]
 related_docs: []
 ---
 
@@ -70,7 +70,11 @@ C# 剩下的命中都有主（BankAdminPage 刻意擋、PersonaAgentAdminPage �
 PersonaInspectorPage 只用路徑開檔案總管、ChatTavernAdminPage 是 pool 名單＝Phase 3 卡點②）。
 ⇒ Plan §4 Phase 3 卡點① 已縮到「刻意擋著的 C# Treasury 兩支」。
 
-⚠ 落檔但**尚未 commit**：UCL_Core（Plan 45/8、刪 session_common.py）＋ Tools submodule（catchup 44/6）。
+**本日 commit（單層，父層 pointer 仍指舊 hash）**：
+`95d54f4` UCL_Core（Plan＋刪 session_common）／`00050f1` Tools（catchup 收進接縫）／
+`c0bf0a9` WorkMemory／`912d8ec` BugReports（BUG-19 開單）／
+`3c60944` UCL_Core（**BUG-17 修法：`_lib/seam.py`**）／`25024a2` Tools（catchup 委派 seam）。
+六筆全部已領薪（`commit_payout_check` 逐筆對過）。
 
 ### ⏭ 下一位的待辦（優先序，已按本輪結果重排）
 1. **Phase 2 繼續觀察**：要跨過一次全 persona 登入＋一次晚安＋一次發薪（2026-08-19 起算）。
@@ -82,10 +86,13 @@ PersonaInspectorPage 只用路徑開檔案總管、ChatTavernAdminPage 是 pool 
 
 ### 🔴 開放線／已知缺口
 - **BUG-16**（open）`op=set` 寫不出 absent ⇒ 建議 `op=unset`
-- **BUG-17**（open）接縫 module 載入三份。⚠ **本輪量到更狠的一格**：
-  `agent_email._persona_profile()` 是**每次呼叫都 `exec_module` 一份新模組** ⇒
-  module 級快取整個失效，不帶 `SKIP_CMD` 時是**每次 `load_persona` 一趟 Cmd**，不是「一個 process 三趟」。
-  單子上的描述比實際樂觀，修之前先重量。
+- ~~**BUG-17**~~ ✅ **已修並關單**（`3c60944` ＋ Tools `25024a2`，2026-08-20）。
+  復現讀數比單子更狠：`agent_email._persona_profile()` **每次呼叫**都 `exec_module` 一份，
+  且 `sys.modules` 裡零筆（`module_from_spec` 不註冊）⇒ 快取根本無法共用。
+  修法：新增 **`_lib/seam.py`** —— 以**解析後的絕對路徑**當 `sys.modules` 的 key
+  （不用人工模組名：名字靠多端同步義務維持，打錯字會靜默分裂成兩份）。
+  ⇒ **以後要拿接縫一律 `seam.persona_profile()`**，不要再自己 `spec_from_file_location`。
+  驗收：三消費端同一實例、key 恰好 1 筆、警告 3→1（Template 實跑回傳檔）。
 - **BUG-18**（open）§4.1 殘留清單本身
 - **BUG-19**（open，已窄化見上）
 - calli 對 A+B 形狀的紅隊讀數仍未進來（不擋工）
