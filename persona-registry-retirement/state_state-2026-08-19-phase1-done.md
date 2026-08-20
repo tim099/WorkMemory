@@ -3,10 +3,10 @@ id: state_state-2026-08-19-phase1-done
 topic: persona-registry-retirement
 title: Phase 0-1 ＋ §8.1 完工，Phase 2 觀察期進行中（kiara 收工快照）
 type: state
-status: active
+status: superseded
 created_at: 2026-08-19
 created_by: kiara
-links: [persona-registry-retirement/state_state-2026-08-19-handoff-kiara]
+links: [persona-registry-retirement/state_state-2026-08-19-handoff-kiara, persona-registry-retirement/state_state-2026-08-20-phase2-round1]
 related_docs: []
 ---
 
