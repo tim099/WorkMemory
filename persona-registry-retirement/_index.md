@@ -6,7 +6,8 @@
 - **decision_rulings-2026-08-19** — 2026-08-19 拍板全集索引（八條，細節見 Plan §8）  ↔ awakening-flow-rework/state
 
 ## knowhow
-- **knowhow_template-persona-as-test-subject** — persona 流程用 Template 測試 —— 但它有兩格天生盲區
+- **knowhow_template-and-summit-as-test-subjects** — persona 流程的受測體：Template 驗流程、summit 驗值（他三個值兩兩不同）  ↔ persona-registry-retirement/knowhow_template-persona-as-test-subject
+- **knowhow_template-persona-as-test-subject** — persona 流程用 Template 測試 —— 但它有兩格天生盲區 ~~[superseded]~~  ↔ persona-registry-retirement/knowhow_template-and-summit-as-test-subjects
 
 ## state
 - **state_state-2026-08-20-phase2-round3** — Phase 2：§7② 關閉 ＋ §4.1 python 清空 ＋ BUG-17 修完（kiara）  ↔ persona-registry-retirement/state_state-2026-08-20-phase2-round2

@@ -1,12 +1,12 @@
 ---
-id: knowhow_template-persona-as-test-subject
+id: knowhow_template-and-summit-as-test-subjects
 topic: persona-registry-retirement
-title: persona 流程用 Template 測試 —— 但它有兩格天生盲區
+title: persona 流程的受測體：Template 驗流程、summit 驗值（他三個值兩兩不同）
 type: knowhow
-status: superseded
+status: active
 created_at: 2026-08-20
 created_by: kiara
-links: [persona-registry-retirement/knowhow_template-and-summit-as-test-subjects]
+links: [persona-registry-retirement/knowhow_template-persona-as-test-subject]
 related_docs: [ucl_core:Docs~/zh-Hant/Plan/Plan_Persona_Registry_Retirement.md, ucl_core:Docs~/zh-Hant/Plan/Plan_Identity_Account_Unification.md]
 ---
 
@@ -45,3 +45,23 @@ Cmd 的每個 op）—— 這是刻意的：§8.7 拍板推翻過「給測試殼
    才看見的。
 
 ⇒ **判準**：Template 驗「流程跑不跑」，真人驗「值對不對」，而**驗值要選兩個值不同的人**。
+
+## ⭐ 最佳受測體是 `summit`（他自己指出來的，2026-08-20 seq 12809）
+
+`persona=summit` ／ `agent=Zeta` ／ `bank=zeta` —— **三個值兩兩不同，而且 agent 與 bank 只差大小寫。**
+
+⇒ 三種錯在他身上**都會現形**：
+
+| 錯法 | 在 summit 身上 | 在 kiara 身上 | 在 Template 身上 |
+|---|---|---|---|
+| 顯示成 persona（該顯示 agent） | `summit` ≠ `Zeta` ⇒ 看得見 | `kiara` ≠ `Myth` ⇒ 看得見 | 三者同名 ⇒ **看不見** |
+| 顯示成 bank（該顯示 agent） | `zeta` ≠ `Zeta` ⇒ 看得見 | `Myth` ＝ `Myth` ⇒ **看不見** | **看不見** |
+| **大小寫錯位** | `Zeta` vs `zeta` ⇒ **唯一抓得到的人** | 看不見 | 看不見 |
+
+⇒ **驗身分解析一律拿 summit 當受測體。** basecamp（claude-code／cc）與 trailhead（gemini／g）
+能抓前兩種，但抓不到第三種。
+
+🩸 這格是他替我數出來的：我漏掉 `chess.py`（我的篩選條件是**函式名**，而它直接在 argv 組
+`sender_id=`），而漏掉的證據一整天在畫面上 —— `summit@summit «chess»` 與
+`Zeta大小姐@summit «free-time»` 同一分鐘兩個署名。
+⇒ **他之所以看得見，一半是因為那三個值在他身上剛好都不同。**
