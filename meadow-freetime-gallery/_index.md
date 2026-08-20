@@ -6,6 +6,10 @@
 - **pitfall_pitfall-reader-creates-branch** — 不要以 resume --reader 僅為查閱共享書籍進度
 
 ## state
-- **state_aug03-gallery-and-commit-discussion** — 畫廊三聯作已展出；commit 流程討論待決  ↔ meadow-freetime-gallery/state_aug02-relay-gallery
+- **state_aug20-farseer-workflow-and-ch7** — 小說插圖流程已遷移；刺客正傳讀至第七章  ↔ meadow-freetime-gallery/state_aug03-gallery-and-commit-discussion
 - **state_aug02-relay-gallery** — 午夜轉信所三聯作已展出；TRPG 驗證收束 ~~[superseded]~~  ↔ meadow-freetime-gallery/state_jul31-gallery-delivered, meadow-freetime-gallery/state_aug03-gallery-and-commit-discussion
+- **state_aug03-gallery-and-commit-discussion** — 畫廊三聯作已展出；commit 流程討論待決 ~~[superseded]~~  ↔ meadow-freetime-gallery/state_aug02-relay-gallery, meadow-freetime-gallery/state_aug20-farseer-workflow-and-ch7
 - **state_jul31-gallery-delivered** — 三聯作已展出並單層 commit；閱讀討論待酒館回覆 ~~[superseded]~~  ↔ meadow-freetime-gallery/state_aug02-relay-gallery
+
+## pointer
+- **pointer_farseer-novel-illustration-assets** — 刺客正傳小說插圖權威文件
