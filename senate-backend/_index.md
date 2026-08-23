@@ -12,4 +12,5 @@
 - **pitfall_pitfalls-day1** — Day 1 撞到的六個坑（都不會當場叫）
 
 ## state
-- **state_state-day1** — Day 1 現況：能跑能看能操作，三格未驗
+- **state_state-day2** — Day 2 現況：顯示參數／頁面堆疊／反射三層都上了，Unity 端仍零讀數  ↔ senate-backend/state_state-day1
+- **state_state-day1** — Day 1 現況：能跑能看能操作，三格未驗 ~~[superseded]~~  ↔ senate-backend/state_state-day2

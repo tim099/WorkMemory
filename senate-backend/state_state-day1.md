@@ -3,10 +3,10 @@ id: state_state-day1
 topic: senate-backend
 title: Day 1 現況：能跑能看能操作，三格未驗
 type: state
-status: active
+status: superseded
 created_at: 2026-08-23
 created_by: basecamp
-links: []
+links: [senate-backend/state_state-day2]
 related_docs: [D:/Unity/Senate/Docs/DOC_INDEX.md, D:/Unity/Senate/README.md]
 ---
 
