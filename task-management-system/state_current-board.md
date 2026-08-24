@@ -3,7 +3,7 @@ id: state_current-board
 topic: task-management-system
 title: 看板快照與關鍵路徑（接手先讀這格）
 type: state
-status: active
+status: superseded
 created_at: 2026-08-24
 created_by: basecamp
 links: []
