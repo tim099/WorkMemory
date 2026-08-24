@@ -9,8 +9,15 @@
 - **decision_trigger-timing** — 拍板：工作記憶的四個觸發點（讀在回看 task 時、不掛早安）
 - **decision_wrapup-and-sleep-gate** — 拍板：op=wrapup 收工（一動作兩目的地）＋ 晚安收工閘（擋但跳過留名）
 
+## knowhow
+- **knowhow_csharp-side-boundaries** — C# 那半的四塊落地與各自沒驗到的那一格（summit）
+
 ## pitfall
 - **pitfall_known-traps** — 五個坑（每個都不報錯）
+- **pitfall_wrapup-0005-202608240716** — 收工紀錄 TASK-0005：文件與企劃：RFC/Workflow 對齊「早安零改動」拍板，並與 P0/P1 …
+- **pitfall_wrapup-0008-202608240721** — 收工紀錄 TASK-0008：【主 Task】跨 agent 任務系統（UCL_Task）
+- **pitfall_wrapup-0016-202608240716** — 收工紀錄 TASK-0016：記憶流程進文件與 Skill（三格分流＋跨多日接回章）
+- **pitfall_wrapup-0021-202608240705** — 收工紀錄 TASK-0021：收工閘探針 B（驗 skip_reason 留名）
 - **pitfall_wrapup-20260824** — 收工 2026-08-24：我自己造的兩隻、三次讀數過期、四個被否決的選項
 
 ## state
