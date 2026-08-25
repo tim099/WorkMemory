@@ -4,6 +4,7 @@
 
 ## knowhow
 - **knowhow_collapsible-sections-defaults** — 管理頁區塊折疊的預設與標頭責任
+- **knowhow_draft-object-drawobjectdata** — 3-way merge 頁加一組新設定：draft 物件 + 整組 baseline + DrawObjectData 反射繪製
 - **knowhow_im-gui-patterns** — ControlPanel 與 UCL_GUILayout 常用模式
 - **knowhow_long-list-paging** — 長清單分頁走 DrawSelectPage（每頁 10 筆）＋ 三個撞過的細節
 - **knowhow_page-skeleton** — UCL_CommonEditorPage 頁面骨架與效能慣例  ↔ hscene-editor-rework/knowhow_existing-infra
