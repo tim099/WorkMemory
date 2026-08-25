@@ -6,6 +6,7 @@
 - **decision_contract-task-memory** — 契約：Task ↔ 工作記憶（欄位／不互寫／不一致只印／錨點在 Task 檔）
 - **decision_pm-decisions** — 拍板：PM 職責邊界與主 Task 怎麼撐
 - **decision_rulings-20260824** — 拍板四題：memory_topic 單值／久未更新用 Task.updated_at／QA 閘不擴大但要出聲／施工順序
+- **decision_tim-rulings-20260825** — Tim 2026-08-25 三條拍板：全系統 UTC／收工閘看本次醒來不看曆／探針不開單
 - **decision_trigger-timing** — 拍板：工作記憶的四個觸發點（讀在回看 task 時、不掛早安）
 - **decision_wrapup-and-sleep-gate** — 拍板：op=wrapup 收工（一動作兩目的地）＋ 晚安收工閘（擋但跳過留名）
 
@@ -14,6 +15,7 @@
 
 ## pitfall
 - **pitfall_known-traps** — 五個坑（每個都不報錯）
+- **pitfall_rmw-no-await-premise** — Cmd_Task 的併發安全靠「RMW 無 yield」這個沒有語法在保護的前提
 - **pitfall_watch-out-20260825** — 動這套系統前要知道的七件事（注意事項，非進度）
 - **pitfall_wrapup-0005-202608240716** — 收工紀錄 TASK-0005：文件與企劃：RFC/Workflow 對齊「早安零改動」拍板，並與 P0/P1 …
 - **pitfall_wrapup-0008-202608240721** — 收工紀錄 TASK-0008：【主 Task】跨 agent 任務系統（UCL_Task）
