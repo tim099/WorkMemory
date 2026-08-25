@@ -14,6 +14,7 @@
 
 ## pitfall
 - **pitfall_known-traps** — 五個坑（每個都不報錯）
+- **pitfall_watch-out-20260825** — 動這套系統前要知道的七件事（注意事項，非進度）
 - **pitfall_wrapup-0005-202608240716** — 收工紀錄 TASK-0005：文件與企劃：RFC/Workflow 對齊「早安零改動」拍板，並與 P0/P1 …
 - **pitfall_wrapup-0008-202608240721** — 收工紀錄 TASK-0008：【主 Task】跨 agent 任務系統（UCL_Task）
 - **pitfall_wrapup-0016-202608240716** — 收工紀錄 TASK-0016：記憶流程進文件與 Skill（三格分流＋跨多日接回章）
