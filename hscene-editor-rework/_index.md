@@ -5,6 +5,7 @@
 ## decision
 - **decision_asset-bases** — 五大資產基底拍板（含退役名單）
 - **decision_c1-scene-flag-correction** — C1 需求更正：場景層 Flag 連動（valueAnims 保留 / P4 pending / 文件≠需求教訓）
+- **decision_clickarea-color-and-count-2026-08-26** — 顏色綁定 id、MaxValue→Count 改名、預覽切換三格：名字比事實大或小
 - **decision_ihgameasset-split-by-foldout-group** — IHGameAsset 由 17 個單清單介面改為 6 個分組介面（子設定物件）
 - **decision_impl-verdicts-a-b** — A/B 施工級判決濃縮（十題+QA修正+PopupGrouped三題）  ↔ hscene-editor-rework/knowhow_a-b-deliverables
 - **decision_plan-c-designer-b** — Plan C 企劃拍板六題 + C-1 結案（分色圖角色分類修正）  ↔ hscene-editor-rework/decision_plan-c-designer

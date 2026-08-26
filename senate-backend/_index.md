@@ -4,6 +4,7 @@
 
 ## decision
 - **decision_decisions-d1-d10** — 十條拍板（含兩條被實測改掉的）
+- **decision_git-layer-port-2026-08-26** — git 管理層移植 SCP_Core：四顆拆法、宿主注入、CLI 寫入端不給預設對象
 
 ## knowhow
 - **knowhow_ui-driver** — UI 有四種驅動方式，任兩種互為證人
