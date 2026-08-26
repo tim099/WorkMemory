@@ -56,7 +56,7 @@ related_docs: [repo:docs/Glossary/utc-everywhere-local-display.md]
 ## 遷移狀態
 
 - [x] 拍板寫成可 grep 的東西（glossary 詞條，TASK-0046）
-- [ ] `UCL_BartenderDaemon.cs:947` 註解加一行指向詞條（⏳ 等 C# 空出來，不搶 summit 的工）
+- [x] `UCL_BartenderDaemon.cs:947` 註解加一行指向詞條（summit 2026-08-26 補，編譯綠 10:00:52 讀回確認）
 - [ ] 上面 C# 四格逐格判：哪些該轉 UTC、哪些本來就該是本地（顯示層）
 - [ ] python 端兩類分開處理
 - [ ] ⚠ **再掃一次找沒被列到的** —— 本清單是已知清單不是完整清單
