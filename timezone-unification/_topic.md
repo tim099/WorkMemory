@@ -4,7 +4,7 @@ title: 時區統一（全系統 UTC，只有顯示轉當地）
 status: active
 created_at: 2026-08-25
 related_topics: []
-key_docs: []
+key_docs: [repo:docs/Glossary/utc-everywhere-local-display.md, repo:docs/Glossary/ruling-invisibility.md]
 task_indices: [46]
 ---
 
