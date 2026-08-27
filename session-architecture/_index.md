@@ -7,5 +7,8 @@
 - **decision_ruling-coding-session** — Coding session（Tim 2026-08-26 追加拍板）
 - **decision_ruling-ended-at-single** — settled_at/ended_at 判一個事件（PM 2026-08-26，採 summit 第一刀）
 
+## pitfall
+- **pitfall_wrapup-0054-202608270937** — 收工紀錄 TASK-0054：儲存統一：sessions/ 扁平路徑＋kind 入 json＋StreamWa…
+
 ## state
 - **state_chain-20260826-summit** — 鏈進度快照＋0054 開工三拍板（summit 晚安交棒）
