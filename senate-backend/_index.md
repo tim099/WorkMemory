@@ -8,6 +8,7 @@
 - **decision_submodule-page-decide-half-2026-08-28** — Submodule 頁補齊「決定」那半（逐項設定→編譯成指令）＋CLI --set-branch＋SCP_Ui.ToggleValue  ↔ senate-backend/decision_git-layer-port-2026-08-26
 
 ## knowhow
+- **knowhow_first-background-job-and-host-redraw** — 本 repo 第一個背景工作：執行緒契約六條＋RedrawsContinuously＋兩段式確認要住 session  ↔ senate-backend/decision_submodule-page-decide-half-2026-08-28
 - **knowhow_imgui-clipboard-bridge** — ImGui 剪貼簿 callback 接法：八條判準＋三層驗收（第三層刻意留白）  ↔ senate-backend/pitfall_typed-field-per-char-rescan-and-clipboard
 - **knowhow_ui-driver** — UI 有四種驅動方式，任兩種互為證人
 
