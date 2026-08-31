@@ -6,6 +6,7 @@
 - **decision_asset-bases** — 五大資產基底拍板（含退役名單）
 - **decision_c1-scene-flag-correction** — C1 需求更正：場景層 Flag 連動（valueAnims 保留 / P4 pending / 文件≠需求教訓）
 - **decision_clickarea-color-and-count-2026-08-26** — 顏色綁定 id、MaxValue→Count 改名、預覽切換三格：名字比事實大或小
+- **decision_contect-interaction-spec-20260831** — 互動判定與觸發：Tim 2026-08-31 全套拍板（區域 id／不分方向／0=off／收手四時機／滑動節奏／疊加）
 - **decision_ihgameasset-split-by-foldout-group** — IHGameAsset 由 17 個單清單介面改為 6 個分組介面（子設定物件）
 - **decision_impl-verdicts-a-b** — A/B 施工級判決濃縮（十題+QA修正+PopupGrouped三題）  ↔ hscene-editor-rework/knowhow_a-b-deliverables
 - **decision_plan-c-designer-b** — Plan C 企劃拍板六題 + C-1 結案（分色圖角色分類修正）  ↔ hscene-editor-rework/decision_plan-c-designer
@@ -24,6 +25,7 @@
 - **pitfall_compile-report-scope-per-assembly** — check_compile 報告只涵蓋本次重編的 assembly — warning 數跨 pass 不可比、in-progress 的 Errors:0 不是證據
 - **pitfall_known-traps** — 已知坑清單（WIP 所有權/Hakoniwa enum/輸入源頭 guard/文件漂移）
 - **pitfall_scoped-reflect-member-path-silent-fallback** — 清單搬進子物件會讓 ScopeMemberName 反射靜默失效 → 下拉退回全體 ID 且不報錯
+- **pitfall_slide-state-reset-20260831** — Slide 三症狀：狀態機的重置不能放在「只有在命中路徑上才會被呼叫」的函式裡
 
 ## state
 - **state_progress-2026-08-03** — 施工進度 2026-08-03（C 驗收 3/4 + C1 需求更正 P4 + 文件≠需求鐵則）  ↔ hscene-editor-rework/state_progress-2026-07-31
