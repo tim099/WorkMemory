@@ -13,6 +13,7 @@
 - **decision_plan-c-prework** — Plan C 開工前五題判決（雙軌並存/0-index/list[0]/CheckArea 源頭）  ↔ hscene-editor-rework/knowhow_a-b-deliverables, hscene-editor-rework/decision_spine-group-model
 - **decision_plan-d-prework-final** — Plan D 開工前拍板 — 全數定案（八題: Tim 五題 + 熊汁三題, 無 pending 可開工）  ↔ hscene-editor-rework/decision_plan-d-prework
 - **decision_spine-group-model** — Spine 分組模型與 SpineAnimRef 拍板（含 P3 pending）
+- **decision_subtrack-flag-layer-separated** — Subtrack 虛擬優先度層：Flag 層在系統之外(-∞)，不參與競爭只在沒人競爭時接管
 - **decision_plan-c-designer** — Plan C 企劃拍板六題 + 分色圖 69 張實測（C-1 因果更正） ~~[superseded]~~  ↔ hscene-editor-rework/decision_plan-c-prework, hscene-editor-rework/decision_plan-c-designer-b
 - **decision_plan-d-prework** — Plan D 開工前拍板（D2 基底 ClothSetting + 四題工程消化 + 企劃三題） ~~[superseded]~~  ↔ hscene-editor-rework/decision_plan-d-prework-final
 
@@ -20,6 +21,7 @@
 - **knowhow_a-b-deliverables** — A/B 交付物使用說明（SpineAnimRef/LockService/Trigger/FolderFilter 下一棒怎麼用）  ↔ hscene-editor-rework/decision_impl-verdicts-a-b
 - **knowhow_existing-infra** — 既有基建直接用清單（條件/事件/階段停播/分組下拉）  ↔ ucl-editor-pages/knowhow_page-skeleton
 - **knowhow_import-interaction-areas** — Import interaction areas — 分色圖依 <Group>_<N> 自動生成互動區域＋補 SceneFlag（含自動補 Flag 拿掉異源閘門的代價）
+- **knowhow_interaction-to-satisfied-wiring** — 互動↔興奮值接線：這條線早就造好只是零呼叫端；SatisfiedService 是接線層
 
 ## pitfall
 - **pitfall_compile-report-scope-per-assembly** — check_compile 報告只涵蓋本次重編的 assembly — warning 數跨 pass 不可比、in-progress 的 Errors:0 不是證據

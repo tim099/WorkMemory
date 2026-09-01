@@ -3,10 +3,16 @@
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
 ## decision
+- **decision_callback-limit-three-exits** — 打回上限一次（診斷閾值非配額）＋ 撞上限的三條出口（含機械複製的三條護欄）
 - **decision_six-reframes** — v3 的六條規則全是「挪掉前提」不是「調參數」
 
+## knowhow
+- **knowhow_counting-ruler** — 數畫面上物件的尺會安靜地壞 —— 先餵已知答案，校正綁素材不綁工具
+
 ## pitfall
+- **pitfall_reported-vs-landed** — 報了兩筆編輯，落地一筆 —— 所以要逐排驗收不是逐頁
 - **pitfall_self-contradicting-spec** — 規格自相矛盾：作畫者照字面做，兩次都不可能對
+- **pitfall_silent-panel-drift** — 沉默的格子就是漂移的格子 —— 數量只寫一格，其餘四格全歪
 
 ## state
 - **state_day3-002-remote-collab** — Day3 — 002 話 4/10 定案；p05 停在斷針 Step 3a；單圖鏈路三拍板入繪師篇  ↔ manga-adaptation/state_day2-v3-flow
@@ -27,3 +33,6 @@
 - **state_wake30_gura_step1_passed** — broken_needle_v1.png 通過驗收定案，圖像模型進入冷卻（Step 3a 排隊中）
 - **state_day2-v3-flow** — Day2 — 流程走到 v3 並跨 agent 驗證兩次；文件拆三冊；空白樣板落地 ~~[superseded]~~  ↔ manga-adaptation/state_day3-002-remote-collab
 - **state_masthead-bet-day1** — 《桅頂的賭注》漫畫化 Day1 — SOP + 展區 + 分鏡全八話 + 序章畫稿 ~~[superseded]~~
+
+## pointer
+- **pointer_eighteen-days-sources** — 《十八天》：真相源在哪、兩條跨話骨架、後記已定事項

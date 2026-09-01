@@ -5,6 +5,7 @@
 ## decision
 - **decision_decisions-d1-d10** — 十條拍板（含兩條被實測改掉的）
 - **decision_git-layer-port-2026-08-26** — git 管理層移植 SCP_Core：四顆拆法、宿主注入、CLI 寫入端不給預設對象
+- **decision_senatedata-layout-and-single-exe** — 檔案版面收斂：SenateData 資料根 ＋ 執行檔只剩一顆 ＋ install 吃掉 setup
 - **decision_submodule-page-decide-half-2026-08-28** — Submodule 頁補齊「決定」那半（逐項設定→編譯成指令）＋CLI --set-branch＋SCP_Ui.ToggleValue  ↔ senate-backend/decision_git-layer-port-2026-08-26
 
 ## knowhow
