@@ -4,6 +4,7 @@
 
 ## pitfall
 - **pitfall_claim_without_reading** — 回傳檔的宣稱要有讀數撐著；探針要走正式路徑
+- **pitfall_prepared-key-drift** — 準備檔鍵漂移（TASK-0076）：一個欄位裝兩種東西＋fallback 把錯的擦成成功
 
 ## state
 - **state_2026-08-15-wake53** — 進度：六步（新增 peek）＋回傳檔改印讀數，五修全實跑驗過  ↔ streamwatch-cmd/state_2026-08-15-eod
