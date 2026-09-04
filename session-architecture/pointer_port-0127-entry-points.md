@@ -3,10 +3,10 @@ id: pointer_port-0127-entry-points
 topic: session-architecture
 title: TASK-0127 落點：新家／舊家／讀數指令，與動 ⑦ 前要知道的兩件事
 type: pointer
-status: active
+status: superseded
 created_at: 2026-09-04
 created_by: basecamp
-links: []
+links: [session-architecture/pointer_port-0127-after-onecut]
 related_docs: []
 ---
 
