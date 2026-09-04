@@ -11,6 +11,7 @@
 ## pitfall
 - **pitfall_cross-process-delegation** — 跨 process 委派四格：Editor 開著變條件／回讀才是判定／UI 不能同步等／lane 與 target_persona
 - **pitfall_dotnet-build-under-assets** — 掛在 Assets/ 底下的 csproj 不要 dotnet build —— CS1704 會報在無關的 assembly 上
+- **pitfall_second-path-setting** — 加一格路徑設定之前先問「這個值系統裡是不是已經存著了」—— 我造了第二份，而第一份就在旁邊
 - **pitfall_wrapup-0054-202608270937** — 收工紀錄 TASK-0054：儲存統一：sessions/ 扁平路徑＋kind 入 json＋StreamWa…
 - **pitfall_write-back-eats-unknown-keys** — 寫回吃掉 model 不認識的鍵／[NonSerialized] 沒用／全域 Factory 污染測試 —— 三隻都回綠
 
