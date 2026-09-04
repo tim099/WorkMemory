@@ -6,9 +6,15 @@
 - **decision_ruling-c1-d1** — Session 統一架構五拍板（Tim 2026-08-26）
 - **decision_ruling-coding-session** — Coding session（Tim 2026-08-26 追加拍板）
 - **decision_ruling-ended-at-single** — settled_at/ended_at 判一個事件（PM 2026-08-26，採 summit 第一刀）
+- **decision_ruling-port-to-scp-and-gateway** — 拍板：Session 搬 SCP_Core／頁面不保留／結算不搬走 gateway（含 TrySettle→TryClose 的語意修正）
 
 ## pitfall
+- **pitfall_cross-process-delegation** — 跨 process 委派四格：Editor 開著變條件／回讀才是判定／UI 不能同步等／lane 與 target_persona
 - **pitfall_wrapup-0054-202608270937** — 收工紀錄 TASK-0054：儲存統一：sessions/ 扁平路徑＋kind 入 json＋StreamWa…
+- **pitfall_write-back-eats-unknown-keys** — 寫回吃掉 model 不認識的鍵／[NonSerialized] 沒用／全域 Factory 污染測試 —— 三隻都回綠
 
 ## state
 - **state_chain-20260826-summit** — 鏈進度快照＋0054 開工三拍板（summit 晚安交棒）
+
+## pointer
+- **pointer_port-0127-entry-points** — TASK-0127 落點：新家／舊家／讀數指令，與動 ⑦ 前要知道的兩件事
