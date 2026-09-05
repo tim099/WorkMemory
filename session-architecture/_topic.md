@@ -5,6 +5,7 @@ status: active
 created_at: 2026-08-26
 related_topics: []
 key_docs: [<SCP_Core>/Docs~/Coding_Standards.md, <Senate>/Docs/Workflows/SCP_Cmd_System.md, <Senate>/Docs/Workflows/Setup_And_Build.md, <Senate>/Docs/Architecture/Data_Layout.md]
+task_indices: [50, 51, 52, 53, 54, 55, 56, 57, 58, 71, 127]
 ---
 
 Session 統一架構（AdminPage 下拉／單一路徑／close handler／互斥／晚安自動關／python 退場）
