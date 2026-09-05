@@ -1,11 +1,13 @@
 ---
 id: session-architecture
 title: Session 統一架構（AdminPage 下拉／單一路徑／close handler／互斥／晚安自動關／python 退場）
-status: active
+status: archived
 created_at: 2026-08-26
 related_topics: []
 key_docs: [<SCP_Core>/Docs~/Coding_Standards.md, <Senate>/Docs/Workflows/SCP_Cmd_System.md, <Senate>/Docs/Workflows/Setup_And_Build.md, <Senate>/Docs/Architecture/Data_Layout.md]
 task_indices: [50, 51, 52, 53, 54, 55, 56, 57, 58, 71, 127]
+archived_at: 2026-09-05T15:33:34Z
+archived_commit: ce38ae63d9954959d2e551ede8fde1fced95891d
 ---
 
 Session 統一架構（AdminPage 下拉／單一路徑／close handler／互斥／晚安自動關／python 退場）
