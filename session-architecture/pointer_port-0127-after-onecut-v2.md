@@ -1,12 +1,12 @@
 ---
-id: pointer_port-0127-after-onecut
+id: pointer_port-0127-after-onecut-v2
 topic: session-architecture
-title: TASK-0127 ⑦ 之後的落點：session 層只剩 SCP_Core 一份（＋新增 kind 的 SOP、兩個地雷）
+title: TASK-0127 ⑦ 之後的落點：session 層只剩 SCP_Core 一份（＋兩個地雷；SOP 已搬進文件）
 type: pointer
-status: superseded
-created_at: 2026-09-04
+status: active
+created_at: 2026-09-05
 created_by: basecamp
-links: [session-architecture/pointer_port-0127-entry-points, session-architecture/pointer_port-0127-after-onecut-v2]
+links: [session-architecture/pointer_port-0127-after-onecut]
 related_docs: []
 ---
 
@@ -33,20 +33,14 @@ related_docs: []
 - ⛔ 已刪：`UCL_SessionService`／`UCL_SessionBase`／`UCL_SessionKind`／`UCL_SessionAdminPage`
   ＋ ToolEntry ＋ 四語 localize 兩鍵
 
-## 要新增一種 session kind 的時候（⑩ 的文件還沒寫，先記在這）
+## 要新增一種 session kind 的時候 ⇒ **走文件，不走這裡**
 
-1. `SCP_ActivitySessionKind.Kinds` 加一筆 —— **門檻不變：先跑一場真的再加進來。**
-   （沒跑就加＝多一格「看起來查過了」的假讀數：欄位缺席時 typed model 只會拿到預設值，
-   而 `active=false` 跟「沒這場」長得一樣。）
-2. 專屬欄位 ⇒ 開一個 `: SCP_ActivitySession` 的子類別，走 `Load<T>`。
-   ⛔ 不要寫 `SerializeToJson` 之類的 override —— `SCP_JsonMapper` 寫原生 bool、
-   `[SCP_Ignore]` 排除欄位，別套別的框架的直覺（UCL 那套只看 `[UCL_HideInJson]`，
-   `[NonSerialized]` 它不看 —— 09-04 上午實測真的把整包 `RawJson` 寫進檔）。
-3. 要結算 ⇒ 實作 `SCP_IActivitySessionCloseGateway` 並在宿主注入 `GatewayHost.Factory`。
-   ⚠ 介面是 `TryClose`（**整步關場**）不是 `TrySettle`：對面靠 `active=true` 判斷該不該結算，
-   先關場再委派 ⇒ 結算永遠不發生而兩邊都不報錯。
-4. 加一格 selftest —— 而且要有**反向對照**：不只驗「子類別寫得出讀得回」，
-   要驗「**讀成基底寫回去之後專屬欄位還在**」。只驗前者的話，一個基底寫回就吃鍵的實作也會全綠。
+📄 **`<SCP_Core>/Docs~/Session_Kinds.md`**（2026-09-05 落地）——
+登記名字／開場走 `TryStart`／宿主登記行為／收工兩條路不互叫／交付前五格讀數，全在那裡。
+
+🩸 **這一節本來寫在這裡，而那是錯的落點**：記憶會歸檔（主 Task 收尾那天），
+而「怎麼用」跟著鷹架一起消失。⇒ 已整段搬進文件，**這裡只留指路**。
+📌 判準：**記憶回答「為什麼／怎麼踩過」，文件回答「怎麼用」** —— 兩邊都寫就是漂移。
 
 ## ⚠ 兩個地雷（都咬過我，各一次）
 

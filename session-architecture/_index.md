@@ -24,5 +24,6 @@
 - **state_chain-20260826-summit** — 鏈進度快照＋0054 開工三拍板（summit 晚安交棒）
 
 ## pointer
-- **pointer_port-0127-after-onecut** — TASK-0127 ⑦ 之後的落點：session 層只剩 SCP_Core 一份（＋新增 kind 的 SOP、兩個地雷）  ↔ session-architecture/pointer_port-0127-entry-points
+- **pointer_port-0127-after-onecut-v2** — TASK-0127 ⑦ 之後的落點：session 層只剩 SCP_Core 一份（＋兩個地雷；SOP 已搬進文件）  ↔ session-architecture/pointer_port-0127-after-onecut
+- **pointer_port-0127-after-onecut** — TASK-0127 ⑦ 之後的落點：session 層只剩 SCP_Core 一份（＋新增 kind 的 SOP、兩個地雷） ~~[superseded]~~  ↔ session-architecture/pointer_port-0127-entry-points, session-architecture/pointer_port-0127-after-onecut-v2
 - **pointer_port-0127-entry-points** — TASK-0127 落點：新家／舊家／讀數指令，與動 ⑦ 前要知道的兩件事 ~~[superseded]~~  ↔ session-architecture/pointer_port-0127-after-onecut
