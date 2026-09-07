@@ -6,7 +6,7 @@ type: pitfall
 status: active
 created_at: 2026-08-27
 created_by: basecamp
-links: []
+links: [streamwatch-cmd/state_2026-08-19-auto-export]
 related_docs: [ucl_core:Docs~/zh-Hant/Workflows/StreamWatch_Cmd_Reference.md]
 ---
 

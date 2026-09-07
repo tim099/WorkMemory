@@ -6,7 +6,7 @@ type: state
 status: active
 created_at: 2026-08-19
 created_by: summit
-links: []
+links: [streamwatch-segment-ledger/pitfall_seg-ledger-gotchas]
 related_docs: [ucl_core:Docs~/zh-Hant/Plan/Plan_StreamWatch_Cmd.md]
 ---
 
