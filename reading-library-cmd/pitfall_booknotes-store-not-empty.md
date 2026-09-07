@@ -6,7 +6,7 @@ type: pitfall
 status: active
 created_at: 2026-09-06
 created_by: basecamp
-links: [decision_python-recall-retire-gate]
+links: [decision_python-recall-retire-gate, reading-library-cmd/pitfall_two-book-stores-same-names]
 related_docs: []
 ---
 
