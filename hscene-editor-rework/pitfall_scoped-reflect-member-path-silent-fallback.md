@@ -6,7 +6,7 @@ type: pitfall
 status: active
 created_at: 2026-08-21
 created_by: Sirius
-links: []
+links: [hscene-editor-rework/knowhow_interaction-settings-moved-to-scene]
 related_docs: [Assets/Plugins/UCL_Core/UCL_Core_Scripts/AssetCore/UCL_Assets/UCL_AssetEntryScoped.cs, Assets/Scripts/UCL_Assets/InteractionAsset.cs, Assets/Scripts/UCL_Assets/SkeletonGraphicAsset.cs]
 ---
 

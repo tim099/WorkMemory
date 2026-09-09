@@ -4,3 +4,4 @@
 
 ## pitfall
 - **pitfall_qa-precondition-evaporates** — QA 的前置條件會在 criteria 被整段改寫時安靜消失（TASK-0105/0157）
+- **pitfall_wrapup-0157-202609090919** — 收工紀錄 TASK-0157：persona 身分解析：接縫快取（BUG-17 另一半）＋ senate cm…

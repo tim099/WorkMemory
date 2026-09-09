@@ -21,12 +21,14 @@
 - **knowhow_a-b-deliverables** — A/B 交付物使用說明（SpineAnimRef/LockService/Trigger/FolderFilter 下一棒怎麼用）  ↔ hscene-editor-rework/decision_impl-verdicts-a-b
 - **knowhow_existing-infra** — 既有基建直接用清單（條件/事件/階段停播/分組下拉）  ↔ ucl-editor-pages/knowhow_page-skeleton
 - **knowhow_import-interaction-areas** — Import interaction areas — 分色圖依 <Group>_<N> 自動生成互動區域＋補 SceneFlag（含自動補 Flag 拿掉異源閘門的代價）
+- **knowhow_interaction-settings-moved-to-scene** — 互動的可變設定從 asset 層搬到 scene 層（2026-09-09 四刀）＋ 三格編譯器不會叫的接縫  ↔ hscene-editor-rework/pitfall_scoped-reflect-member-path-silent-fallback
 - **knowhow_interaction-to-satisfied-wiring** — 互動↔興奮值接線：這條線早就造好只是零呼叫端；SatisfiedService 是接線層
 
 ## pitfall
 - **pitfall_compile-report-scope-per-assembly** — check_compile 報告只涵蓋本次重編的 assembly — warning 數跨 pass 不可比、in-progress 的 Errors:0 不是證據
 - **pitfall_known-traps** — 已知坑清單（WIP 所有權/Hakoniwa enum/輸入源頭 guard/文件漂移）
-- **pitfall_scoped-reflect-member-path-silent-fallback** — 清單搬進子物件會讓 ScopeMemberName 反射靜默失效 → 下拉退回全體 ID 且不報錯
+- **pitfall_scoped-reflect-member-path-silent-fallback** — 清單搬進子物件會讓 ScopeMemberName 反射靜默失效 → 下拉退回全體 ID 且不報錯  ↔ hscene-editor-rework/knowhow_interaction-settings-moved-to-scene
+- **pitfall_scrub-entry-and-window-driving** — Scrub 的入場當場觸發＝憑空挑方向；m_SlideInterval<=0 的「每幀判定」＝門檻永遠過不了
 - **pitfall_slide-state-reset-20260831** — Slide 三症狀：狀態機的重置不能放在「只有在命中路徑上才會被呼叫」的函式裡
 
 ## state

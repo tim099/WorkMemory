@@ -14,6 +14,8 @@
 - **knowhow_ui-driver** — UI 有四種驅動方式，任兩種互為證人
 
 ## pitfall
+- **pitfall_assets-scp-core-binobj-cs1704** — Assets 底下的 SCP_Core 長出 bin/obj ⇒ CS1704 同名組件，把別人的 Unity 編譯弄紅（偵測一行；成因未解）
+- **pitfall_build-window-in-agent-process-tree** — build 收尾那顆常駐視窗在 agent 的行程樹裡＝永不結束的 GUI 子行程（ClaudeCode 關不掉／重啟被占用）
 - **pitfall_pitfalls-day1** — Day 1 撞到的六個坑（都不會當場叫）
 - **pitfall_prefix-branch-rules-host-half-missing** — 啟發式家規那一半宿主從沒宣告（UCL_→Dev）＋repo 目標改可直接打路徑  ↔ senate-backend/decision_submodule-page-decide-half-2026-08-28
 - **pitfall_silknet-imgui-no-modifier-keys** — Silk.NET ImGuiController 從來沒送 modifier ⇒ 所有 Ctrl 快捷鍵無效（打字正常）＋ keydebug 診斷基建  ↔ senate-backend/knowhow_imgui-clipboard-bridge
