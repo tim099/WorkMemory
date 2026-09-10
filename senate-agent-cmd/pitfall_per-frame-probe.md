@@ -3,10 +3,10 @@ id: pitfall_per-frame-probe
 topic: senate-agent-cmd
 title: per-frame 子程序成本 headless 驗收測不到
 type: pitfall
-status: active
+status: superseded
 created_at: 2026-08-28
 created_by: basecamp
-links: []
+links: [senate-agent-cmd/pitfall_per-frame-probe-landed]
 related_docs: []
 ---
 
