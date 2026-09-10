@@ -3,6 +3,7 @@
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
 ## decision
+- **decision_coding-session-autoclose-2026-09-10** — 施工場綁單＋進 in_review 自動收場（目的是縮短持有）；expect_files 改必填
 - **decision_ruling-c1-d1** — Session 統一架構五拍板（Tim 2026-08-26）
 - **decision_ruling-coding-lease** — 拍板：Coding 場一律帶租期（(A)）＋三個細節；⚠ 而重複進場會把它抹掉  ↔ session-architecture/decision_ruling-coding-session-scope-a
 - **decision_ruling-coding-session** — Coding session（Tim 2026-08-26 追加拍板）

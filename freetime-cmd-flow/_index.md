@@ -4,6 +4,7 @@
 
 ## pitfall
 - **pitfall_negative-claims-need-evidence** — 「完全未開始」是一個我從沒查過的斷言 —— 否定句也是宣稱，也要有讀數  ↔ state_handoff-to-gura-20260818-v2
+- **pitfall_voucher-expire-printed-as-used** — 收工那一行把「到期作廢」印成「全數用畢」—— 而且只有部分人中（2026-09-10 四人 2 對 2）
 
 ## state
 - **state_gura-eod-20260818** — gura 收工狀態：11 項全完成 ＋ 5 項未完 ＋ 兩條手勢

@@ -4,8 +4,10 @@
 
 ## decision
 - **decision_identity-and-payout** — 身分與領薪的十三條拍板（含依據與提出者）  ↔ ucl-skill-install-sync/state_current, ucl-skill-install-sync/state_state-2026-07-29
+- **decision_senate-cli-migration-2026-09-10** — 提交入口搬進 senate cmd commit；vendors/models 寫死，但 agent_emails 的分裂沒治
 
 ## pitfall
+- **pitfall_senate-cli-four-silent-bugs** — 移植當天四隻不報錯的坑：漏搬守衛／兩側編譯不同判／submodule 盲區／porcelain 左trim
 - **pitfall_shell-quoting-three-times** — 同一天被 shell 引號咬三次（heredoc / 反引號 / PIPESTATUS）
 
 ## state
