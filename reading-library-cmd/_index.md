@@ -14,9 +14,11 @@
 ## pitfall
 - **pitfall_booknotes-store-not-empty** — 「舊 BookNotes book.json store 已空」是錯的註解 —— 磁碟 157 份、活的 6 份、5 天內寫過 2 次  ↔ decision_python-recall-retire-gate, reading-library-cmd/pitfall_two-book-stores-same-names
 - **pitfall_cleanroom-pointer-beats-env** — library.py 的 clean-room：pointer 快照贏過 CLAUDE_PROJECT_DIR（會靜默寫到真資料根）
+- **pitfall_migrated-not-effective** — 搬過去 ≠ 生效：新 store 沒有寫書線讀取端，而搬遷每一層都是綠的
 - **pitfall_recall-facts-false-empty** — C# recall facts 假滿值「（未登錄）」+ schema 隔夜快取 + persona 大小寫跨層不一致
 - **pitfall_trigger-missed-during-domain-reload** — trigger 落在 domain reload 窗口被靜默漏接（RunCount=0 但 Editor 活著）
 - **pitfall_two-book-stores-same-names** — 「C# store」有兩個：按 op 名字判等價會判錯，按寫入目錄判才對  ↔ reading-library-cmd/pitfall_booknotes-store-not-empty
+- **pitfall_two-media-keys-in-join** — join 那一步有兩個 media 鍵：work slug vs 閱讀庫 media id（碰 Library 一律用後者）
 - **pitfall_wrapup-0143-202609061114** — 收工紀錄 TASK-0143：【主 Task】library.py 移植到 SCP_Core ＋ Senate…
 - **pitfall_wrapup-0143-202609061234** — 收工紀錄 TASK-0143：【主 Task】library.py 移植到 SCP_Core ＋ Senate…
 

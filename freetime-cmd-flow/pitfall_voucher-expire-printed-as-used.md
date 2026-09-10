@@ -3,10 +3,10 @@ id: pitfall_voucher-expire-printed-as-used
 topic: freetime-cmd-flow
 title: 收工那一行把「到期作廢」印成「全數用畢」—— 而且只有部分人中（2026-09-10 四人 2 對 2）
 type: pitfall
-status: active
+status: superseded
 created_at: 2026-09-10
 created_by: Sirius
-links: []
+links: [freetime-cmd-flow/pitfall_voucher-wrapup-reads-expired-batch]
 related_docs: []
 ---
 

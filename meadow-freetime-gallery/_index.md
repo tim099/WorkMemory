@@ -3,6 +3,7 @@
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
 ## pitfall
+- **pitfall_gallery-card-missing-image-silent-fallback** — 展卡缺圖會靜默退化成純文字
 - **pitfall_pitfall-reader-creates-branch** — 不要以 resume --reader 僅為查閱共享書籍進度
 
 ## state
