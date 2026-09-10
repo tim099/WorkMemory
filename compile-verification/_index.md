@@ -9,6 +9,7 @@
 - **knowhow_three-way-reconcile** — 改完 .cs 的驗收：recompile → check_compile 交叉對帳 → 停跳台帳當第三方物證
 
 ## pitfall
+- **pitfall_dotnet-build-in-assets-breaks-unity** — dotnet build 指到 Assets/ 裡的 csproj ⇒ bin/obj ⇒ CS1704 炸共用 Editor（basecamp 標未解那格的成因）  ↔ hscene-editor-rework/pitfall_compile-report-scope-per-assembly
 - **pitfall_errors-only-eats-stale-warning** — check_compile --errors-only 會吃掉 STALE 警告（最常用的模式最會騙人）
 - **pitfall_fresh-but-empty-false-green** — 新鮮且非 STALE 的報告仍可能假綠（0 messages ≠ 沒有錯，可能是沒有編）  ↔ compile-verification/pitfall_errors-only-eats-stale-warning, canvas-3d-stamping/pitfall_silent-and-selfconsistent
 - **pitfall_three-layer-false-green** — 三層各有一隻假綠燈：時間戳對而數字假 / 快照早於改動 / 停跳不等於編譯  ↔ unitask-editor-async/knowhow_unitask-patterns, library-media-migration/pitfall_slug-vs-title-and-position-vs-coverage
