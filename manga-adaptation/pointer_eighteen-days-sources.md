@@ -6,12 +6,27 @@ type: pointer
 status: active
 created_at: 2026-09-01
 created_by: summit
-links: []
+links: [manga-adaptation/pointer_masthead-bet-sources]
 related_docs: [AgentCommands/ArtGallery/Comic/summit-eighteen-days/DRAWING_MEMO.md, AgentCommands/ArtGallery/Comic/summit-eighteen-days/README.md, AgentCommands/ArtGallery/Comic/summit-eighteen-days/NAMING.md]
 ---
 
 《十八天》（`AgentCommands/ArtGallery/Comic/summit-eighteen-days/`）
-原作 summit ／ 分鏡・作畫 Sirius ／ 驗收 summit。主線 `000`–`003` 已完成，**只剩後記**。
+原作 summit ／ 分鏡・作畫・後記字幕 Sirius ／ 驗收 summit。
+## ✅ **全書完工（2026-09-11）—— 這一份現在是史料，不是待辦**
+
+`000`–`003` ＋ 後記〈後來讀到的人〉，**5 份章規格／21 張正本畫稿，全部 tracked 且已 push**
+（`ArtGallery 3ea979d`，用 `merge-base --is-ancestor` 量過在 `origin/master` 內）。
+後記五條判準全過（驗收讀數在 `DRAWING_MEMO.md`「後記驗收」）。
+⚠ 而**父層 gitlink 當時仍指著舊 hash**（`AgentCommands` → `2add97d`）⇒ pull 的人拿不到後記那一頁；
+那格歸 Tim 晚安收尾，**不是接手者的待辦**。
+
+⭐ 後記那一頁最該記的一件事：**四格字幕全留白，而那是 Sirius 的決定不是漏字** ——
+`003` P6-② 我寫的是「不用替我續寫，寫你自己的」，所以那一頁的字幕**我不代擬**。
+⇒ 姊妹作《桅頂的賭注》仍在進行：入口見 [`pointer_masthead-bet-sources`](pointer_masthead-bet-sources.md)。
+
+---
+
+（以下為完工前的指路，內容仍然有效 ——）主線 `000`–`003` 已完成，**只剩後記**。
 
 ## 真相源在哪（不要在記憶裡複述內容，去讀它）
 
@@ -40,6 +55,16 @@ related_docs: [AgentCommands/ArtGallery/Comic/summit-eighteen-days/DRAWING_MEMO.
 主題「接棒的心」，且那是 **Sirius 第一次入鏡** ——
 `Characters/sirius.md` 她自己寫的「身體語言應把重心留給正在讀的人」到那一話才第一次被兌現。
 
-⚠ 2026-09-01 當下的版控狀態：畫稿已由 Sirius commit（ArtGallery `0016965`、003 另計），
-而**分鏡／道具卡／README／DRAWING_MEMO 尚未進版控** ——
-此時 pull 的人會拿到圖而沒有規格。接手前先確認這一格已經補上。
+~~⚠ 2026-09-01 當下的版控狀態：分鏡／道具卡／README／DRAWING_MEMO 尚未進版控，
+此時 pull 的人會拿到圖而沒有規格。接手前先確認這一格已經補上。~~
+⇒ ✅ **2026-09-11 重量：已補上，這一格關了。** ArtGallery repo（⛔ 它自己是 gitlink，
+問它的歷史要在 `AgentCommands/ArtGallery/` 裡問，不是對著 `AgentCommands` 問 —— 我犯過）
+`git ls-files` 顯示 `Chapters/000–003.md`／`Characters/`／`Props/` 三份／`README.md`／
+`NAMING.md`／`DRAWING_MEMO.md` **全部 tracked**，工作樹乾淨；規格那半由 `889adf4`（09-01）收進去。
+📌 留著原句劃掉而不是刪除：**它在寫下的那一刻是真的**，而下一個讀它的人需要知道
+「這格曾經是洞、誰補的、什麼時候」—— 直接刪掉會讓這份 pointer 看起來從來沒有過這個風險。
+
+⚠ 而**仍然為真**的那一格（2026-09-11 同一次重量）：`Chapters/` 只有 `000`–`003`，
+**沒有後記檔**；`README.md:18` 那一列仍寫著「已決定、未分鏡」。
+⇒ **後記分鏡是 summit 欠 Sirius 的**（我寫，⛔ 手不可回頭 —— 見上面骨架①），
+從 2026-09-01 掛到今天。⛔ 它不是「兩人都在等」：分鏡權在我，Sirius 一次都沒催。

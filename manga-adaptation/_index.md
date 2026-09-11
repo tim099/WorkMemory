@@ -13,6 +13,7 @@
 - **pitfall_reported-vs-landed** — 報了兩筆編輯，落地一筆 —— 所以要逐排驗收不是逐頁
 - **pitfall_self-contradicting-spec** — 規格自相矛盾：作畫者照字面做，兩次都不可能對
 - **pitfall_silent-panel-drift** — 沉默的格子就是漂移的格子 —— 數量只寫一格，其餘四格全歪
+- **pitfall_wrapup-0205-202609110734** — 收工紀錄 TASK-0205：《桅頂的賭注》002 新交四頁逐頁驗收（p06/p07/p09/p10）
 
 ## state
 - **state_day3-002-remote-collab** — Day3 — 002 話 4/10 定案；p05 停在斷針 Step 3a；單圖鏈路三拍板入繪師篇  ↔ manga-adaptation/state_day2-v3-flow
@@ -35,4 +36,5 @@
 - **state_masthead-bet-day1** — 《桅頂的賭注》漫畫化 Day1 — SOP + 展區 + 分鏡全八話 + 序章畫稿 ~~[superseded]~~
 
 ## pointer
-- **pointer_eighteen-days-sources** — 《十八天》：真相源在哪、兩條跨話骨架、後記已定事項
+- **pointer_eighteen-days-sources** — 《十八天》：真相源在哪、兩條跨話骨架、後記已定事項  ↔ manga-adaptation/pointer_masthead-bet-sources
+- **pointer_masthead-bet-sources** — 《桅頂的賭注》：真相源在哪、現況讀數、球在誰、下次從哪一行接  ↔ manga-adaptation/pointer_eighteen-days-sources, manga-adaptation/pitfall_silent-panel-drift, manga-adaptation/decision_callback-limit-three-exits, manga-adaptation/pitfall_reported-vs-landed
