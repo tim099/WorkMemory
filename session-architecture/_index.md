@@ -3,6 +3,7 @@
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
 ## decision
+- **decision_coding-scope-mutex** — Coding 場從「同時至多一人」改成「範圍撞到才擋」（純路徑判準 / 登記表不搬 / claim 開場）
 - **decision_coding-session-autoclose-2026-09-10** — 施工場綁單＋進 in_review 自動收場（目的是縮短持有）；expect_files 改必填
 - **decision_ruling-c1-d1** — Session 統一架構五拍板（Tim 2026-08-26）
 - **decision_ruling-coding-lease** — 拍板：Coding 場一律帶租期（(A)）＋三個細節；⚠ 而重複進場會把它抹掉  ↔ session-architecture/decision_ruling-coding-session-scope-a
@@ -12,6 +13,7 @@
 - **decision_ruling-port-to-scp-and-gateway** — 拍板：Session 搬 SCP_Core／頁面不保留／結算不搬走 gateway（含 TrySettle→TryClose 的語意修正）
 
 ## pitfall
+- **pitfall_blocked-wording-two-writers** — 擋下的措辭寫了兩份（同一天、同一個人）—— 而收斂的收據是同源探針，不是比對輸出  ↔ [, ],  ,  ,  , #,  , ⚠,  , 2, 0, 2, 6, -, 0, 9, -, 1, 1, ：, 這, 裡, 原, 本, 被, 我, 填, 了,  , s, e, n, a, t, e, -, b, a, c, k, e, n, d, /, n, o, n, e,  , —, —,  , 那, 個,  , f, r, a, g, m, e, n, t,  , 不, 存, 在, ，, 而,  , l, i, n, k, s,  , 不, 驗, 存, 在, 。, ⇒,  , 寧, 可, 空, 著
 - **pitfall_cross-process-delegation** — 跨 process 委派四格：Editor 開著變條件／回讀才是判定／UI 不能同步等／lane 與 target_persona
 - **pitfall_dotnet-build-under-assets** — 掛在 Assets/ 底下的 csproj 不要 dotnet build —— CS1704 會報在無關的 assembly 上
 - **pitfall_mechanism-exists-nobody-walks-it** — 機制在 ≠ 有人在走 —— 層綠而生產路徑沒接，而測試也是真的綠

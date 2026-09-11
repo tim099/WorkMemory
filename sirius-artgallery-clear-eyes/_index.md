@@ -3,6 +3,7 @@
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
 ## knowhow
+- **knowhow_bundled-python-gallery-20260911** — ArtGallery 建置的 bundled Python fallback  ↔ commit:601b598
 - **knowhow_workflow-and-diary-routing-20260909** — ArtGallery 每日心得的路徑與驗收邊界
 
 ## state

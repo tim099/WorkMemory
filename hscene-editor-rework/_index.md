@@ -14,6 +14,7 @@
 - **decision_plan-d-prework-final** — Plan D 開工前拍板 — 全數定案（八題: Tim 五題 + 熊汁三題, 無 pending 可開工）  ↔ hscene-editor-rework/decision_plan-d-prework
 - **decision_spine-group-model** — Spine 分組模型與 SpineAnimRef 拍板（含 P3 pending）
 - **decision_subtrack-flag-layer-separated** — Subtrack 虛擬優先度層：Flag 層在系統之外(-∞)，不參與競爭只在沒人競爭時接管
+- **decision_voice-preset-wiring-20260911** — voicePreset 接上讀取端：三來源擇一、兩道獨立的骰、一把共用冷卻（Tim 09-11 六條拍板）
 - **decision_plan-c-designer** — Plan C 企劃拍板六題 + 分色圖 69 張實測（C-1 因果更正） ~~[superseded]~~  ↔ hscene-editor-rework/decision_plan-c-prework, hscene-editor-rework/decision_plan-c-designer-b
 - **decision_plan-d-prework** — Plan D 開工前拍板（D2 基底 ClothSetting + 四題工程消化 + 企劃三題） ~~[superseded]~~  ↔ hscene-editor-rework/decision_plan-d-prework-final
 
@@ -27,6 +28,7 @@
 ## pitfall
 - **pitfall_compile-report-scope-per-assembly** — check_compile 報告只涵蓋本次重編的 assembly — warning 數跨 pass 不可比、in-progress 的 Errors:0 不是證據
 - **pitfall_known-traps** — 已知坑清單（WIP 所有權/Hakoniwa enum/輸入源頭 guard/文件漂移）
+- **pitfall_localize-label-grep-subset-20260911** — 改欄位名要對 Localize 字典 —— 用自編 grep pattern 撈會漏，要拿改動清單逐個列舉
 - **pitfall_scoped-reflect-member-path-silent-fallback** — 清單搬進子物件會讓 ScopeMemberName 反射靜默失效 → 下拉退回全體 ID 且不報錯  ↔ hscene-editor-rework/knowhow_interaction-settings-moved-to-scene
 - **pitfall_scrub-entry-and-window-driving** — Scrub 的入場當場觸發＝憑空挑方向；m_SlideInterval<=0 的「每幀判定」＝門檻永遠過不了
 - **pitfall_slide-state-reset-20260831** — Slide 三症狀：狀態機的重置不能放在「只有在命中路徑上才會被呼叫」的函式裡

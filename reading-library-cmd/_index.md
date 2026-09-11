@@ -13,6 +13,7 @@
 
 ## pitfall
 - **pitfall_booknotes-store-not-empty** — 「舊 BookNotes book.json store 已空」是錯的註解 —— 磁碟 157 份、活的 6 份、5 天內寫過 2 次  ↔ decision_python-recall-retire-gate, reading-library-cmd/pitfall_two-book-stores-same-names
+- **pitfall_bytewise-diff-not-axis-list** — 逐位元組對拍不要靠軸表靠對拍本身 —— 軸表永遠不完整，而它不完整時長得像完整  ↔ reading-library-cmd/pitfall_bytewise-diff-needs-three-axes
 - **pitfall_cleanroom-pointer-beats-env** — library.py 的 clean-room：pointer 快照贏過 CLAUDE_PROJECT_DIR（會靜默寫到真資料根）
 - **pitfall_migrated-not-effective** — 搬過去 ≠ 生效：新 store 沒有寫書線讀取端，而搬遷每一層都是綠的
 - **pitfall_recall-facts-false-empty** — C# recall facts 假滿值「（未登錄）」+ schema 隔夜快取 + persona 大小寫跨層不一致
@@ -21,6 +22,7 @@
 - **pitfall_two-media-keys-in-join** — join 那一步有兩個 media 鍵：work slug vs 閱讀庫 media id（碰 Library 一律用後者）
 - **pitfall_wrapup-0143-202609061114** — 收工紀錄 TASK-0143：【主 Task】library.py 移植到 SCP_Core ＋ Senate…
 - **pitfall_wrapup-0143-202609061234** — 收工紀錄 TASK-0143：【主 Task】library.py 移植到 SCP_Core ＋ Senate…
+- **pitfall_bytewise-diff-needs-three-axes** — 逐位元組對拍要量三根軸（行尾／縮排／冒號後空格）—— 修好一根之後守衛還在畫面上，而它在回答另一根 ~~[superseded]~~  ↔ reading-library-cmd/pitfall_bytewise-diff-not-axis-list
 
 ## state
 - **state_aclass-behaviour-diff-tips-donations** — A 類行為對拍第一刀：tips／donations 資料層等價、字面層不等價（10/21 與 1/75 行不同，全是標點）
