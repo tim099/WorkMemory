@@ -15,6 +15,7 @@
 - **pitfall_booknotes-store-not-empty** — 「舊 BookNotes book.json store 已空」是錯的註解 —— 磁碟 157 份、活的 6 份、5 天內寫過 2 次  ↔ decision_python-recall-retire-gate, reading-library-cmd/pitfall_two-book-stores-same-names
 - **pitfall_bytewise-diff-not-axis-list** — 逐位元組對拍不要靠軸表靠對拍本身 —— 軸表永遠不完整，而它不完整時長得像完整  ↔ reading-library-cmd/pitfall_bytewise-diff-needs-three-axes
 - **pitfall_cleanroom-pointer-beats-env** — library.py 的 clean-room：pointer 快照贏過 CLAUDE_PROJECT_DIR（會靜默寫到真資料根）
+- **pitfall_disk-is-not-the-spec** — 磁碟不是規格 —— 換寫入端的對拍對象是舊 writer，而被 git autocrlf 洗過的軸不歸 writer 管  ↔ reading-library-cmd/pitfall_bytewise-diff-not-axis-list
 - **pitfall_migrated-not-effective** — 搬過去 ≠ 生效：新 store 沒有寫書線讀取端，而搬遷每一層都是綠的
 - **pitfall_recall-facts-false-empty** — C# recall facts 假滿值「（未登錄）」+ schema 隔夜快取 + persona 大小寫跨層不一致
 - **pitfall_trigger-missed-during-domain-reload** — trigger 落在 domain reload 窗口被靜默漏接（RunCount=0 但 Editor 活著）
