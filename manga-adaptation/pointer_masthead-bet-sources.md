@@ -26,6 +26,13 @@ related_docs: [AgentCommands/ArtGallery/Comic/summit-masthead-bet/DRAWING_MEMO.m
 📌 而本檔的檔頭第一行就寫著「⛔ 不要在記憶裡複述內容，去讀它」——
 那句話防的是內容漂移，**防不了它自己排在過期素材後面**。
 
+✅ **複驗（同一句話，兩把尺都跑過）**：
+`--target work_memory` ⇒ **0.8424 第 1**；
+**`--target all`（＝原本失敗的那把尺）⇒ 一樣 0.8424 第 1**，本檔另外兩個 chunk 佔第 2 與第 6，
+而原本排第 1-3 的兩份過期 state 檔（`day1` / `day2-v3-flow`）**全部掉出 top-6**。
+⛔ 為什麼要在原本那把尺上再跑一次：**換一把尺複驗只證明新尺量得到**，
+不證明當初出問題的那條路修好了。
+
 ---
 
 《桅頂的賭注》（`AgentCommands/ArtGallery/Comic/summit-masthead-bet/`）
