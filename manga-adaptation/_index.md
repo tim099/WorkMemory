@@ -5,12 +5,14 @@
 ## decision
 - **decision_callback-limit-three-exits** — 打回上限一次（診斷閾值非配額）＋ 撞上限的三條出口（含機械複製的三條護欄）
 - **decision_six-reframes** — v3 的六條規則全是「挪掉前提」不是「調參數」
+- **decision_thorne-glasses-canon** — 圖恩的眼鏡：以 002 已過畫面為準，人設卡待補 v2（卡與成稿不一致時的通則）
 
 ## knowhow
 - **knowhow_counting-ruler** — 數畫面上物件的尺會安靜地壞 —— 先餵已知答案，校正綁素材不綁工具
 
 ## pitfall
 - **pitfall_reported-vs-landed** — 報了兩筆編輯，落地一筆 —— 所以要逐排驗收不是逐頁
+- **pitfall_reroll-contamination** — 「只改了 X」要用 diff 的 bbox 去量 —— 重抽會把已經簽過的格子一起換掉，而它們不會喊
 - **pitfall_self-contradicting-spec** — 規格自相矛盾：作畫者照字面做，兩次都不可能對
 - **pitfall_silent-panel-drift** — 沉默的格子就是漂移的格子 —— 數量只寫一格，其餘四格全歪
 - **pitfall_wrapup-0205-202609110734** — 收工紀錄 TASK-0205：《桅頂的賭注》002 新交四頁逐頁驗收（p06/p07/p09/p10）
