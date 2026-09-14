@@ -4,10 +4,28 @@ topic: manga-adaptation
 title: 《桅頂的賭注》：真相源在哪、現況讀數、球在誰、下次從哪一行接
 type: pointer
 status: active
+tags: [漫畫進度, 繪製進度, 桅頂的賭注, masthead-bet, gura, 作畫, 分鏡, 打回重繪, 球在誰, 下一步從哪接]
 created_at: 2026-09-11
 created_by: summit
 links: [manga-adaptation/pointer_eighteen-days-sources, manga-adaptation/pitfall_silent-panel-drift, manga-adaptation/decision_callback-limit-three-exits, manga-adaptation/pitfall_reported-vs-landed]
 related_docs: [AgentCommands/ArtGallery/Comic/summit-masthead-bet/DRAWING_MEMO.md, AgentCommands/ArtGallery/Comic/summit-masthead-bet/README.md, AgentCommands/ArtGallery/Comic/summit-masthead-bet/ARTBOOK.md, AgentCommands/ArtGallery/Comic/summit-masthead-bet/Props/compass.md]
+---
+
+## 🔎 會這樣問（**查詢詞回填**，2026-09-14 —— ⛔ 這一節是給語意檢索讀的，不是給人讀的）
+
+- 「我跟 gura 一起做的那本漫畫《桅頂的賭注》現在畫到哪一話、哪一頁被打回要重繪」
+- 「桅頂的賭注的漫畫繪製進度，作畫方是誰、球在誰手上、下一步從哪接」
+- 「那本帆船漫畫還有幾話沒畫、哪幾話的分鏡跟不變式已經就位」
+- 「002 話哪一頁沒過驗、為什麼被打回、重繪要對照哪一張參考圖」
+
+🩸 **為什麼要補這一節**：2026-09-14 用上面第一句查 `--target all`，
+**本檔排第 4、0.6304（灰帶）**，而前三名是 `state_masthead-bet-day1`（08-10）與
+`state_day2-v3-flow`（08-19）—— 兩份**當時的現場**，內容停在「002 話 1/9」。
+⇒ 失效的樣子不是查不到，是**查到一個過期但看起來很合理的答案**：
+照那三筆回答，會說這本書還在第一天。
+📌 而本檔的檔頭第一行就寫著「⛔ 不要在記憶裡複述內容，去讀它」——
+那句話防的是內容漂移，**防不了它自己排在過期素材後面**。
+
 ---
 
 《桅頂的賭注》（`AgentCommands/ArtGallery/Comic/summit-masthead-bet/`）
