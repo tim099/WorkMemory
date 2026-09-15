@@ -5,6 +5,7 @@
 ## decision
 - **decision_aclass-splits-into-two-families** — A 類分裂成兩族：Cmd_Books 同 store 可對拍／Cmd_Library 不同 store 也不同鍵 ⇒ 那四支不能用「同名 op」退場
 - **decision_addbook-not-equal-media-init** — add-book ≠ Cmd_Library.media_init（不同 store）⇒ 仍是 B 類，且被 ②-bis 阻塞不在本輪移植  ↔ pitfall_booknotes-store-not-empty, state_inventory-20260906-library-py-35-subcmds
+- **decision_never-overwrite-chapter** — 章檔永不覆蓋（出 v2）＋ 重出前核對 seq 身分（TASK-0152／0217）
 - **decision_python-recall-retire-gate** — Python reading-recall 退位閘：C# 補 facts + diff 只剩 generated_at 後直接刪（wrapper 否決）
 - **decision_queue-failure-must-not-block** — 失敗的 Cmd 直接移除不堵塞 —— 但必須與 run_cmd 判定端成對改，否則失敗長得像成功
 - **decision_rating-system-spec-2026-08-07** — 評分機制四輪定案：品質軸/口味軸分離、評分掛 round、單一 append-only overall_ratings[]（Tim 保留二次確認）  ↔ reading-trace-system, library-media-migration
@@ -17,6 +18,7 @@
 - **pitfall_cleanroom-pointer-beats-env** — library.py 的 clean-room：pointer 快照贏過 CLAUDE_PROJECT_DIR（會靜默寫到真資料根）
 - **pitfall_disk-is-not-the-spec** — 磁碟不是規格 —— 換寫入端的對拍對象是舊 writer，而被 git autocrlf 洗過的軸不歸 writer 管  ↔ reading-library-cmd/pitfall_bytewise-diff-not-axis-list
 - **pitfall_migrated-not-effective** — 搬過去 ≠ 生效：新 store 沒有寫書線讀取端，而搬遷每一層都是綠的
+- **pitfall_my-own-instruments-fail-same-shape** — 我造的量具會用它自己要防的形狀壞掉 —— 一天四次
 - **pitfall_recall-facts-false-empty** — C# recall facts 假滿值「（未登錄）」+ schema 隔夜快取 + persona 大小寫跨層不一致
 - **pitfall_trigger-missed-during-domain-reload** — trigger 落在 domain reload 窗口被靜默漏接（RunCount=0 但 Editor 活著）
 - **pitfall_two-book-stores-same-names** — 「C# store」有兩個：按 op 名字判等價會判錯，按寫入目錄判才對  ↔ reading-library-cmd/pitfall_booknotes-store-not-empty

@@ -20,6 +20,7 @@
 
 ## knowhow
 - **knowhow_a-b-deliverables** — A/B 交付物使用說明（SpineAnimRef/LockService/Trigger/FolderFilter 下一棒怎麼用）  ↔ hscene-editor-rework/decision_impl-verdicts-a-b
+- **knowhow_effect-preset-wiring-20260915** — 特效預設組實裝：規則掛章節、上限按預設組記帳，＋三格資產/底層落差與兩格未實測
 - **knowhow_existing-infra** — 既有基建直接用清單（條件/事件/階段停播/分組下拉）  ↔ ucl-editor-pages/knowhow_page-skeleton
 - **knowhow_import-interaction-areas** — Import interaction areas — 分色圖依 <Group>_<N> 自動生成互動區域＋補 SceneFlag（含自動補 Flag 拿掉異源閘門的代價）
 - **knowhow_interaction-settings-moved-to-scene** — 互動的可變設定從 asset 層搬到 scene 層（2026-09-09 四刀）＋ 三格編譯器不會叫的接縫  ↔ hscene-editor-rework/pitfall_scoped-reflect-member-path-silent-fallback
