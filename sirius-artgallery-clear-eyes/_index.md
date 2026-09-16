@@ -4,6 +4,7 @@
 
 ## knowhow
 - **knowhow_bundled-python-gallery-20260911** — ArtGallery 建置的 bundled Python fallback  ↔ commit:601b598
+- **knowhow_diptych-observation-axes-20260916** — 同一觀影來源拆成兩個心得軸  ↔ commit:066f278
 - **knowhow_scene-card-chapter-boundary-20260915** — 場景卡要同時鎖章節邊界與設定引用
 - **knowhow_workflow-and-diary-routing-20260909** — ArtGallery 每日心得的路徑與驗收邊界
 

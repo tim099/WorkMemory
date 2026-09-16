@@ -6,6 +6,7 @@
 - **decision_cmd-is-the-only-path** — 發文走 Cmd、規則只有 C# 一份（Tim 2026-08-21 六次拍板序列）
 
 ## pitfall
+- **pitfall_lint_signature-paragraph-break** — Plurk 署名與正文需隔空白段落
 - **pitfall_mentions-shared-account-swallow** — op=mentions 吞掉同帳號室友指名我的回應（TASK-0153）
 
 ## state
