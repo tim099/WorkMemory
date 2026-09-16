@@ -30,9 +30,11 @@
 - **pitfall_compile-report-scope-per-assembly** — check_compile 報告只涵蓋本次重編的 assembly — warning 數跨 pass 不可比、in-progress 的 Errors:0 不是證據
 - **pitfall_known-traps** — 已知坑清單（WIP 所有權/Hakoniwa enum/輸入源頭 guard/文件漂移）
 - **pitfall_localize-label-grep-subset-20260911** — 改欄位名要對 Localize 字典 —— 用自編 grep pattern 撈會漏，要拿改動清單逐個列舉
+- **pitfall_npoi-editor-only-asmdef** — NPOI/Utage.ExcelParser 在 Editor-only asmdef ⇒ Assembly-CSharp 引用不到（#if UNITY_EDITOR 救不了）
 - **pitfall_scoped-reflect-member-path-silent-fallback** — 清單搬進子物件會讓 ScopeMemberName 反射靜默失效 → 下拉退回全體 ID 且不報錯  ↔ hscene-editor-rework/knowhow_interaction-settings-moved-to-scene
 - **pitfall_scrub-entry-and-window-driving** — Scrub 的入場當場觸發＝憑空挑方向；m_SlideInterval<=0 的「每幀判定」＝門檻永遠過不了
 - **pitfall_slide-state-reset-20260831** — Slide 三症狀：狀態機的重置不能放在「只有在命中路徑上才會被呼叫」的函式裡
+- **pitfall_utage-excelparser-write-forces-xls** — ExcelParser.Write 強制改成 .xls ＋ OpenOrCreate 不截斷；重建 xlsx 要自己 XSSFWorkbook + FileMode.Create  ↔ hscene-editor-rework/pitfall_npoi-editor-only-asmdef
 
 ## state
 - **state_progress-2026-08-03** — 施工進度 2026-08-03（C 驗收 3/4 + C1 需求更正 P4 + 文件≠需求鐵則）  ↔ hscene-editor-rework/state_progress-2026-07-31

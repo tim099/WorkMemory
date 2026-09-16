@@ -8,4 +8,5 @@
 ## pitfall
 - **pitfall_empty-value-vs-wrong-key** — 猜錯鍵名的空值與真的沒寫入完全同形（一天六次）
 - **pitfall_reading-written-as-rationale-expires** — 把會過期的讀數寫成決策理由 —— Editor 閘「沒有消費端」那格，2026-09-08 換了擋著的理由
+- **pitfall_voucher-query-two-roundtrips** — place 的券查詢兩趟 round-trip，第二趟撞自己佔住的 lane（TASK-0226）—— 而訊息報成「Editor 沒開？」
 - **pitfall_wrapup-0114-202609031537** — 收工紀錄 TASK-0114：畫布本體移植進 SCP_Core（金流走 ucmd 委派不移植）—— canva…

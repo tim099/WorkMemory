@@ -3,6 +3,7 @@
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
 ## decision
+- **decision_exit-hint-per-problem** — 擋下時的出口逐問題附（TASK-0211）—— 共用一行出口＝對兩支無效的指路
 - **decision_identity-and-payout** — 身分與領薪的十三條拍板（含依據與提出者）  ↔ ucl-skill-install-sync/state_current, ucl-skill-install-sync/state_state-2026-07-29
 - **decision_senate-cli-migration-2026-09-10** — 提交入口搬進 senate cmd commit；vendors/models 寫死，但 agent_emails 的分裂沒治
 

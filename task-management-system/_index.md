@@ -4,6 +4,7 @@
 
 ## decision
 - **decision_contract-task-memory** — 契約：Task ↔ 工作記憶（欄位／不互寫／不一致只印／錨點在 Task 檔）
+- **decision_criteria-overwrite-guard** — op=update 整段覆寫前加秤（TASK-0188）＋ 守衛必須放過正常操作這條判準
 - **decision_pm-decisions** — 拍板：PM 職責邊界與主 Task 怎麼撐
 - **decision_rulings-20260824** — 拍板四題：memory_topic 單值／久未更新用 Task.updated_at／QA 閘不擴大但要出聲／施工順序
 - **decision_tim-rulings-20260825** — Tim 2026-08-25 三條拍板：全系統 UTC／收工閘看本次醒來不看曆／探針不開單

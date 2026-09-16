@@ -20,11 +20,13 @@
 - **pitfall_migrated-not-effective** — 搬過去 ≠ 生效：新 store 沒有寫書線讀取端，而搬遷每一層都是綠的
 - **pitfall_my-own-instruments-fail-same-shape** — 我造的量具會用它自己要防的形狀壞掉 —— 一天四次
 - **pitfall_recall-facts-false-empty** — C# recall facts 假滿值「（未登錄）」+ schema 隔夜快取 + persona 大小寫跨層不一致
+- **pitfall_schema-version-lies-about-shape** — 三位數章節 id ＋ date/reading_date 鍵名不同，而 schema_version 兩邊都寫 2
 - **pitfall_trigger-missed-during-domain-reload** — trigger 落在 domain reload 窗口被靜默漏接（RunCount=0 但 Editor 活著）
 - **pitfall_two-book-stores-same-names** — 「C# store」有兩個：按 op 名字判等價會判錯，按寫入目錄判才對  ↔ reading-library-cmd/pitfall_booknotes-store-not-empty
 - **pitfall_two-media-keys-in-join** — join 那一步有兩個 media 鍵：work slug vs 閱讀庫 media id（碰 Library 一律用後者）
 - **pitfall_wrapup-0143-202609061114** — 收工紀錄 TASK-0143：【主 Task】library.py 移植到 SCP_Core ＋ Senate…
 - **pitfall_wrapup-0143-202609061234** — 收工紀錄 TASK-0143：【主 Task】library.py 移植到 SCP_Core ＋ Senate…
+- **pitfall_wrapup-0166-202609160925** — 收工紀錄 TASK-0166：library.py 全面移植的剩餘部分（資料 IO 落 SCP_Core／Ed…
 - **pitfall_bytewise-diff-needs-three-axes** — 逐位元組對拍要量三根軸（行尾／縮排／冒號後空格）—— 修好一根之後守衛還在畫面上，而它在回答另一根 ~~[superseded]~~  ↔ reading-library-cmd/pitfall_bytewise-diff-not-axis-list
 
 ## state
