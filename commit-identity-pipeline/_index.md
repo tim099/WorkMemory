@@ -8,6 +8,7 @@
 - **decision_senate-cli-migration-2026-09-10** — 提交入口搬進 senate cmd commit；vendors/models 寫死，但 agent_emails 的分裂沒治
 
 ## pitfall
+- **pitfall_pitfall-region-identity-for-sirius** — Sirius 提交時 region 要用 BTC，不是工作區名稱 Bar
 - **pitfall_senate-cli-four-silent-bugs** — 移植當天四隻不報錯的坑：漏搬守衛／兩側編譯不同判／submodule 盲區／porcelain 左trim
 - **pitfall_senate-commit-guard-misleading-exits** — senate cmd commit：出口指路只對三分之一問題有效／Template 沒信箱不能拿來實跑（含零污染探針法）
 - **pitfall_shell-quoting-three-times** — 同一天被 shell 引號咬三次（heredoc / 反引號 / PIPESTATUS）
