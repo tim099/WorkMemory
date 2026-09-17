@@ -9,6 +9,7 @@
 - **decision_contect-interaction-spec-20260831** — 互動判定與觸發：Tim 2026-08-31 全套拍板（區域 id／不分方向／0=off／收手四時機／滑動節奏／疊加）
 - **decision_ihgameasset-split-by-foldout-group** — IHGameAsset 由 17 個單清單介面改為 6 個分組介面（子設定物件）
 - **decision_impl-verdicts-a-b** — A/B 施工級判決濃縮（十題+QA修正+PopupGrouped三題）  ↔ hscene-editor-rework/knowhow_a-b-deliverables
+- **decision_interactcount-track-split-20260917** — 互動次數門檻按 contect✕clickType 分軌：軌鍵是篩選組合不是觀察值（Tim 2026-09-17 拍板）
 - **decision_plan-c-designer-b** — Plan C 企劃拍板六題 + C-1 結案（分色圖角色分類修正）  ↔ hscene-editor-rework/decision_plan-c-designer
 - **decision_plan-c-prework** — Plan C 開工前五題判決（雙軌並存/0-index/list[0]/CheckArea 源頭）  ↔ hscene-editor-rework/knowhow_a-b-deliverables, hscene-editor-rework/decision_spine-group-model
 - **decision_plan-d-prework-final** — Plan D 開工前拍板 — 全數定案（八題: Tim 五題 + 熊汁三題, 無 pending 可開工）  ↔ hscene-editor-rework/decision_plan-d-prework
@@ -28,6 +29,7 @@
 
 ## pitfall
 - **pitfall_compile-report-scope-per-assembly** — check_compile 報告只涵蓋本次重編的 assembly — warning 數跨 pass 不可比、in-progress 的 Errors:0 不是證據
+- **pitfall_interactcount-any-default-and-runtime-state** — 配對欄位的預設值不是 Any／執行期狀態靠的是沒掛 SerializeField／單維度時看不出來的軌鍵錯誤  ↔ hscene-editor-rework/decision_interactcount-track-split-20260917
 - **pitfall_known-traps** — 已知坑清單（WIP 所有權/Hakoniwa enum/輸入源頭 guard/文件漂移）
 - **pitfall_localize-label-grep-subset-20260911** — 改欄位名要對 Localize 字典 —— 用自編 grep pattern 撈會漏，要拿改動清單逐個列舉
 - **pitfall_npoi-editor-only-asmdef** — NPOI/Utage.ExcelParser 在 Editor-only asmdef ⇒ Assembly-CSharp 引用不到（#if UNITY_EDITOR 救不了）

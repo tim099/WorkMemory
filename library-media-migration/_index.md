@@ -2,8 +2,12 @@
 
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
+## decision
+- **decision_registry-three-states** — registry 的三種 state（migrated / kept_archive / born_new）與第一筆刻意不遷的拍板
+
 ## knowhow
 - **knowhow_python-tool-retirement-three-states** — 退場一支 python 工具要量三格；而退場本身有三種狀態（在只列檔名的索引裡同形）
+- **knowhow_registry-write-path** — registry 的唯一寫入端與三格邊界（不回填 / 不擋建檔 / 兩支讀取端）  ↔ senate-gui-bridge
 
 ## pitfall
 - **pitfall_slug-vs-title-and-position-vs-coverage** — 只比 slug 會漏 3/4 重複；position≠coverage；而「不猜成因」才是照出重複的那一步  ↔ compile-verification/pitfall_three-layer-false-green
