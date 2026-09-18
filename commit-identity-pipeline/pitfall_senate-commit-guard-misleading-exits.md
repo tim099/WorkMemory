@@ -21,10 +21,10 @@ related_docs: []
 |---|---|
 | 信箱是哨兵／形狀可疑（`unset@invalid`） | ✅ 有 —— 實測 `exit 3` → `exit 0`，trailer 照組 |
 | persona 檔不存在或讀不到 | ❌ 無 —— 照做輸出**逐字相同**，仍 `exit 3` |
-| `agent` 欄是空的（多半是**沒給 `region`**） | ❌ 無 —— 同上 |
+| `agent` 欄是空的（TASK-0248 前為沒給 `region`） | ❌ 無 —— 同上 |
 
 ⇒ 接手的人照指路加旗標、拿到一模一樣的畫面，下一個念頭多半是「我參數打錯了」或「工具壞了」。
-**真正的解**：persona 名字拼錯 → 查名字；agent 欄空 → **補 `--arg region=`**。
+**真正的解**：persona 名字拼錯 → 查名字；agent 欄空 → 確認 Persona & Agent 管理頁之綁定（TASK-0248 已移除 `--arg region`，改由 `bank_settings.json` 自動推導）。
 
 ## 二、Template 沒有信箱 ⇒ 用它做實跑會把別人的信箱寫進 history
 
