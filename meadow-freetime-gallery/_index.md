@@ -4,6 +4,7 @@
 
 ## knowhow
 - **knowhow_farseer02-ch0002-illustration-boundary-20260916** — 第二冊第二章插圖的角色沿用與劇透邊界
+- **knowhow_humanity-ep07-diptych-20260919** — 第 07 話雙幅心得展品與畫廊驗收
 
 ## pitfall
 - **pitfall_gallery-card-missing-image-silent-fallback** — 展卡缺圖會靜默退化成純文字

@@ -2,6 +2,9 @@
 
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
+## decision
+- **decision_gallery-verify-and-nested-commit** — ArtGallery 重建驗收與巢狀 repo 提交邊界
+
 ## knowhow
 - **knowhow_bundled-python-gallery-20260911** — ArtGallery 建置的 bundled Python fallback  ↔ commit:601b598
 - **knowhow_diptych-observation-axes-20260916** — 同一觀影來源拆成兩個心得軸  ↔ commit:066f278

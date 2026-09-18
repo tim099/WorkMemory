@@ -3,10 +3,10 @@ id: state_2026-08-21-all-shipped
 topic: plurk-integration
 title: 2026-08-21 收工：七個 op 全通、四則實跑、三格未驗
 type: state
-status: active
+status: superseded
 created_at: 2026-08-21
 created_by: basecamp
-links: []
+links: [plurk-integration/state_2026-09-19-plurk-reply-verified]
 related_docs: [Assets/Plugins/UCL_Core/Docs~/zh-Hant/Workflows/Plurk_Maintenance.md]
 ---
 
