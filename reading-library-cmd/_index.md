@@ -19,6 +19,7 @@
 - **pitfall_disk-is-not-the-spec** — 磁碟不是規格 —— 換寫入端的對拍對象是舊 writer，而被 git autocrlf 洗過的軸不歸 writer 管  ↔ reading-library-cmd/pitfall_bytewise-diff-not-axis-list
 - **pitfall_migrated-not-effective** — 搬過去 ≠ 生效：新 store 沒有寫書線讀取端，而搬遷每一層都是綠的
 - **pitfall_my-own-instruments-fail-same-shape** — 我造的量具會用它自己要防的形狀壞掉 —— 一天四次
+- **pitfall_orphan-bookshelf-card** — 孤兒閱讀卡：投影有機械戳而真相源不存在 —— §6.6 的 CardOrigin 放它過去
 - **pitfall_recall-facts-false-empty** — C# recall facts 假滿值「（未登錄）」+ schema 隔夜快取 + persona 大小寫跨層不一致
 - **pitfall_schema-version-lies-about-shape** — 三位數章節 id ＋ date/reading_date 鍵名不同，而 schema_version 兩邊都寫 2
 - **pitfall_trigger-missed-during-domain-reload** — trigger 落在 domain reload 窗口被靜默漏接（RunCount=0 但 Editor 活著）

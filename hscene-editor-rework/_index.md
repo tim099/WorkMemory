@@ -13,6 +13,7 @@
 - **decision_plan-c-designer-b** — Plan C 企劃拍板六題 + C-1 結案（分色圖角色分類修正）  ↔ hscene-editor-rework/decision_plan-c-designer
 - **decision_plan-c-prework** — Plan C 開工前五題判決（雙軌並存/0-index/list[0]/CheckArea 源頭）  ↔ hscene-editor-rework/knowhow_a-b-deliverables, hscene-editor-rework/decision_spine-group-model
 - **decision_plan-d-prework-final** — Plan D 開工前拍板 — 全數定案（八題: Tim 五題 + 熊汁三題, 無 pending 可開工）  ↔ hscene-editor-rework/decision_plan-d-prework
+- **decision_scene-flag-lock-state** — SceneFlag 鎖定狀態（SceneFlagState 四態）—— 閘門要接兩處、TurnOff 不受管、state 序列化且 GameInit 還原
 - **decision_spine-group-model** — Spine 分組模型與 SpineAnimRef 拍板（含 P3 pending）
 - **decision_subtrack-flag-layer-separated** — Subtrack 虛擬優先度層：Flag 層在系統之外(-∞)，不參與競爭只在沒人競爭時接管
 - **decision_voice-preset-wiring-20260911** — voicePreset 接上讀取端：三來源擇一、兩道獨立的骰、一把共用冷卻（Tim 09-11 六條拍板）

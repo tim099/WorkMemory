@@ -8,6 +8,7 @@
 ## pitfall
 - **pitfall_failsoft-warning-nobody-reads** — fail-soft 只寫進 log ＝ 沒有人看見 —— Chess 優先層因 JSON null 靜默死了很久（Str 漏第三格）
 - **pitfall_negative-claims-need-evidence** — 「完全未開始」是一個我從沒查過的斷言 —— 否定句也是宣稱，也要有讀數  ↔ state_handoff-to-gura-20260818-v2
+- **pitfall_session-written-before-voucher-grant** — step=start 先寫 session 再發券：發券失敗時 session 已落盤，而失敗回傳與「什麼都沒做」同形
 - **pitfall_voucher-wrapup-reads-expired-batch** — 收工晚於券到期 1 分鐘 ⇒ 查無被算成用完（2026-09-10 結案：14 則完全分離，我差 527ms）  ↔ freetime-cmd-flow/pitfall_voucher-expire-printed-as-used
 - **pitfall_voucher-expire-printed-as-used** — 收工那一行把「到期作廢」印成「全數用畢」—— 而且只有部分人中（2026-09-10 四人 2 對 2） ~~[superseded]~~  ↔ freetime-cmd-flow/pitfall_voucher-wrapup-reads-expired-batch
 
