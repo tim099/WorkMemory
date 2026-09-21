@@ -10,6 +10,7 @@
 - **decision_ihgameasset-split-by-foldout-group** — IHGameAsset 由 17 個單清單介面改為 6 個分組介面（子設定物件）
 - **decision_impl-verdicts-a-b** — A/B 施工級判決濃縮（十題+QA修正+PopupGrouped三題）  ↔ hscene-editor-rework/knowhow_a-b-deliverables
 - **decision_interactcount-track-split-20260917** — 互動次數門檻按 contect✕clickType 分軌：軌鍵是篩選組合不是觀察值（Tim 2026-09-17 拍板）
+- **decision_particle-level-and-flag-reset-defaults** — 粒子等級設定與 SceneFlag ResetGame：兩個功能的預設值各有一個不會叫的失效樣子
 - **decision_plan-c-designer-b** — Plan C 企劃拍板六題 + C-1 結案（分色圖角色分類修正）  ↔ hscene-editor-rework/decision_plan-c-designer
 - **decision_plan-c-prework** — Plan C 開工前五題判決（雙軌並存/0-index/list[0]/CheckArea 源頭）  ↔ hscene-editor-rework/knowhow_a-b-deliverables, hscene-editor-rework/decision_spine-group-model
 - **decision_plan-d-prework-final** — Plan D 開工前拍板 — 全數定案（八題: Tim 五題 + 熊汁三題, 無 pending 可開工）  ↔ hscene-editor-rework/decision_plan-d-prework
@@ -27,6 +28,7 @@
 - **knowhow_import-interaction-areas** — Import interaction areas — 分色圖依 <Group>_<N> 自動生成互動區域＋補 SceneFlag（含自動補 Flag 拿掉異源閘門的代價）
 - **knowhow_interaction-settings-moved-to-scene** — 互動的可變設定從 asset 層搬到 scene 層（2026-09-09 四刀）＋ 三格編譯器不會叫的接縫  ↔ hscene-editor-rework/pitfall_scoped-reflect-member-path-silent-fallback
 - **knowhow_interaction-to-satisfied-wiring** — 互動↔興奮值接線：這條線早就造好只是零呼叫端；SatisfiedService 是接線層
+- **knowhow_xlsx-importer-pattern** — HSceneAsset xlsx 匯入器三支（Sound/Texture/Character）的共用形狀：薄殼＋四道閘＋回填鍵與 Utage 路徑規則  ↔ pitfall_npoi-multisheet-roundtrip-lossy, pitfall_npoi-editor-only-asmdef, pitfall_utage-excelparser-write-forces-xls
 
 ## pitfall
 - **pitfall_compile-report-scope-per-assembly** — check_compile 報告只涵蓋本次重編的 assembly — warning 數跨 pass 不可比、in-progress 的 Errors:0 不是證據
@@ -34,6 +36,7 @@
 - **pitfall_known-traps** — 已知坑清單（WIP 所有權/Hakoniwa enum/輸入源頭 guard/文件漂移）
 - **pitfall_localize-label-grep-subset-20260911** — 改欄位名要對 Localize 字典 —— 用自編 grep pattern 撈會漏，要拿改動清單逐個列舉
 - **pitfall_npoi-editor-only-asmdef** — NPOI/Utage.ExcelParser 在 Editor-only asmdef ⇒ Assembly-CSharp 引用不到（#if UNITY_EDITOR 救不了）
+- **pitfall_npoi-multisheet-roundtrip-lossy** — NPOI 開既有多表活頁簿只改一張表再寫回：其他表列數不變而內容被改掉（而只比對列數的守衛會印假綠燈）
 - **pitfall_scoped-reflect-member-path-silent-fallback** — 清單搬進子物件會讓 ScopeMemberName 反射靜默失效 → 下拉退回全體 ID 且不報錯  ↔ hscene-editor-rework/knowhow_interaction-settings-moved-to-scene
 - **pitfall_scrub-entry-and-window-driving** — Scrub 的入場當場觸發＝憑空挑方向；m_SlideInterval<=0 的「每幀判定」＝門檻永遠過不了
 - **pitfall_slide-state-reset-20260831** — Slide 三症狀：狀態機的重置不能放在「只有在命中路徑上才會被呼叫」的函式裡

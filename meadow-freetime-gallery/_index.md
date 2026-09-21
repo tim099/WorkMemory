@@ -3,6 +3,7 @@
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
 ## knowhow
+- **knowhow_arakawa-ch0005-diptych-20260921** — 荒川第 05 話雙幅心得展品與分享入口  ↔ AgentCommands/ArtGallery/ReadingReflections/meadow_arakawa_ch0005_first_color.md, AgentCommands/ArtGallery/ReadingReflections/meadow_arakawa_ch0005_seen_as_person.md
 - **knowhow_farseer02-ch0002-illustration-boundary-20260916** — 第二冊第二章插圖的角色沿用與劇透邊界
 - **knowhow_humanity-ep07-diptych-20260919** — 第 07 話雙幅心得展品與畫廊驗收
 
