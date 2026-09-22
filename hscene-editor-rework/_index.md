@@ -23,6 +23,7 @@
 
 ## knowhow
 - **knowhow_a-b-deliverables** — A/B 交付物使用說明（SpineAnimRef/LockService/Trigger/FolderFilter 下一棒怎麼用）  ↔ hscene-editor-rework/decision_impl-verdicts-a-b
+- **knowhow_chapter-character-grid-merge-20260922** — Boot.chapter 的兩張 Character grid：鍵零重疊＝聯集載入，而舊那 24 筆是 0/24 死檔（清除需連 Start/Demo 一起，Tim 拍板）  ↔ knowhow_xlsx-importer-pattern
 - **knowhow_effect-preset-wiring-20260915** — 特效預設組實裝：規則掛章節、上限按預設組記帳，＋三格資產/底層落差與兩格未實測
 - **knowhow_existing-infra** — 既有基建直接用清單（條件/事件/階段停播/分組下拉）  ↔ ucl-editor-pages/knowhow_page-skeleton
 - **knowhow_import-interaction-areas** — Import interaction areas — 分色圖依 <Group>_<N> 自動生成互動區域＋補 SceneFlag（含自動補 Flag 拿掉異源閘門的代價）

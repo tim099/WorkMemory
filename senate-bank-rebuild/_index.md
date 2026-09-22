@@ -6,20 +6,24 @@
 - **decision_d27-coexist** — D27：新舊銀行長期並存，遷移前新銀行＝測試用（取消 C8）
 - **decision_d28-readonly-not-deleted** — D28：舊帳本不刪轉唯讀，而選它的那條路整段移除（退路留在資料上）
 - **decision_ledger-shape** — 帳本三格刻意與舊系統不同：不存 balance_after、只鎖 debit、冪等先於餘額  ↔ identity-account-unification
+- **decision_payout-funding-central-vs-mint** — 請款分央行撥款／增發，補薪走增發（Tim 2026-09-22）
 - **decision_single-writer-three-layers** — 單一寫入端由三層撐著，而 A2 單例鎖必須先於 A4 自動啟動  ↔ senate-backend
 - **decision_tavern-voucher-as-wallet** — 酒館券＝個人錢包：主動消費自動先扣券（白名單制，規則只住在 bank op=pay）
 - **decision_transfer-atomicity-in-write-end** — 轉帳的原子性放寫入端（op=transfer ＋ 回捲），⛔ 不在頁面上拼  ↔ senate-gui-bridge/pitfall_pinned-scope-and-probe-subject
 - **decision_why-rebuild-not-port** — 重做不搬：單子上的前置已過期、臨界區比寫的小、而唯一寫入端本來就存在  ↔ treasury-bank-hardening
 
 ## knowhow
+- **knowhow_account-resolver-single-impl** — 帳號解析收斂成一份：SCP_BankAccountResolver（TASK-0269）
 - **knowhow_transfer-live-verify-20260918** — op=transfer 真帳活體驗法（往返＋冪等＋雙尺回讀）與它沒涵蓋的頁面按鈕
 
 ## pitfall
 - **pitfall_bank-root-wrong-level-looks-like-no-account** — bank_root 給錯一層時「路徑給錯」與「帳號不存在」逐字同形，而錯誤訊息還指反方向（TASK-0260）
 - **pitfall_dedup-scans-frozen-ledger** — 權威切換會讓所有「掃舊帳本判重」的保護安靜失效 —— 而編譯器是唯一讓它們現形的東西
+- **pitfall_deleting-a-ledger-breaks-every-diff-tool** — 刪掉一本帳＝所有比對型工具把那段歷史判成漏發（三個下游同時靜默壞掉）
 - **pitfall_freetime-start-partial-20260918** — FreeTime step=start 券失敗時 session 已建立而整體回 failed；且失敗路徑不覆寫回傳檔
 - **pitfall_measurement-and-lifetime-traps** — 六隻：log 接在別人的生命週期上／自動啟動鎖住 build／量具掛住被讀成 bug／對照組名不副實
 - **pitfall_voucher-grant-consume-split** — 券的發放端與消費端分屬兩本帳 —— 每一趟都成功，壞的是兩趟之間
+- **pitfall_whose-window-is-this** — 下全稱結論前先問：這一次的窗是誰設的（一天五次，四次是我自己加的旗標）
 
 ## state
 - **state_bank-migration-day-2026-09-17** — 新銀行接手前要知道的五格（遷移日落地狀態）
