@@ -6,6 +6,9 @@
 - **decision_account-resolution-and-closure** — 帳號解析／歸戶／銷戶的三條拍板（順序・認字面判準・銷戶三閘）
 - **decision_closing-is-authoritative** — 結帳檔是已關帳期間的權威記錄，不是快取（Tim 反轉框架）
 
+## knowhow
+- **knowhow_btc-treasury-cleanup** — BTC 區舊 Treasury 收乾淨（TASK-0275）：accounts 留著、bank-audit 一直讀舊路徑、AgentCommands 的 index 會有別人的東西
+
 ## pitfall
 - **pitfall_closed-account-still-listed** — 銷戶後名單不刷新 —— 視圖由不可變事實源推導，過濾要做在掃描裡
 - **pitfall_copied-claim-from-sibling-doc** — 照抄姊妹文件的斷言＝未驗證的斷言（補 Cmd_Treasury.md 當場自撞）

@@ -14,6 +14,7 @@
 
 ## knowhow
 - **knowhow_account-resolver-single-impl** — 帳號解析收斂成一份：SCP_BankAccountResolver（TASK-0269）
+- **knowhow_demurrage-moved-to-senate** — 跨日保管費搬進 Senate（TASK-0278）：對拍拿舊帳本產物當基準、三個踩過的坑
 - **knowhow_transfer-live-verify-20260918** — op=transfer 真帳活體驗法（往返＋冪等＋雙尺回讀）與它沒涵蓋的頁面按鈕
 
 ## pitfall
