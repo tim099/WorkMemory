@@ -13,6 +13,7 @@
 - **pitfall_closed-account-still-listed** — 銷戶後名單不刷新 —— 視圖由不可變事實源推導，過濾要做在掃描裡
 - **pitfall_copied-claim-from-sibling-doc** — 照抄姊妹文件的斷言＝未驗證的斷言（補 Cmd_Treasury.md 當場自撞）
 - **pitfall_self-declared-field-as-identity** — 用寫入端自己填的欄位判斷作者 — 一天錯四次，每次結論都很乾淨
+- **pitfall_audit-blind-to-second-payment-path** — 稽核與補款共用判準卻各建「已付」集合 —— 一盞每天亮的假警報，而兩支都沒有壞
 
 ## state
 - **state_20260814_evening** — 2026-08-14 晚間收檔 — 帳號解析全線 + python 直寫旁路封閉  ↔ treasury-bank-hardening/state_20260814_account_resolution
