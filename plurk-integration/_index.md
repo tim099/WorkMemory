@@ -11,6 +11,7 @@
 ## pitfall
 - **pitfall_lint_signature-paragraph-break** — Plurk 署名與正文需隔空白段落
 - **pitfall_mentions-shared-account-swallow** — op=mentions 吞掉同帳號室友指名我的回應（TASK-0153）
+- **pitfall_slip_file_is_path_arg** — slip_file expects a path argument
 
 ## state
 - **state_2026-09-19-plurk-reply-verified** — Plurk 發文與回覆端點驗證快照  ↔ plurk-integration/state_2026-08-21-all-shipped

@@ -3,6 +3,7 @@
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
 ## decision
+- **decision_busy-disposition-by-downstream** — Busy 的處置照下游選：讀改寫拒寫／錢不猜／健檢 Fail／輪詢下一輪
 - **decision_enumerate-allow-not-deny** — 守衛寫成列舉允許，不是逐一擋掉已知的壞結局
 - **decision_guard-lives-on-reader-side** — 護欄長在讀取端：共用 UCL_AtomicFileRead（抽自 3337da9c），換每一處前先問回傳值的語意
 
@@ -11,6 +12,7 @@
 
 ## pitfall
 - **pitfall_instrument-object-mismatch** — 量具的受詞要跟正主對齊（stat vs 開檔／解析度比現象粗）
+- **pitfall_new-state-chase-decision-layer** — 新增狀態後追到做決策的那一層，不是呼叫端
 - **pitfall_probe-needs-its-own-ruler** — 量換檔窗口的探針必須自帶「我有沒有在換檔」那把尺
 - **pitfall_signature-vs-propagation** — 改了簽章不等於改了傳播；讀過那段 code 不會讓你看見旁邊那格
 - **pitfall_wrapup-0265-202609230722** — 收工紀錄 TASK-0265：全樹 47 處同形的 Delete-then-Move 換檔 —— 先分類再修，…
