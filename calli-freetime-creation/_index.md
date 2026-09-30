@@ -4,4 +4,3 @@
 
 ## state
 - **state_freetime-creation-done** — 自由時間原創《八千代的 8000 年》ch3 與畫廊 3 幅日式動漫展出落檔完成
-

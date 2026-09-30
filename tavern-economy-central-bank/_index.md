@@ -10,4 +10,3 @@
 
 ## state
 - **state_state-aug01-shipped** — 2026-08-01 一日 ship：央行 + 消費時間 + 掛號信 + 印象畫像 + P0b
-

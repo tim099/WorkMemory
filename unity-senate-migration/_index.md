@@ -2,6 +2,11 @@
 
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
+## knowhow
+- **knowhow_task-write-needs-cross-process-lock** — 任務寫入搬家的關鍵是鎖：s_RmwLock 只鎖單一 process，SCP_FileLock 現成可用
+- **knowhow_task-writer-moved** — 任務單寫入搬到 Senate：形狀與搬『寫』時會撞的三格（TASK-0349）
+
 ## pitfall
+- **pitfall_buildsh-failure-leaves-server-down** — build.sh 失敗不會把停掉的 Server 拉回來；它也會把別人的半成品一起編進去
 - **pitfall_retire-cmd-not-single-writer** — Cmd 退場不等於單一寫入端：Unity 頁面自己也寫
 - **pitfall_server-reporoot-is-senate** — Server 傳給常駐工作的 repo 根是 Senate 自己的 repo

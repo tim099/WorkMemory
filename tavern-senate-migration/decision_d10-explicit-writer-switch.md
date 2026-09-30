@@ -3,10 +3,10 @@ id: decision_d10-explicit-writer-switch
 topic: tavern-senate-migration
 title: D10：酒館寫入走顯式開關，⛔ 無自動降級（Tim 2026-09-20 拍）
 type: decision
-status: active
+status: superseded
 created_at: 2026-09-21
 created_by: summit
-links: [senate-backend/decision_server-identity-serverid]
+links: [senate-backend/decision_server-identity-serverid, tavern-senate-migration/decision_writer-is-server-only]
 related_docs: []
 ---
 

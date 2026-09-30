@@ -14,4 +14,3 @@
 
 ## pointer
 - **pointer_doc-map** — 文件地圖：設計/SOP/契約兩側/34 op 宣告/討論出處
-
