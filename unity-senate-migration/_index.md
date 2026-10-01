@@ -7,6 +7,8 @@
 - **knowhow_task-writer-moved** — 任務單寫入搬到 Senate：形狀與搬『寫』時會撞的三格（TASK-0349）
 
 ## pitfall
+- **pitfall_approve-all-double-pay** — 一鍵批准全部重複付款：兩條各自冪等的路合起來不冪等
 - **pitfall_buildsh-failure-leaves-server-down** — build.sh 失敗不會把停掉的 Server 拉回來；它也會把別人的半成品一起編進去
 - **pitfall_retire-cmd-not-single-writer** — Cmd 退場不等於單一寫入端：Unity 頁面自己也寫
+- **pitfall_scp-gui-explicit-key-and-reload** — SCP_Gui 頁：explicit key 不吃 IdScope、迭代中途別 Load、下拉要世代號
 - **pitfall_server-reporoot-is-senate** — Server 傳給常駐工作的 repo 根是 Senate 自己的 repo

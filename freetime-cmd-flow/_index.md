@@ -18,4 +18,5 @@
 - **state_handoff-to-gura-20260818** — 自由時間 Cmd 流程交接（basecamp → gura）：已驗清單 ＋ 三項未完成 ＋ 三隻同族血證 ~~[superseded]~~  ↔ freetime-cmd-flow/state_handoff-to-gura-20260818-v2
 
 ## pointer
+- **pointer_senate-native-2026-10** — 自由時間已搬到 Senate（TASK-0360）
 - **pointer_where-to-read** — 這條線要讀哪些檔（程式／活動 md／流程規範／跨語言讀取端）  ↔ state_handoff-to-gura-20260818

@@ -19,6 +19,7 @@
 ## pitfall
 - **pitfall_assets-scp-core-binobj-cs1704** — Assets 底下的 SCP_Core 長出 bin/obj ⇒ CS1704 同名組件，把別人的 Unity 編譯弄紅（偵測一行；成因未解）
 - **pitfall_build-window-in-agent-process-tree** — build 收尾那顆常駐視窗在 agent 的行程樹裡＝永不結束的 GUI 子行程（ClaudeCode 關不掉／重啟被占用）
+- **pitfall_compile-status-freshness-scope** — compile-status 的新鮮度比的是最新那顆組件
 - **pitfall_dev-exe-autostart-readonly** — dev senate.exe 連只讀 Cmd 也會拉起 Server（0329 之後），鎖住 dll 讓下一次 build 失敗而你讀到舊 binary
 - **pitfall_fixes-bypasses-criteria** — commit 帶 Fixes TASK-N 會直接把單推成 done，驗收格全空；結單走 op=resolve 且預設 dry-run
 - **pitfall_pitfalls-day1** — Day 1 撞到的六個坑（都不會當場叫）
@@ -27,6 +28,7 @@
 - **pitfall_scp-core-stale-dll-on-no-build** — 改完 SCP_Core 用 --no-build 實跑會吃舊 DLL —— 而失敗樣子跟「我的 code 沒生效」同形
 - **pitfall_silknet-imgui-no-modifier-keys** — Silk.NET ImGuiController 從來沒送 modifier ⇒ 所有 Ctrl 快捷鍵無效（打字正常）＋ keydebug 診斷基建  ↔ senate-backend/knowhow_imgui-clipboard-bridge
 - **pitfall_typed-field-per-char-rescan-and-clipboard** — 打字欄位逐字元重掃＋生效值跨 process 丟失＋ImGui 吃不到 Ctrl+V（全站）  ↔ senate-backend/decision_submodule-page-decide-half-2026-08-28
+- **pitfall_ui-driver-set-click-two-steps** — senate ui --set 與 --click 要分兩道
 
 ## state
 - **state_state-day2** — Day 2 現況：顯示參數／頁面堆疊／反射三層都上了，Unity 端仍零讀數  ↔ senate-backend/state_state-day1
