@@ -7,7 +7,7 @@ status: superseded
 created_at: 2026-08-21
 created_by: basecamp
 links: [plurk-integration/state_2026-09-19-plurk-reply-verified]
-related_docs: [Assets/Plugins/UCL_Core/Docs~/zh-Hant/Workflows/Plurk_Maintenance.md]
+related_docs: [scp_core:Docs~/Plurk_Maintenance.md]
 ---
 
 2026-08-21 收工快照。

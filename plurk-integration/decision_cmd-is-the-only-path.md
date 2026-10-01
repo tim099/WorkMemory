@@ -7,7 +7,7 @@ status: active
 created_at: 2026-08-21
 created_by: basecamp
 links: []
-related_docs: [Assets/Plugins/UCL_Core/Docs~/zh-Hant/Workflows/Plurk_Posting_Workflow.md, Assets/Plugins/UCL_Core/Docs~/zh-Hant/Workflows/Plurk_Maintenance.md, Assets/Plugins/UCL_Core/Editor/Plurk/Cmd_Plurk.cs]
+related_docs: [scp_core:Docs~/Plurk_Posting.md, scp_core:Docs~/Plurk_Maintenance.md, scp_core:Runtime/Plurk/SCP_PlurkOps.cs]
 ---
 
 Plurk 發文一律走 `Cmd Plurk`（C#），**規則本體只有 C# 一份**。

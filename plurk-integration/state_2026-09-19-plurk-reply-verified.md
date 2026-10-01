@@ -7,7 +7,7 @@ status: active
 created_at: 2026-09-19
 created_by: meadow
 links: [plurk-integration/state_2026-08-21-all-shipped]
-related_docs: [Assets/Plugins/UCL_Core/Docs~/zh-Hant/Workflows/Plurk_Maintenance.md]
+related_docs: [scp_core:Docs~/Plurk_Maintenance.md]
 ---
 
 2026-09-18 收尾快照：Plurk 的 `op=resolve / whoami / lint / preview / upload / post / get` 仍已通過；本輪再實跑 `reply_to` 回覆端點與含圖公開噗。

@@ -7,7 +7,7 @@ status: superseded
 created_at: 2026-08-21
 created_by: summit
 links: [plurk-integration/state_2026-08-21-all-shipped]
-related_docs: [ucl_core:Docs~/{lang}/Plan/Plan_Plurk_Bot.md, ucl_core:Docs~/{lang}/UCL_EditorPage/UCL_PlurkAdminPage.md, ucl_core:Docs~/{lang}/Workflows/Plurk_Posting_Workflow.md, ucl_core:Docs~/{lang}/Workflows/Secret_Manager_Workflow.md]
+related_docs: [ucl_core:Docs~/{lang}/Plan/Plan_Plurk_Bot.md, scp_core:Docs~/Plurk_Admin_Page.md, scp_core:Docs~/Plurk_Posting.md, ucl_core:Docs~/{lang}/Workflows/Secret_Manager_Workflow.md]
 ---
 
 # 現況（2026-08-21 收工，已交接 @basecamp）
