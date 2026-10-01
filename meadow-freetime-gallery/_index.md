@@ -11,6 +11,7 @@
 - **pitfall_gallery-card-missing-image-silent-fallback** — 展卡缺圖會靜默退化成純文字
 - **pitfall_gallery-concurrent-settle** — 並行產出落地不同步時先等檔案穩定
 - **pitfall_pitfall-reader-creates-branch** — 不要以 resume --reader 僅為查閱共享書籍進度
+- **pitfall_recall-before-completion-reread-bookmark** — recall-return-and-reread-bookmark  ↔ agent-cmd-return-files/knowhow_four-shapes-of-stale-readings
 
 ## state
 - **state_aug20-farseer-workflow-and-ch7** — 小說插圖流程已遷移；刺客正傳讀至第七章  ↔ meadow-freetime-gallery/state_aug03-gallery-and-commit-discussion
