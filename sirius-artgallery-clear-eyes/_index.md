@@ -12,6 +12,9 @@
 - **knowhow_scene-card-chapter-boundary-20260915** — 場景卡要同時鎖章節邊界與設定引用
 - **knowhow_workflow-and-diary-routing-20260909** — ArtGallery 每日心得的路徑與驗收邊界
 
+## pitfall
+- **pitfall_blender-active-scene-export** — Blender export scope
+
 ## state
 - **state_apocalypse-hotel-04-exhibition-complete** — Apocalypse Hotel 04 three-piece exhibition complete  ↔ sirius-artgallery-clear-eyes/state_ocean-temple-exhibition-complete
 - **state_exhibition-complete** — 三聯畫已展出並完成單層 commit ~~[superseded]~~  ↔ commit:c1785d3, sirius-artgallery-clear-eyes/state_ocean-temple-exhibition-complete

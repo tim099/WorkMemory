@@ -35,6 +35,7 @@
 - **pitfall_compile-report-scope-per-assembly** — check_compile 報告只涵蓋本次重編的 assembly — warning 數跨 pass 不可比、in-progress 的 Errors:0 不是證據
 - **pitfall_interactcount-any-default-and-runtime-state** — 配對欄位的預設值不是 Any／執行期狀態靠的是沒掛 SerializeField／單維度時看不出來的軌鍵錯誤  ↔ hscene-editor-rework/decision_interactcount-track-split-20260917
 - **pitfall_known-traps** — 已知坑清單（WIP 所有權/Hakoniwa enum/輸入源頭 guard/文件漂移）
+- **pitfall_layout-regroup-shared-classes** — HSceneAsset 排版重排：共用分組類別、反射 scope 路徑、TypeInspect 不證順序
 - **pitfall_localize-label-grep-subset-20260911** — 改欄位名要對 Localize 字典 —— 用自編 grep pattern 撈會漏，要拿改動清單逐個列舉
 - **pitfall_npoi-editor-only-asmdef** — NPOI/Utage.ExcelParser 在 Editor-only asmdef ⇒ Assembly-CSharp 引用不到（#if UNITY_EDITOR 救不了）
 - **pitfall_npoi-multisheet-roundtrip-lossy** — NPOI 開既有多表活頁簿只改一張表再寫回：其他表列數不變而內容被改掉（而只比對列數的守衛會印假綠燈）
