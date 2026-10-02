@@ -2,6 +2,9 @@
 
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
+## decision
+- **decision_senate-sync-exe** — senate-sync.exe：先同步再起 Server（同一二進位靠檔名分辨）＋同步頁掃描中排隊
+
 ## knowhow
 - **knowhow_task-write-needs-cross-process-lock** — 任務寫入搬家的關鍵是鎖：s_RmwLock 只鎖單一 process，SCP_FileLock 現成可用
 - **knowhow_task-writer-moved** — 任務單寫入搬到 Senate：形狀與搬『寫』時會撞的三格（TASK-0349）
