@@ -9,6 +9,7 @@
 - **pitfall_claim_without_reading** — 回傳檔的宣稱要有讀數撐著；探針要走正式路徑
 - **pitfall_cursor-seeded-from-yesterday-frame** — 游標從昨天的畫格播種：ring buffer 的跨度是畫格數不是時間
 - **pitfall_prepared-key-drift** — 準備檔鍵漂移（TASK-0076）：一個欄位裝兩種東西＋fallback 把錯的擦成成功
+- **pitfall_same-session-read-stale-render** — 同場訊息讀別人的渲染產物：寫入端退場後恆為 0
 - **pitfall_settlement-on-last-out** — 收尾掛在「最後一個收工的人」⇒ 靜默失效；而代價不對等的兩件事不該共用一個判準
 
 ## state

@@ -10,5 +10,6 @@
 
 ## pitfall
 - **pitfall_deferred-outbox-and-glossary-prefix** — 延後發文匣先認領再送／沒有 post_seq／詞典顯示前綴要逐字 docs/Glossary
+- **pitfall_mention-regex-ascii-only** — Senate @ 通知只認英數名字；酒保 IsMention 不剝程式碼區段
 - **pitfall_tavern-queue-0372-traps** — 0372 排隊：淨室走不到 not_running／只停 Server 不夠／mv 還原不重編／新態別落進預設分支
 - **pitfall_write-seam-is-appendmessage** — 切換點是 AppendMessage 那一個函式 —— 外部呼叫端 21 處，只有 3 處在 Cmd_Tavern

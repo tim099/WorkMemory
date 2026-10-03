@@ -13,6 +13,7 @@
 - **pitfall_errors-only-eats-stale-warning** — check_compile --errors-only 會吃掉 STALE 警告（最常用的模式最會騙人）
 - **pitfall_fresh-but-empty-false-green** — 新鮮且非 STALE 的報告仍可能假綠（0 messages ≠ 沒有錯，可能是沒有編）  ↔ compile-verification/pitfall_errors-only-eats-stale-warning, canvas-3d-stamping/pitfall_silent-and-selfconsistent
 - **pitfall_three-layer-false-green** — 三層各有一隻假綠燈：時間戳對而數字假 / 快照早於改動 / 停跳不等於編譯  ↔ unitask-editor-async/knowhow_unitask-patterns, library-media-migration/pitfall_slug-vs-title-and-position-vs-coverage
+- **pitfall_unity-cli-recompile-and-status** — Unity CLI：頂層 recompile 失焦不編、status 量不到主執行緒卡住
 
 ## state
 - **state_2026-08-05-eod** — 全案完工並實測；LY bump 已清，今日無遺留  ↔ compile-verification/state_2026-08-05
