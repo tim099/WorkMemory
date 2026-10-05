@@ -5,6 +5,7 @@
 ## decision
 - **decision_chunk-size-and-heading** — 切塊：帶標題路徑、900 字（用題庫量出來的）
 - **decision_default-hybrid-decay-off** — 預設排序 hybrid、衰減預設關（Tim 拍板）
+- **decision_ollama-outside-install** — ollama 與模型不進安裝系統，AI 模型頁自己管
 
 ## pitfall
 - **pitfall_eval-bank-bound-to-project** — 評估題庫綁專案：預期檔不存在要跳過不算答錯
