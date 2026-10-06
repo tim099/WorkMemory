@@ -7,3 +7,4 @@
 
 ## pitfall
 - **pitfall_four-measured-traps** — 四個實測踩坑：彈窗貼錯標記／PageKey 不繼承／chcp 無效／永遠綠的燈
+- **pitfall_gui-page-per-frame-io-and-cli-driving** — 頁面每幀碰磁碟會卡死、CLI 驅動一次一個動作
