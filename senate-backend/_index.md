@@ -31,6 +31,7 @@
 - **pitfall_registry-sanitizetag-eats-dot** — registry 的 SanitizeTag 把點改成底線 ⇒ 活著的 Server 被報成 not_running
 - **pitfall_scp-core-stale-dll-on-no-build** — 改完 SCP_Core 用 --no-build 實跑會吃舊 DLL —— 而失敗樣子跟「我的 code 沒生效」同形
 - **pitfall_silknet-imgui-no-modifier-keys** — Silk.NET ImGuiController 從來沒送 modifier ⇒ 所有 Ctrl 快捷鍵無效（打字正常）＋ keydebug 診斷基建  ↔ senate-backend/knowhow_imgui-clipboard-bridge
+- **pitfall_submodule-save-applies-draft-20261007** — 儲存應驗證並納入當前路徑草稿
 - **pitfall_typed-field-per-char-rescan-and-clipboard** — 打字欄位逐字元重掃＋生效值跨 process 丟失＋ImGui 吃不到 Ctrl+V（全站）  ↔ senate-backend/decision_submodule-page-decide-half-2026-08-28
 - **pitfall_ui-driver-set-click-two-steps** — senate ui --set 與 --click 要分兩道
 - **pitfall_verify-the-right-copy** — 驗到的不是改的那份：sed 換掉 CRLF、PATH 上是出廠版 senate

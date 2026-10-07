@@ -7,6 +7,7 @@
 - **decision_d28-readonly-not-deleted** — D28：舊帳本不刪轉唯讀，而選它的那條路整段移除（退路留在資料上）
 - **decision_ledger-shape** — 帳本三格刻意與舊系統不同：不存 balance_after、只鎖 debit、冪等先於餘額  ↔ identity-account-unification
 - **decision_payout-funding-central-vs-mint** — 請款分央行撥款／增發，補薪走增發（Tim 2026-09-22）
+- **decision_remove-payroll-gap-audit-20261007** — 移除領薪差集但保留銀行結算對帳
 - **decision_single-writer-three-layers** — 單一寫入端由三層撐著，而 A2 單例鎖必須先於 A4 自動啟動  ↔ senate-backend
 - **decision_tavern-voucher-as-wallet** — 酒館券＝個人錢包：主動消費自動先扣券（白名單制，規則只住在 bank op=pay）
 - **decision_transfer-atomicity-in-write-end** — 轉帳的原子性放寫入端（op=transfer ＋ 回捲），⛔ 不在頁面上拼  ↔ senate-gui-bridge/pitfall_pinned-scope-and-probe-subject

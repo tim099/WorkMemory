@@ -4,6 +4,7 @@
 
 ## decision
 - **decision_senate-sync-exe** — senate-sync.exe：先同步再起 Server（同一二進位靠檔名分辨）＋同步頁掃描中排隊
+- **decision_senate-valhalla-standalone-unified-paths** — Senate＋Valhalla 單獨運作、路徑一律走統一入口（10-07）
 - **decision_unity-keeps-only-project-features** — Unity 只留 Unity 專案功能；關場在 Senate 就地做
 
 ## knowhow
