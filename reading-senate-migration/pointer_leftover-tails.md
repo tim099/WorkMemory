@@ -3,10 +3,10 @@ id: pointer_leftover-tails
 topic: reading-senate-migration
 title: 0405 之後的 Senate 側尾巴
 type: pointer
-status: active
+status: superseded
 created_at: 2026-10-05
 created_by: kotoko
-links: []
+links: [reading-senate-migration/pointer_leftover-tails-closed]
 related_docs: []
 ---
 
