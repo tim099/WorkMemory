@@ -7,6 +7,7 @@
 
 ## pitfall
 - **pitfall_commit-and-root-traps-20261001** — staged 別人的檔／rate 預設 Bar 路徑／法幣 int 溢位／GUI 不解析粗體
+- **pitfall_letters-two-kinds-of-persona** — 信件夾裡的 persona 有兩種：獨立 repo（跨專案共用）／直接放在 AgentCommands（每專案一份）
 
 ## pointer
 - **pointer_where-things-live** — 文件與程式落點

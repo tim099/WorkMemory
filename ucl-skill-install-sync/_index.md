@@ -11,4 +11,5 @@
 - **state_state-2026-07-29** — 現況：真因已釐清；.agents/skills/ucl-* 是否比照 ignore 待 Tim 拍板 ~~[superseded]~~  ↔ commit-identity-pipeline/decision_identity-and-payout
 
 ## pointer
+- **pointer_ly-installs-still-ucl-prefixed** — LY 的 skills 安裝副本仍是舊 ucl-*、沒有 scp-*（未量使用面）
 - **pointer_three-mirrors-map** — 三份 skill 實體的角色與 git 待遇（改前先認清在改哪一份）
