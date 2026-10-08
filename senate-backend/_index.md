@@ -15,8 +15,10 @@
 - **knowhow_discord-mention-rewrite** — Discord 轉發 @ 通知：常駐送出才換 <@id>，手動補發不通知
 - **knowhow_ff-senate-scpcore-locally** — Bar 的 SCP_Core 帶著別人未推的 commit 時，用本機 ff 把自己的 commit 送進 Senate 那份，不 push
 - **knowhow_first-background-job-and-host-redraw** — 本 repo 第一個背景工作：執行緒契約六條＋RedrawsContinuously＋兩段式確認要住 session  ↔ senate-backend/decision_submodule-page-decide-half-2026-08-28
+- **knowhow_globe-export-worldmap-v2** — 球面輸出：世界地圖投影與 export=1；順手撞到的工具行為  ↔ senate-backend/knowhow_globe-export-worldmap
 - **knowhow_imgui-clipboard-bridge** — ImGui 剪貼簿 callback 接法：八條判準＋三層驗收（第三層刻意留白）  ↔ senate-backend/pitfall_typed-field-per-char-rescan-and-clipboard
 - **knowhow_ui-driver** — UI 有四種驅動方式，任兩種互為證人
+- **knowhow_globe-export-worldmap** — 球面輸出：世界地圖投影與 export=1；順手撞到的工具行為 ~~[superseded]~~  ↔ senate-backend/knowhow_globe-export-worldmap-v2
 
 ## pitfall
 - **pitfall_assets-scp-core-binobj-cs1704** — Assets 底下的 SCP_Core 長出 bin/obj ⇒ CS1704 同名組件，把別人的 Unity 編譯弄紅（偵測一行；成因未解）

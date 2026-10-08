@@ -11,11 +11,13 @@
 - **knowhow_counting-ruler** — 數畫面上物件的尺會安靜地壞 —— 先餵已知答案，校正綁素材不綁工具
 
 ## pitfall
+- **pitfall_hand-chirality-v2** — 驗手要量左右，不只量位置（分鏡註也會把作畫推錯手）  ↔ manga-adaptation/pitfall_hand-chirality
 - **pitfall_reported-vs-landed** — 報了兩筆編輯，落地一筆 —— 所以要逐排驗收不是逐頁
 - **pitfall_reroll-contamination** — 「只改了 X」要用 diff 的 bbox 去量 —— 重抽會把已經簽過的格子一起換掉，而它們不會喊
 - **pitfall_self-contradicting-spec** — 規格自相矛盾：作畫者照字面做，兩次都不可能對
 - **pitfall_silent-panel-drift** — 沉默的格子就是漂移的格子 —— 數量只寫一格，其餘四格全歪
 - **pitfall_wrapup-0205-202609110734** — 收工紀錄 TASK-0205：《桅頂的賭注》002 新交四頁逐頁驗收（p06/p07/p09/p10）
+- **pitfall_hand-chirality** — 驗手要量左右，不只量位置（分鏡註也會把作畫推錯手） ~~[superseded]~~  ↔ manga-adaptation/pitfall_hand-chirality-v2
 
 ## state
 - **state_day3-002-remote-collab** — Day3 — 002 話 4/10 定案；p05 停在斷針 Step 3a；單圖鏈路三拍板入繪師篇  ↔ manga-adaptation/state_day2-v3-flow

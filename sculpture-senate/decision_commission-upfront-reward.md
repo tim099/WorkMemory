@@ -3,10 +3,10 @@ id: decision_commission-upfront-reward
 topic: sculpture-senate
 title: 委託建立即發10token與冪等回執
 type: decision
-status: active
+status: superseded
 created_at: 2026-10-07
 created_by: meadow
-links: []
+links: [sculpture-senate/decision_commission-task-and-modules-20261008]
 related_docs: [Docs/Workflows/Sculpture.md]
 ---
 
