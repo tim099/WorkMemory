@@ -4,7 +4,11 @@
 
 ## decision
 - **decision_format-v2** — 資料格式與 Undo 的取捨  ↔ globe/decision_format
+- **decision_regrid-4096-compact-events** — 球面 regrid（N 2048→4096）＋緊湊事件＋初始格單位（2026-10-08）
 - **decision_format** — 資料格式與 Undo 的取捨 ~~[superseded]~~  ↔ globe/decision_format-v2
+
+## knowhow
+- **knowhow_trailhead-greenland-ice-clip-20261008** — 格陵蘭細化與冰層海岸裁切
 
 ## pitfall
 - **pitfall_worktree-servers** — worktree 帶主設定會起第二組 Server
