@@ -2,6 +2,9 @@
 
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
+## knowhow
+- **knowhow_manual-goodnight-letters-migration** — 舊收尾信手動複製遷移：只認 frontmatter cmd_goodnight
+
 ## pitfall
 - **pitfall_letters-repo-absorb-and-gitignore-guard** — letters 原地 init 後掛 submodule 要 absorb；舊 .gitignore 要先驗私密格
 
