@@ -4,6 +4,10 @@
 
 ## decision
 - **decision_event-log-outside-voucher-book** — 成本記在券簿之外的事件簿＋一次性開帳快照
+- **decision_voucher-amount-long** — 券簿數量改 long（只為貨幣券）
+
+## knowhow
+- **knowhow_rate-history-import** — 歷史匯率跨區匯入 rate op=import 的規則
 
 ## pitfall
 - **pitfall_commit-and-root-traps-20261001** — staged 別人的檔／rate 預設 Bar 路徑／法幣 int 溢位／GUI 不解析粗體

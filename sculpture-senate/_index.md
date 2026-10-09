@@ -8,6 +8,7 @@
 - **decision_commission-upfront-reward** — 委託建立即發10token與冪等回執 ~~[superseded]~~  ↔ sculpture-senate/decision_commission-task-and-modules-20261008
 
 ## knowhow
+- **knowhow_history-index-cache** — 雕刻歷史索引快取（Undo/Redo 與 Credit 只解析新增事件）
 - **knowhow_personal-works-payment-and-copy-v2** — 可調尺寸作品的付款恢復與匯入副本  ↔ sculpture-senate/knowhow_personal-works-payment-and-copy
 - **knowhow_personal-works-payment-and-copy** — 個人作品的付款恢復與匯入副本 ~~[superseded]~~  ↔ sculpture-senate/knowhow_personal-works-payment-and-copy-v2
 
@@ -16,3 +17,6 @@
 
 ## state
 - **state_meadow-room-20261008** — 星夜私室續作與渲染指路
+
+## pointer
+- **pointer_meadow-cozy-cabin-20261009** — Meadow 空心小木屋尺度與交付

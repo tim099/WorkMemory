@@ -11,7 +11,11 @@
 - **knowhow_trailhead-greenland-ice-clip-20261008** — 格陵蘭細化與冰層海岸裁切
 
 ## pitfall
+- **pitfall_continent-fill-obstacles** — 大陸級只塗空格：障礙只扣別人的格子、逐格對帳
 - **pitfall_worktree-servers** — worktree 帶主設定會起第二組 Server
 
 ## state
 - **state_meadow-islands-20261008** — 科西嘉撒丁完工與待做地圖比較
+
+## pointer
+- **pointer_meadow-antarctica-20261009** — Meadow 南極洲與海島細化完成快照
