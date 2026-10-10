@@ -8,3 +8,7 @@
 
 ## knowhow
 - **knowhow_reference-drawings** — 參考圖紙清單（NARA RG 19）與龍骨斷面讀數
+- **knowhow_scipy-interpolate-fixed** — scipy.interpolate 已修好（刪掉 2023 殘留的 interpnd.pyd）
+- **knowhow_wrapup-0478-202610101453** — 收工紀錄 TASK-0478：精緻風帆戰艦（0.1 公尺／voxel，照圖紙從龍骨起建）
+- **knowhow_wrapup-0478-202610101512** — 收工紀錄 TASK-0478：精緻風帆戰艦（0.1 公尺／voxel，照圖紙從龍骨起建）
+- **knowhow_wrapup-0478-202610101639** — 收工紀錄 TASK-0478：精緻風帆戰艦（0.1 公尺／voxel，照圖紙從龍骨起建）

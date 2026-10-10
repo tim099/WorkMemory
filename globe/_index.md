@@ -12,6 +12,7 @@
 
 ## pitfall
 - **pitfall_continent-fill-obstacles** — 大陸級只塗空格：障礙只扣別人的格子、逐格對帳
+- **pitfall_natural-earth-refine-pitfalls** — 地球儀換成真實資料：大圓輪廓、共用邊針孔、換日線與編碼
 - **pitfall_worktree-servers** — worktree 帶主設定會起第二組 Server
 
 ## state
