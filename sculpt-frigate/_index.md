@@ -15,4 +15,5 @@
 - **knowhow_wrapup-0478-202610101639** — 收工紀錄 TASK-0478：精緻風帆戰艦（0.1 公尺／voxel，照圖紙從龍骨起建）
 
 ## pitfall
-- **pitfall_stage6-precarve-verifier** — 階段六雕之前 verifier 抓到的坑（讀數照抄計畫、HullV2 nan、中線縫）
+- **pitfall_stage6-carve-lessons** — 階段六雕之前修與雕刻的坑（跨站 nan、接縫台階、雙片一塊產、先刻再貼）  ↔ sculpt-frigate/pitfall_stage6-precarve-verifier
+- **pitfall_stage6-precarve-verifier** — 階段六雕之前 verifier 抓到的坑（讀數照抄計畫、HullV2 nan、中線縫） ~~[superseded]~~  ↔ sculpt-frigate/pitfall_stage6-carve-lessons

@@ -3,10 +3,10 @@ id: pitfall_stage6-precarve-verifier
 topic: sculpt-frigate
 title: 階段六雕之前 verifier 抓到的坑（讀數照抄計畫、HullV2 nan、中線縫）
 type: pitfall
-status: active
+status: superseded
 created_at: 2026-10-11
 created_by: unknown
-links: []
+links: [sculpt-frigate/pitfall_stage6-carve-lessons]
 related_docs: []
 ---
 
