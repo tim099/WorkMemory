@@ -17,6 +17,7 @@
 
 ## state
 - **state_meadow-islands-20261008** — 科西嘉撒丁完工與待做地圖比較
+- **state_unity-compile-reading-2026-10-11** — regrid 那批 SCP_Core 改動：Unity 端已有編譯讀數（Bar）  ↔ globe/decision_regrid-4096-compact-events
 
 ## pointer
 - **pointer_meadow-antarctica-20261009** — Meadow 南極洲與海島細化完成快照
