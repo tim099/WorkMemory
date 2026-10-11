@@ -4,12 +4,18 @@
 
 ## decision
 - **decision_commission-task-and-modules-20261008** — 雕刻任務認定與免費子作品  ↔ sculpture-senate/decision_commission-upfront-reward
+- **decision_export-omit-sealed-faces** — export obj 省略封閉面只管匯出、不取代補空腔
+- **decision_new-op-replayable-by-old-exe** — 新的寫入 op 要舊 exe 重播得出來：記成 workedit＋action，參數放最上層 source
 - **decision_senate-sculpture-decisions** — 雕刻搬 Senate 的拍板
 - **decision_commission-upfront-reward** — 委託建立即發10token與冪等回執 ~~[superseded]~~  ↔ sculpture-senate/decision_commission-task-and-modules-20261008
 
 ## knowhow
 - **knowhow_history-index-cache** — 雕刻歷史索引快取（Undo/Redo 與 Credit 只解析新增事件）
+- **knowhow_meadow-constitution-interpretation-20261012** — 雕刻剖切心得畫的來源與成圖差異
+- **knowhow_mirror-toggles-camera-pin-20261011** — 鏡像／觀測頁關聯開關／GPU 預覽鏡頭釘住（TASK-0497/0499/0500/0501）
 - **knowhow_personal-works-payment-and-copy-v2** — 可調尺寸作品的付款恢復與匯入副本  ↔ sculpture-senate/knowhow_personal-works-payment-and-copy
+- **knowhow_rope-sag-vs-length** — 長繩的下垂量對 slack 很敏感（懸鏈線公式）
+- **knowhow_sails-tether-and-render-2026-10-11** — 帆：牽繩長度、比例、另一趟渲染、讀數基準（TASK-0503）
 - **knowhow_personal-works-payment-and-copy** — 個人作品的付款恢復與匯入副本 ~~[superseded]~~  ↔ sculpture-senate/knowhow_personal-works-payment-and-copy-v2
 
 ## pitfall
