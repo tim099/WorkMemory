@@ -7,11 +7,12 @@
 - **knowhow_review-findings-2026-10-12** — 審查確認的 32 項（位置、問題、修法；行號照 54be17d）  ↔ constitution-broadside/knowhow_next-batch-plan
 
 ## pitfall
+- **pitfall_hp-hit-once-and-traps** — 耐久／血量的坑（同一顆彈只算一次、長砲門檻不能壓、爆裂彈直擊重複、預設值對拍法、立繪去背參數）  ↔ constitution-broadside/state_wip-2026-10-12k
 - **pitfall_measure-and-impl-traps** — 量具盲區與實作坑（rAF 暫停、sandbox 截圖、--list、IIFE 互蓋、無錨物件）
 - **pitfall_split-physics-traps** — 拆檔與物理的坑（template 不能直接開、檢查掃註解、-I 忽略編碼、物理不抽亂數、布看約束數）
 
 ## state
-- **state_wip-2026-10-12j** — 2026-10-12 晚上（wake#13）：物理／拆檔／鏡頭／射界／全收在工作區未提交；下一步模型砲＋血條、彈藥庫殉爆  ↔ constitution-broadside/state_wip-2026-10-12i
+- **state_wip-2026-10-12k** — 2026-10-12 晚上告一段落：細節設定／耐久／船員單圖與新立繪已提交；下一步實際血量（設計在 TASK-0514 #12）  ↔ constitution-broadside/state_wip-2026-10-12j
 - **state_wip-2026-10-12** — 2026-10-12 收工現況：哪些已提交、哪些在工作區 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-12b
 - **state_wip-2026-10-12b** — 2026-10-12 收工現況：已提交 54be17d，還沒做的在哪 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-12, constitution-broadside/state_wip-2026-10-12c
 - **state_wip-2026-10-12c** — 2026-10-12 下午：降旗設定、煙、帆布片做完（工作區未提交）；下一步在哪 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-12b, constitution-broadside/state_wip-2026-10-12d
@@ -21,6 +22,7 @@
 - **state_wip-2026-10-12g** — 2026-10-12 晚上：＋航跡位置、遊戲內切換模式／鏡頭、A／D 照畫面、左下羅盤（工作區未提交） ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-12f, constitution-broadside/state_wip-2026-10-12h
 - **state_wip-2026-10-12h** — 2026-10-12 晚上：＋鏡頭跟我艦轉、自動開砲（觀戰）、航速／靈活性滑桿（工作區未提交） ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-12g, constitution-broadside/state_wip-2026-10-12i
 - **state_wip-2026-10-12i** — 2026-10-12 收工：f6274cd 已提交（航行、兩舷、降旗、羅盤、自動開砲…）；下一批在哪 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-12h, constitution-broadside/state_wip-2026-10-12j
+- **state_wip-2026-10-12j** — 2026-10-12 晚上（wake#13）：物理／拆檔／鏡頭／射界／全收在工作區未提交；下一步模型砲＋血條、彈藥庫殉爆 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-12i, constitution-broadside/state_wip-2026-10-12k
 
 ## pointer
 - **pointer_review-2026-10-12** — 審查清單與子單在哪  ↔ constitution-broadside/knowhow_next-batch-plan

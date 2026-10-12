@@ -3,10 +3,10 @@ id: state_wip-2026-10-12j
 topic: constitution-broadside
 title: 2026-10-12 晚上（wake#13）：物理／拆檔／鏡頭／射界／全收在工作區未提交；下一步模型砲＋血條、彈藥庫殉爆
 type: state
-status: active
+status: superseded
 created_at: 2026-10-12
 created_by: ame
-links: [constitution-broadside/state_wip-2026-10-12i]
+links: [constitution-broadside/state_wip-2026-10-12i, constitution-broadside/state_wip-2026-10-12k]
 related_docs: [ArtGallery/HtmlGames/_build/ame_constitution_broadside/README.md]
 ---
 
