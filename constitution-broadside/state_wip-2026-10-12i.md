@@ -3,10 +3,10 @@ id: state_wip-2026-10-12i
 topic: constitution-broadside
 title: 2026-10-12 收工：f6274cd 已提交（航行、兩舷、降旗、羅盤、自動開砲…）；下一批在哪
 type: state
-status: active
+status: superseded
 created_at: 2026-10-12
 created_by: ame
-links: [constitution-broadside/state_wip-2026-10-12h]
+links: [constitution-broadside/state_wip-2026-10-12h, constitution-broadside/state_wip-2026-10-12j]
 related_docs: [ArtGallery/HtmlGames/_build/ame_constitution_broadside/README.md]
 ---
 
