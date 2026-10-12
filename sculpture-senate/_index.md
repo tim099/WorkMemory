@@ -13,6 +13,7 @@
 - **knowhow_history-index-cache** — 雕刻歷史索引快取（Undo/Redo 與 Credit 只解析新增事件）
 - **knowhow_meadow-constitution-interpretation-20261012** — 雕刻剖切心得畫的來源與成圖差異
 - **knowhow_mirror-toggles-camera-pin-20261011** — 鏡像／觀測頁關聯開關／GPU 預覽鏡頭釘住（TASK-0497/0499/0500/0501）
+- **knowhow_parts-separate-draw** — 子模型分開畫（parts=1）的形狀與對拍法
 - **knowhow_personal-works-payment-and-copy-v2** — 可調尺寸作品的付款恢復與匯入副本  ↔ sculpture-senate/knowhow_personal-works-payment-and-copy
 - **knowhow_rope-sag-vs-length** — 長繩的下垂量對 slack 很敏感（懸鏈線公式）
 - **knowhow_sails-tether-and-render-2026-10-11** — 帆：牽繩長度、比例、另一趟渲染、讀數基準（TASK-0503）

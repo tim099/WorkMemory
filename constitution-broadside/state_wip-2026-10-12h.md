@@ -3,10 +3,10 @@ id: state_wip-2026-10-12h
 topic: constitution-broadside
 title: 2026-10-12 晚上：＋鏡頭跟我艦轉、自動開砲（觀戰）、航速／靈活性滑桿（工作區未提交）
 type: state
-status: active
+status: superseded
 created_at: 2026-10-12
 created_by: ame
-links: [constitution-broadside/state_wip-2026-10-12g]
+links: [constitution-broadside/state_wip-2026-10-12g, constitution-broadside/state_wip-2026-10-12i]
 related_docs: [ArtGallery/HtmlGames/_build/ame_constitution_broadside/README.md]
 ---
 

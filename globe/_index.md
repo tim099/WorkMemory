@@ -8,6 +8,7 @@
 - **decision_format** — 資料格式與 Undo 的取捨 ~~[superseded]~~  ↔ globe/decision_format-v2
 
 ## knowhow
+- **knowhow_overwrote-three-counts** — 繪製回報三個數與逐格擦回
 - **knowhow_trailhead-greenland-ice-clip-20261008** — 格陵蘭細化與冰層海岸裁切
 
 ## pitfall

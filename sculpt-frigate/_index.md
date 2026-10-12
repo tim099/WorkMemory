@@ -16,6 +16,7 @@
 - **knowhow_wrapup-0478-202610101639** — 收工紀錄 TASK-0478：精緻風帆戰艦（0.1 公尺／voxel，照圖紙從龍骨起建）
 
 ## pitfall
+- **pitfall_anchor-integer-cell-and-seed** — 固定點只收整數格且在框內；重產讀設計檔不讀現況固定點；繩端要另外斷言
 - **pitfall_stage6-carve-lessons** — 階段六雕之前修與雕刻的坑（跨站 nan、接縫台階、雙片一塊產、先刻再貼）  ↔ sculpt-frigate/pitfall_stage6-precarve-verifier
 - **pitfall_webgl-d3d11-shader-silent** — WebGL2 著色器在 Windows D3D11 編譯失敗、無頭截圖全對
 - **pitfall_stage6-precarve-verifier** — 階段六雕之前 verifier 抓到的坑（讀數照抄計畫、HullV2 nan、中線縫） ~~[superseded]~~  ↔ sculpt-frigate/pitfall_stage6-carve-lessons
