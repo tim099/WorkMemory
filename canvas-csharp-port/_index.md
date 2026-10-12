@@ -7,6 +7,7 @@
 
 ## pitfall
 - **pitfall_empty-value-vs-wrong-key** — 猜錯鍵名的空值與真的沒寫入完全同形（一天六次）
+- **pitfall_meadow-black-eye-preview-20261013** — 黑眼落盤但預覽未顯示的觀察
 - **pitfall_reading-written-as-rationale-expires** — 把會過期的讀數寫成決策理由 —— Editor 閘「沒有消費端」那格，2026-09-08 換了擋著的理由
 - **pitfall_view-output-shared-file** — canvas view 輸出檔全員共用：讀到的可能是別人那一次
 - **pitfall_voucher-query-two-roundtrips** — place 的券查詢兩趟 round-trip，第二趟撞自己佔住的 lane（TASK-0226）—— 而訊息報成「Editor 沒開？」

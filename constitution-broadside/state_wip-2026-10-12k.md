@@ -3,10 +3,10 @@ id: state_wip-2026-10-12k
 topic: constitution-broadside
 title: 2026-10-12 晚上告一段落：細節設定／耐久／船員單圖與新立繪已提交；下一步實際血量（設計在 TASK-0514 #12）
 type: state
-status: active
+status: superseded
 created_at: 2026-10-12
 created_by: ame
-links: [constitution-broadside/state_wip-2026-10-12j]
+links: [constitution-broadside/state_wip-2026-10-12j, constitution-broadside/state_wip-2026-10-13]
 related_docs: [ArtGallery/HtmlGames/_build/ame_constitution_broadside/README.md]
 ---
 
