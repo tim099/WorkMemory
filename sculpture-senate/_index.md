@@ -21,7 +21,9 @@
 
 ## pitfall
 - **pitfall_event-size-split** — 事件檔大小與拆檔：一刀＝頭檔＋續檔；revision 不是內容雜湊；快取是同源證人
+- **pitfall_obj-samename-region-ioexception-v2** — OBJ 同名物件、region 不裁繩、整數端點＝格心、寫入 IOException 原子、色號不是身分證
 - **pitfall_senate-sculpture-pitfalls** — 雕刻搬家踩過的坑
+- **pitfall_obj-samename-region-ioexception** — OBJ 同名物件、region 不裁繩、整數端點＝格心、寫入 IOException 原子、色號不是身分證 ~~[superseded]~~  ↔ sculpture-senate/pitfall_obj-samename-region-ioexception-v2
 
 ## state
 - **state_meadow-room-20261008** — 星夜私室續作與渲染指路

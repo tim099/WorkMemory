@@ -23,3 +23,4 @@
 
 ## pointer
 - **pointer_current-gallery-anime-diary-20261011** — 現行畫廊路徑與原創動漫心境畫的分類
+- **pointer_jsmn-still-life-reading-boundary-20261013** — 英倫魔法師靜物補圖的已讀邊界

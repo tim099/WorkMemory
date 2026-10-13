@@ -9,12 +9,15 @@
 ## pitfall
 - **pitfall_cache-prefs-traps** — 設定存檔與船型快取的坑（_cache 換船、只存非預設、壞存檔別順手蓋、快取鍵、驗證法）
 - **pitfall_clew-tops-compass-stall** — 帆腳、桅頂、手機羅盤、頂風失速的坑（canvas 預設 300×150、帆腳跟 sheet 那根、離線模型調參）
+- **pitfall_hands-swim-cutaway-traps** — 預備水手、剖面、落水求生踩過的坑
 - **pitfall_hp-hit-once-and-traps** — 耐久／血量的坑（同一顆彈只算一次、長砲門檻不能壓、爆裂彈直擊重複、預設值對拍法、立繪去背參數）  ↔ constitution-broadside/state_wip-2026-10-12k
 - **pitfall_measure-and-impl-traps** — 量具盲區與實作坑（rAF 暫停、sandbox 截圖、--list、IIFE 互蓋、無錨物件）
 - **pitfall_models-hp-powder-traps** — 長砲改模型、實際血量、殉爆：踩到的坑
 - **pitfall_multiship-buoyancy-traps** — 砲長、減重上浮、多船架構：踩到的坑（縮圖 hash 對拍、浮力倍率不沉、MessageChannel…）
+- **pitfall_perf-slowmo-traps** — 卡頓與殉爆慢動作的坑（從外面計時猜錯、斷船太早、水花不能照畫面走、量具）  ↔ pitfall_shreds-rain-traps
 - **pitfall_phx-rng-traps** — 物理效果分級的坑（碎木共用亂數、帆與繩關會改戰局、帆的錯開奇偶、量物理成本）  ↔ constitution-broadside/pitfall_sea-gfx-traps
 - **pitfall_sea-gfx-traps** — 海浪與畫質管線的坑（彈簧週期、bob 的意思、重複紋路、VoxelKit 著色器、陰影取樣器、MSAA、量效能）  ↔ constitution-broadside/pitfall_clew-tops-compass-stall
+- **pitfall_shreds-rain-traps** — 帆的布片與 3D 雨滴的坑（平行截縮圖船沒載完、背景分頁雨不走、布片落太快）  ↔ pitfall_water-flood-traps
 - **pitfall_split-physics-traps** — 拆檔與物理的坑（template 不能直接開、檢查掃註解、-I 忽略編碼、物理不抽亂數、布看約束數）
 - **pitfall_water-flood-traps** — 船邊水花與進水粒子的坑（白沫池滿、船頭浪被蓋、照樣抽亂數、設定檔汙染縮圖、粒子進水少的原因、自由液面）
 - **pitfall_wrapup-0514-202610121204** — 收工紀錄 TASK-0514：《憲法號對轟》開發進度
@@ -37,4 +40,5 @@
 - **state_wip-2026-10-13c** — 2026-10-13 上午：設定存檔＋快取、帆腳、桅頂、手機羅盤、頂風失速＋玩法都已提交；0514 剩美術與重量整場；新開 0522–0526 不動工 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-13b, constitution-broadside/state_wip-2026-10-13d
 
 ## pointer
+- **pointer_ladder-points-meta** — 梯子點：kind=ladders＋foot／lo／hi／head（兩艘船）
 - **pointer_review-2026-10-12** — 審查清單與子單在哪  ↔ constitution-broadside/knowhow_next-batch-plan
