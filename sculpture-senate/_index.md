@@ -20,6 +20,7 @@
 - **knowhow_personal-works-payment-and-copy** — 個人作品的付款恢復與匯入副本 ~~[superseded]~~  ↔ sculpture-senate/knowhow_personal-works-payment-and-copy-v2
 
 ## pitfall
+- **pitfall_event-size-split** — 事件檔大小與拆檔：一刀＝頭檔＋續檔；revision 不是內容雜湊；快取是同源證人
 - **pitfall_senate-sculpture-pitfalls** — 雕刻搬家踩過的坑
 
 ## state

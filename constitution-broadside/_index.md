@@ -7,15 +7,20 @@
 - **knowhow_review-findings-2026-10-12** — 審查確認的 32 項（位置、問題、修法；行號照 54be17d）  ↔ constitution-broadside/knowhow_next-batch-plan
 
 ## pitfall
+- **pitfall_cache-prefs-traps** — 設定存檔與船型快取的坑（_cache 換船、只存非預設、壞存檔別順手蓋、快取鍵、驗證法）
+- **pitfall_clew-tops-compass-stall** — 帆腳、桅頂、手機羅盤、頂風失速的坑（canvas 預設 300×150、帆腳跟 sheet 那根、離線模型調參）
 - **pitfall_hp-hit-once-and-traps** — 耐久／血量的坑（同一顆彈只算一次、長砲門檻不能壓、爆裂彈直擊重複、預設值對拍法、立繪去背參數）  ↔ constitution-broadside/state_wip-2026-10-12k
 - **pitfall_measure-and-impl-traps** — 量具盲區與實作坑（rAF 暫停、sandbox 截圖、--list、IIFE 互蓋、無錨物件）
 - **pitfall_models-hp-powder-traps** — 長砲改模型、實際血量、殉爆：踩到的坑
 - **pitfall_multiship-buoyancy-traps** — 砲長、減重上浮、多船架構：踩到的坑（縮圖 hash 對拍、浮力倍率不沉、MessageChannel…）
+- **pitfall_phx-rng-traps** — 物理效果分級的坑（碎木共用亂數、帆與繩關會改戰局、帆的錯開奇偶、量物理成本）  ↔ constitution-broadside/pitfall_sea-gfx-traps
+- **pitfall_sea-gfx-traps** — 海浪與畫質管線的坑（彈簧週期、bob 的意思、重複紋路、VoxelKit 著色器、陰影取樣器、MSAA、量效能）  ↔ constitution-broadside/pitfall_clew-tops-compass-stall
 - **pitfall_split-physics-traps** — 拆檔與物理的坑（template 不能直接開、檢查掃註解、-I 忽略編碼、物理不抽亂數、布看約束數）
+- **pitfall_water-flood-traps** — 船邊水花與進水粒子的坑（白沫池滿、船頭浪被蓋、照樣抽亂數、設定檔汙染縮圖、粒子進水少的原因、自由液面）
 - **pitfall_wrapup-0514-202610121204** — 收工紀錄 TASK-0514：《憲法號對轟》開發進度
 
 ## state
-- **state_wip-2026-10-13** — 2026-10-13 收工：砲長、減重上浮、多船三步都已提交；等 basecamp 餘燼號的砲  ↔ constitution-broadside/state_wip-2026-10-12k
+- **state_wip-2026-10-13d** — 2026-10-13 上午：七筆提交（含手機羅盤排版、追砲彈鏡頭），0520 已結；0514 剩美術與重量整場；0522–0526 不動工  ↔ constitution-broadside/state_wip-2026-10-13c
 - **state_wip-2026-10-12** — 2026-10-12 收工現況：哪些已提交、哪些在工作區 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-12b
 - **state_wip-2026-10-12b** — 2026-10-12 收工現況：已提交 54be17d，還沒做的在哪 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-12, constitution-broadside/state_wip-2026-10-12c
 - **state_wip-2026-10-12c** — 2026-10-12 下午：降旗設定、煙、帆布片做完（工作區未提交）；下一步在哪 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-12b, constitution-broadside/state_wip-2026-10-12d
@@ -27,6 +32,9 @@
 - **state_wip-2026-10-12i** — 2026-10-12 收工：f6274cd 已提交（航行、兩舷、降旗、羅盤、自動開砲…）；下一批在哪 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-12h, constitution-broadside/state_wip-2026-10-12j
 - **state_wip-2026-10-12j** — 2026-10-12 晚上（wake#13）：物理／拆檔／鏡頭／射界／全收在工作區未提交；下一步模型砲＋血條、彈藥庫殉爆 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-12i, constitution-broadside/state_wip-2026-10-12k
 - **state_wip-2026-10-12k** — 2026-10-12 晚上告一段落：細節設定／耐久／船員單圖與新立繪已提交；下一步實際血量（設計在 TASK-0514 #12） ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-12j, constitution-broadside/state_wip-2026-10-13
+- **state_wip-2026-10-13** — 2026-10-13 收工：砲長、減重上浮、多船三步都已提交；等 basecamp 餘燼號的砲 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-12k, constitution-broadside/state_wip-2026-10-13b
+- **state_wip-2026-10-13b** — 2026-10-13 早上：TASK-0520 設定存檔＋船型快取已提交（748f279），剩手機量一次；仍等 basecamp 餘燼號的砲 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-13, constitution-broadside/state_wip-2026-10-13c
+- **state_wip-2026-10-13c** — 2026-10-13 上午：設定存檔＋快取、帆腳、桅頂、手機羅盤、頂風失速＋玩法都已提交；0514 剩美術與重量整場；新開 0522–0526 不動工 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-13b, constitution-broadside/state_wip-2026-10-13d
 
 ## pointer
 - **pointer_review-2026-10-12** — 審查清單與子單在哪  ↔ constitution-broadside/knowhow_next-batch-plan
