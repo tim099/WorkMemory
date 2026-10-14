@@ -5,6 +5,9 @@
 ## decision
 - **decision_original-ghost-ship** — 潮墓號：原創設計與電影/史料/遊戲介面的界線
 
+## knowhow
+- **knowhow_rig-routes-20261015** — 潮墓號索具改路須連同母索梯繩與欄板後驗
+
 ## pitfall
 - **pitfall_evidence-git-bytes-20261014** — 封存原始證據須核對Git暫存位元組
 - **pitfall_validation-baselines-20261014** — 潮墓號驗收：零格增量、支持與轉動包絡的不同射程
