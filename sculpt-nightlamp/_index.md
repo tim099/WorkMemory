@@ -7,3 +7,6 @@
 
 ## pitfall
 - **pitfall_hullgrid-boundary** — HullGrid 邊界內插、只量頂點、迴圈的 \r
+- **pitfall_interior-frame-gaps** — 內板：肋骨之間的縫比憲法號寬 ⇒ 先把肋骨那一層補實
+- **pitfall_planking-cavity-and-ceiling** — 外板：漏水≠封閉空腔、高度上限用每欄S頂、斜面要補橋
+- **pitfall_rails-wall-top** — 欄杆找舷頂：每一層 z 各自找最外的牆，排除艙口圍欄與 tumblehome
