@@ -2,9 +2,13 @@
 
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
+## decision
+- **decision_blockside-pack-fingerprint** — 遊戲獨立成 Blockside、成品預設壓縮、.vxk 內容指紋與換機器 cache
+
 ## knowhow
 - **knowhow_lineclear-relative** — 讓開砲線要看相對砲線的速度（射手與目標內插）
 - **knowhow_next-batch-plan** — 下一批：降旗設定、人手史料化、裝填公式、長砲損壞分級、站位修正（含史料出處）  ↔ constitution-broadside/state_wip-2026-10-12
+- **knowhow_perf-budget-16ships** — 16 艘時每格畫面的成本分布、量具（rprof／frames）、三個減負的開關  ↔ pitfall_stale-vxk-cache
 - **knowhow_review-findings-2026-10-12** — 審查確認的 32 項（位置、問題、修法；行號照 54be17d）  ↔ constitution-broadside/knowhow_next-batch-plan
 - **knowhow_rooms-ropecheck-tools** — 艙房、掛著的模型、繩的檢查：新量具（__game 與 ropecheck.py）
 
@@ -16,6 +20,7 @@
 - **pitfall_gpu-arrays-midline-comment** — 多船 GPU 改貼圖陣列、補丁插註解吃掉半行、sed 變 LF
 - **pitfall_hands-swim-cutaway-traps** — 預備水手、剖面、落水求生踩過的坑
 - **pitfall_hp-hit-once-and-traps** — 耐久／血量的坑（同一顆彈只算一次、長砲門檻不能壓、爆裂彈直擊重複、預設值對拍法、立繪去背參數）  ↔ constitution-broadside/state_wip-2026-10-12k
+- **pitfall_looks-right-2026-10-14** — 照字串找到註解裡的標籤、建置包進別人沒提交的設定、看起來在其實 alive=false 的燈、heredoc 跳脫變 NUL
 - **pitfall_measure-and-impl-traps** — 量具盲區與實作坑（rAF 暫停、sandbox 截圖、--list、IIFE 互蓋、無錨物件）
 - **pitfall_mirror-handedness** — 兩艘船一直是作品的鏡像（格與世界的手性；名字對不上先懷疑轉換）  ↔ constitution-broadside/pitfall_models-hp-powder-traps
 - **pitfall_models-hp-powder-traps** — 長砲改模型、實際血量、殉爆：踩到的坑
@@ -26,6 +31,7 @@
 - **pitfall_sea-gfx-traps** — 海浪與畫質管線的坑（彈簧週期、bob 的意思、重複紋路、VoxelKit 著色器、陰影取樣器、MSAA、量效能）  ↔ constitution-broadside/pitfall_clew-tops-compass-stall
 - **pitfall_shreds-rain-traps** — 帆的布片與 3D 雨滴的坑（平行截縮圖船沒載完、背景分頁雨不走、布片落太快）  ↔ pitfall_water-flood-traps
 - **pitfall_split-physics-traps** — 拆檔與物理的坑（template 不能直接開、檢查掃註解、-I 忽略編碼、物理不抽亂數、布看約束數）
+- **pitfall_stale-vxk-cache** — _cache 的 .vxk 落後 ⇒ 成品默默換成舊船；反向對照要拿「上一版提交的成品」比  ↔ pitfall_ui-hud-relayout-traps
 - **pitfall_ui-hud-relayout-traps** — 介面重排一整串的坑（無頭最窄 500、rAF 背景停、innerHTML 重畫吃 click、帆雙層抵銷、?cmd 讀太早、固定風偏一邊、拿掉文字前先想用途）
 - **pitfall_water-flood-traps** — 船邊水花與進水粒子的坑（白沫池滿、船頭浪被蓋、照樣抽亂數、設定檔汙染縮圖、粒子進水少的原因、自由液面）
 - **pitfall_wrapup-0514-202610121204** — 收工紀錄 TASK-0514：《憲法號對轟》開發進度

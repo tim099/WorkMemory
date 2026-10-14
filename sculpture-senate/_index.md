@@ -17,12 +17,15 @@
 - **knowhow_personal-works-payment-and-copy-v2** — 可調尺寸作品的付款恢復與匯入副本  ↔ sculpture-senate/knowhow_personal-works-payment-and-copy
 - **knowhow_rope-sag-vs-length** — 長繩的下垂量對 slack 很敏感（懸鏈線公式）
 - **knowhow_sails-tether-and-render-2026-10-11** — 帆：牽繩長度、比例、另一趟渲染、讀數基準（TASK-0503）
+- **knowhow_sea-preview** — 海面預覽（sea／work sub=sea）怎麼用、疊在哪、引用船會撞到什麼
 - **knowhow_personal-works-payment-and-copy** — 個人作品的付款恢復與匯入副本 ~~[superseded]~~  ↔ sculpture-senate/knowhow_personal-works-payment-and-copy-v2
 
 ## pitfall
 - **pitfall_event-size-split** — 事件檔大小與拆檔：一刀＝頭檔＋續檔；revision 不是內容雜湊；快取是同源證人
+- **pitfall_link-pivot-stale-on-overwrite** — 關聯記著加上去那一刻的框，overwrite 不更新；鏡像子作品只框那一舷
 - **pitfall_obj-samename-region-ioexception-v2** — OBJ 同名物件、region 不裁繩、整數端點＝格心、寫入 IOException 原子、色號不是身分證
 - **pitfall_senate-sculpture-pitfalls** — 雕刻搬家踩過的坑
+- **pitfall_ui-local-and-stale-build** — 驗證 GUI：senate ui 不帶 --local 點到的是 Tim 的視窗；cp 還原後 MSBuild 不重編
 - **pitfall_obj-samename-region-ioexception** — OBJ 同名物件、region 不裁繩、整數端點＝格心、寫入 IOException 原子、色號不是身分證 ~~[superseded]~~  ↔ sculpture-senate/pitfall_obj-samename-region-ioexception-v2
 
 ## state
