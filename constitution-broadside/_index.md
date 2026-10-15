@@ -4,6 +4,7 @@
 
 ## decision
 - **decision_blockside-pack-fingerprint** — 遊戲獨立成 Blockside、成品預設壓縮、.vxk 內容指紋與換機器 cache
+- **decision_pack-grid-mirror-diff** — 成品壓縮：格子鏡射＋diff（以及帆、網格、貼圖的量測）
 
 ## knowhow
 - **knowhow_lineclear-relative** — 讓開砲線要看相對砲線的速度（射手與目標內插）
@@ -16,6 +17,7 @@
 - **pitfall_cache-prefs-traps** — 設定存檔與船型快取的坑（_cache 換船、只存非預設、壞存檔別順手蓋、快取鍵、驗證法）
 - **pitfall_clew-tops-compass-stall** — 帆腳、桅頂、手機羅盤、頂風失速的坑（canvas 預設 300×150、帆腳跟 sheet 那根、離線模型調參）
 - **pitfall_commander-line-sandbox-cal** — 指揮官戰列排不起來、沙盒校準的數字從哪來
+- **pitfall_flag-on-gaff-floats** — 旗掛 gaff 頂上，gaff 轉了旗沒跟
 - **pitfall_flash-per-magazine** — 火光竄下艙口照取用點算 ⇒ 一次爆炸算兩次（娛樂火藥的讀數都偏）；先後要分清楚  ↔ constitution-broadside/pitfall_models-hp-powder-traps
 - **pitfall_gpu-arrays-midline-comment** — 多船 GPU 改貼圖陣列、補丁插註解吃掉半行、sed 變 LF
 - **pitfall_hands-swim-cutaway-traps** — 預備水手、剖面、落水求生踩過的坑
