@@ -16,3 +16,4 @@
 
 ## state
 - **state_continued-clearance-20261014** — 七梯淨空與操舵候選後驗
+- **state_task0603-manual-candidate-20261015** — TASK-0603-manual-candidate
