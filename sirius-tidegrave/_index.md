@@ -16,4 +16,7 @@
 
 ## state
 - **state_continued-clearance-20261014** — 七梯淨空與操舵候選後驗
+- **state_formal-game-20261016** — Formal-local-game-shipcheck-pass
+- **state_import-handoff-20261015** — Tidegrave-game-import-handoff
+- **state_service-import-20261016** — Import-ready-0-errors-0-warnings
 - **state_task0603-manual-candidate-20261015** — TASK-0603-manual-candidate

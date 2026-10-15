@@ -6,9 +6,11 @@
 - **decision_stages-14-18-direct-apply** — 階段十四～十八：直到完成的授權、黑帆與沿用的部件、遊戲現況
 
 ## knowhow
+- **knowhow_beakhead-bulkhead** — 截船頭立前牆、追擊砲放哪一層
 - **knowhow_reading-chapman-plate** — 照 Chapman 圖版讀圖與原圖探針的做法
 
 ## pitfall
+- **pitfall_carve-wall-depth-cap** — 刻穿牆要設深度上限；浮空檢查對照改之前
 - **pitfall_hullgrid-boundary** — HullGrid 邊界內插、只量頂點、迴圈的 \r
 - **pitfall_interior-frame-gaps** — 內板：肋骨之間的縫比憲法號寬 ⇒ 先把肋骨那一層補實
 - **pitfall_planking-cavity-and-ceiling** — 外板：漏水≠封閉空腔、高度上限用每欄S頂、斜面要補橋
