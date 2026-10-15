@@ -9,6 +9,7 @@
 - **knowhow_rig-routes-20261015** — 潮墓號索具改路須連同母索梯繩與欄板後驗
 
 ## pitfall
+- **pitfall_dynamic-fine-mesh-and-cross-class** — 動態要量fine布，改索路需跨碰撞分類驗收
 - **pitfall_evidence-git-bytes-20261014** — 封存原始證據須核對Git暫存位元組
 - **pitfall_validation-baselines-20261014** — 潮墓號驗收：零格增量、支持與轉動包絡的不同射程
 - **pitfall_wrapup-0540-202610131553** — 收工紀錄 TASK-0540：原創鬼船《潮墓號》：荷蘭人號風格、17世紀船型與遊戲資產
