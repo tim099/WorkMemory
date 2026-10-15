@@ -12,6 +12,7 @@
 - **pitfall_pitfall-region-identity-for-sirius** — Sirius 提交時 region 要用 BTC，不是工作區名稱 Bar
 - **pitfall_senate-cli-four-silent-bugs** — 移植當天四隻不報錯的坑：漏搬守衛／兩側編譯不同判／submodule 盲區／porcelain 左trim
 - **pitfall_senate-commit-guard-misleading-exits** — senate cmd commit：出口指路只對三分之一問題有效／Template 沒信箱不能拿來實跑（含零污染探針法）
+- **pitfall_shared-git-index** — 共用工作副本的 git index：只提交自己的檔
 - **pitfall_shell-quoting-three-times** — 同一天被 shell 引號咬三次（heredoc / 反引號 / PIPESTATUS）
 
 ## state

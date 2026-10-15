@@ -6,6 +6,7 @@
 - **decision_completion-and-freshness** — 完成條件 = mtime 推進 + in_progress=false；新鮮度基準吃 git 且只算一次  ↔ bartender-remote-notify/decision_read-ack
 
 ## knowhow
+- **knowhow_senate-ui-local** — 驗新編的 exe 畫面要 senate ui --local（預設送常駐視窗）
 - **knowhow_three-way-reconcile** — 改完 .cs 的驗收：recompile → check_compile 交叉對帳 → 停跳台帳當第三方物證
 
 ## pitfall

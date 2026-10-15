@@ -21,6 +21,7 @@
 - **knowhow_personal-works-payment-and-copy** — 個人作品的付款恢復與匯入副本 ~~[superseded]~~  ↔ sculpture-senate/knowhow_personal-works-payment-and-copy-v2
 
 ## pitfall
+- **pitfall_direct-json-bypasses-engine** — 造船產生程式直接寫 json 會繞過引擎檢查；重跑的兩個坑
 - **pitfall_event-size-split** — 事件檔大小與拆檔：一刀＝頭檔＋續檔；revision 不是內容雜湊；快取是同源證人
 - **pitfall_link-pivot-stale-on-overwrite** — 關聯記著加上去那一刻的框，overwrite 不更新；鏡像子作品只框那一舷
 - **pitfall_obj-samename-region-ioexception-v2** — OBJ 同名物件、region 不裁繩、整數端點＝格心、寫入 IOException 原子、色號不是身分證
