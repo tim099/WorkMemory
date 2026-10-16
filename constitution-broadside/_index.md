@@ -3,6 +3,7 @@
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
 ## decision
+- **decision_blockside-coding-scope** — 改 Blockside 先開 Coding 場：要 build 的人 scope 含 index.html，範圍重疊就開 worktree  ↔ constitution-broadside/pitfall_shared-worktree-mixed-build
 - **decision_blockside-pack-fingerprint** — 遊戲獨立成 Blockside、成品預設壓縮、.vxk 內容指紋與換機器 cache
 - **decision_pack-grid-mirror-diff** — 成品壓縮：格子鏡射＋diff（以及帆、網格、貼圖的量測）
 
