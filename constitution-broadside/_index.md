@@ -5,14 +5,22 @@
 ## decision
 - **decision_blockside-coding-scope** — 改 Blockside 先開 Coding 場：要 build 的人 scope 含 index.html，範圍重疊就開 worktree  ↔ constitution-broadside/pitfall_shared-worktree-mixed-build
 - **decision_blockside-pack-fingerprint** — 遊戲獨立成 Blockside、成品預設壓縮、.vxk 內容指紋與換機器 cache
+- **decision_helm-two-layer** — 艦長開船兩層：艦長只給期望航速、航速調節挑帆與俥鐘
+- **decision_keymap-system** — 鍵位系統（66_keys.js）：動作表＋三個模式＋三層預設
 - **decision_pack-grid-mirror-diff** — 成品壓縮：格子鏡射＋diff（以及帆、網格、貼圖的量測）
 
 ## knowhow
+- **knowhow_drive-tube-borrow** — 傳動件穿過船殼那一段借船殼的格；拆出模型會把它截斷
+- **knowhow_headless-async-audio-lab** — 無頭驗非同步結果：DevTools 等 Promise、__game 要 debug=1、環境音量 RMS
+- **knowhow_headless-game-measure** — Blockside 無頭量測：?debug=1、run 與 live 的差別、閉包函式的 hook
 - **knowhow_lineclear-relative** — 讓開砲線要看相對砲線的速度（射手與目標內插）
+- **knowhow_maelstrom-architecture** — 大漩渦怎麼接進遊戲（VX 單一入口、參數表、量法）
 - **knowhow_next-batch-plan** — 下一批：降旗設定、人手史料化、裝填公式、長砲損壞分級、站位修正（含史料出處）  ↔ constitution-broadside/state_wip-2026-10-12
 - **knowhow_perf-budget-16ships** — 16 艘時每格畫面的成本分布、量具（rprof／frames）、三個減負的開關  ↔ pitfall_stale-vxk-cache
 - **knowhow_review-findings-2026-10-12** — 審查確認的 32 項（位置、問題、修法；行號照 54be17d）  ↔ constitution-broadside/knowhow_next-batch-plan
 - **knowhow_rooms-ropecheck-tools** — 艙房、掛著的模型、繩的檢查：新量具（__game 與 ropecheck.py）
+- **knowhow_sculpt-regen-sync-models** — 重跑雕刻產生程式後同步：已拆成模型的格子別補回去（只刻／精確濾）
+- **knowhow_turret-layer-pitfalls** — 砲塔層會咬人的幾格（開放砲盾要平台、砲班黏著砲、彈藥箱連鎖、框只包砲塔）
 
 ## pitfall
 - **pitfall_cache-prefs-traps** — 設定存檔與船型快取的坑（_cache 換船、只存非預設、壞存檔別順手蓋、快取鍵、驗證法）
@@ -25,24 +33,34 @@
 - **pitfall_hp-hit-once-and-traps** — 耐久／血量的坑（同一顆彈只算一次、長砲門檻不能壓、爆裂彈直擊重複、預設值對拍法、立繪去背參數）  ↔ constitution-broadside/state_wip-2026-10-12k
 - **pitfall_looks-right-2026-10-14** — 照字串找到註解裡的標籤、建置包進別人沒提交的設定、看起來在其實 alive=false 的燈、heredoc 跳脫變 NUL
 - **pitfall_measure-and-impl-traps** — 量具盲區與實作坑（rAF 暫停、sandbox 截圖、--list、IIFE 互蓋、無錨物件）
+- **pitfall_midline-comment-eats-rest-3** — 行中 // 註解吃掉後半行（第三次，mountStep）—— eaten.py 沒抓到、node --check 抓到
 - **pitfall_mirror-handedness** — 兩艘船一直是作品的鏡像（格與世界的手性；名字對不上先懷疑轉換）  ↔ constitution-broadside/pitfall_models-hp-powder-traps
 - **pitfall_models-hp-powder-traps** — 長砲改模型、實際血量、殉爆：踩到的坑
 - **pitfall_multiship-buoyancy-traps** — 砲長、減重上浮、多船架構：踩到的坑（縮圖 hash 對拍、浮力倍率不沉、MessageChannel…）
 - **pitfall_perf-slowmo-traps** — 卡頓與殉爆慢動作的坑（從外面計時猜錯、斷船太早、水花不能照畫面走、量具）  ↔ pitfall_shreds-rain-traps
 - **pitfall_phx-rng-traps** — 物理效果分級的坑（碎木共用亂數、帆與繩關會改戰局、帆的錯開奇偶、量物理成本）  ↔ constitution-broadside/pitfall_sea-gfx-traps
+- **pitfall_plurk-response-lag** — 噗浪回應送出 200、回讀 0 則：對面晚了兩三分鐘才寫進去
+- **pitfall_prop-iron-armor** — 會轉的體素件照鐵甲算擊穿 ⇒ 一格都打不掉
 - **pitfall_rooms-hud-ropes-traps** — 艙房、HUD、浮空繩這一天的坑（同名函式、canvas 定位、shrink-to-fit、錨不是綁點）
+- **pitfall_rope-end-guess-by-distance** — 繩的端點照距離猜綁在哪，猜到旁邊的模型就跟著斷（哨兵號繩梯、憲法號 shroud）
 - **pitfall_sea-gfx-traps** — 海浪與畫質管線的坑（彈簧週期、bob 的意思、重複紋路、VoxelKit 著色器、陰影取樣器、MSAA、量效能）  ↔ constitution-broadside/pitfall_clew-tops-compass-stall
+- **pitfall_sea-level-zero-assumptions** — 寫死海面＝0 的地方：水面一凹下去就靜默出錯
 - **pitfall_shared-worktree-mixed-build** — Blockside 共用工作區：在工作區建的成品會包進別人施工到一半的改動（Tim 測到的「卡死」）
 - **pitfall_shreds-rain-traps** — 帆的布片與 3D 雨滴的坑（平行截縮圖船沒載完、背景分頁雨不走、布片落太快）  ↔ pitfall_water-flood-traps
 - **pitfall_split-physics-traps** — 拆檔與物理的坑（template 不能直接開、檢查掃註解、-I 忽略編碼、物理不抽亂數、布看約束數）
+- **pitfall_squash-onto-moved-main** — 壓縮分支時 reset --soft 到「現在的 main」會把別人新合的倒回去
 - **pitfall_stale-vxk-cache** — _cache 的 .vxk 落後 ⇒ 成品默默換成舊船；反向對照要拿「上一版提交的成品」比  ↔ pitfall_ui-hud-relayout-traps
+- **pitfall_taskkill-chrome-too-broad** — 停無頭 Chrome 不要照程式名殺 —— 照 profile 路徑篩
 - **pitfall_ui-hud-relayout-traps** — 介面重排一整串的坑（無頭最窄 500、rAF 背景停、innerHTML 重畫吃 click、帆雙層抵銷、?cmd 讀太早、固定風偏一邊、拿掉文字前先想用途）
 - **pitfall_water-flood-traps** — 船邊水花與進水粒子的坑（白沫池滿、船頭浪被蓋、照樣抽亂數、設定檔汙染縮圖、粒子進水少的原因、自由液面）
+- **pitfall_window-keydown-capture** — 同掛 window 的 keydown：stopPropagation 擋不住；data-k 圓鈕不要再掛 onclick
 - **pitfall_worktree-crlf-build** — Blockside 新 worktree 是 CRLF：game.json 內嵌進成品 ⇒ 同一個 HEAD 建出不同的 index.html  ↔ constitution-broadside/decision_blockside-coding-scope
 - **pitfall_wrapup-0514-202610121204** — 收工紀錄 TASK-0514：《憲法號對轟》開發進度
 
 ## state
+- **state_fps-2026-10-16b** — 第一人稱（TASK-0649）第四版：碰撞三段、跳得進洞、過梁低頭；量的時候會咬人的  ↔ constitution-broadside/state_fps-2026-10-16
 - **state_wip-2026-10-13d** — 2026-10-13 上午：七筆提交（含手機羅盤排版、追砲彈鏡頭），0520 已結；0514 剩美術與重量整場；0522–0526 不動工  ↔ constitution-broadside/state_wip-2026-10-13c
+- **state_fps-2026-10-16** — 第一人稱（TASK-0649）告一段落：現況、還開著的四件、量的時候會咬人的 ~~[superseded]~~  ↔ constitution-broadside/decision_blockside-coding-scope, constitution-broadside/pitfall_worktree-crlf-build, constitution-broadside/state_fps-2026-10-16b
 - **state_wip-2026-10-12** — 2026-10-12 收工現況：哪些已提交、哪些在工作區 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-12b
 - **state_wip-2026-10-12b** — 2026-10-12 收工現況：已提交 54be17d，還沒做的在哪 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-12, constitution-broadside/state_wip-2026-10-12c
 - **state_wip-2026-10-12c** — 2026-10-12 下午：降旗設定、煙、帆布片做完（工作區未提交）；下一步在哪 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-12b, constitution-broadside/state_wip-2026-10-12d
