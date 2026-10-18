@@ -5,14 +5,17 @@
 ## decision
 - **decision_blockside-coding-scope** — 改 Blockside 先開 Coding 場：要 build 的人 scope 含 index.html，範圍重疊就開 worktree  ↔ constitution-broadside/pitfall_shared-worktree-mixed-build
 - **decision_blockside-pack-fingerprint** — 遊戲獨立成 Blockside、成品預設壓縮、.vxk 內容指紋與換機器 cache
+- **decision_gunner-ammo-by-aim-zone** — 砲長照瞄準位置挑彈＋艦長指揮砲長
 - **decision_helm-two-layer** — 艦長開船兩層：艦長只給期望航速、航速調節挑帆與俥鐘
 - **decision_keymap-system** — 鍵位系統（66_keys.js）：動作表＋三個模式＋三層預設
 - **decision_pack-grid-mirror-diff** — 成品壓縮：格子鏡射＋diff（以及帆、網格、貼圖的量測）
+- **decision_staffing-bench-oar** — 設施配員、木工台、划槳傳輸鏈、報錯回報（Tim 拍板）
 
 ## knowhow
 - **knowhow_drive-tube-borrow** — 傳動件穿過船殼那一段借船殼的格；拆出模型會把它截斷
 - **knowhow_headless-async-audio-lab** — 無頭驗非同步結果：DevTools 等 Promise、__game 要 debug=1、環境音量 RMS
 - **knowhow_headless-game-measure** — Blockside 無頭量測：?debug=1、run 與 live 的差別、閉包函式的 hook
+- **knowhow_input-controllers** — 控制器 71_ctrl.js 與輸入對拍腳本
 - **knowhow_lineclear-relative** — 讓開砲線要看相對砲線的速度（射手與目標內插）
 - **knowhow_maelstrom-architecture** — 大漩渦怎麼接進遊戲（VX 單一入口、參數表、量法）
 - **knowhow_next-batch-plan** — 下一批：降旗設定、人手史料化、裝填公式、長砲損壞分級、站位修正（含史料出處）  ↔ constitution-broadside/state_wip-2026-10-12
@@ -26,13 +29,16 @@
 - **pitfall_cache-prefs-traps** — 設定存檔與船型快取的坑（_cache 換船、只存非預設、壞存檔別順手蓋、快取鍵、驗證法）
 - **pitfall_clew-tops-compass-stall** — 帆腳、桅頂、手機羅盤、頂風失速的坑（canvas 預設 300×150、帆腳跟 sheet 那根、離線模型調參）
 - **pitfall_commander-line-sandbox-cal** — 指揮官戰列排不起來、沙盒校準的數字從哪來
+- **pitfall_eval-write-per-match** — 長評測要打完一場寫一場
 - **pitfall_flag-on-gaff-floats** — 旗掛 gaff 頂上，gaff 轉了旗沒跟
 - **pitfall_flash-per-magazine** — 火光竄下艙口照取用點算 ⇒ 一次爆炸算兩次（娛樂火藥的讀數都偏）；先後要分清楚  ↔ constitution-broadside/pitfall_models-hp-powder-traps
 - **pitfall_gpu-arrays-midline-comment** — 多船 GPU 改貼圖陣列、補丁插註解吃掉半行、sed 變 LF
 - **pitfall_hands-swim-cutaway-traps** — 預備水手、剖面、落水求生踩過的坑
 - **pitfall_hp-hit-once-and-traps** — 耐久／血量的坑（同一顆彈只算一次、長砲門檻不能壓、爆裂彈直擊重複、預設值對拍法、立繪去背參數）  ↔ constitution-broadside/state_wip-2026-10-12k
+- **pitfall_load-deco-race** — 載入到一半換畫質「裝飾」⇒ T.h 載入失敗
 - **pitfall_looks-right-2026-10-14** — 照字串找到註解裡的標籤、建置包進別人沒提交的設定、看起來在其實 alive=false 的燈、heredoc 跳脫變 NUL
 - **pitfall_measure-and-impl-traps** — 量具盲區與實作坑（rAF 暫停、sandbox 截圖、--list、IIFE 互蓋、無錨物件）
+- **pitfall_measure-stale-product** — 行內註解吃掉程式、建置失敗卻對拍舊成品、機器滿載時的量法
 - **pitfall_midline-comment-eats-rest-3** — 行中 // 註解吃掉後半行（第三次，mountStep）—— eaten.py 沒抓到、node --check 抓到
 - **pitfall_mirror-handedness** — 兩艘船一直是作品的鏡像（格與世界的手性；名字對不上先懷疑轉換）  ↔ constitution-broadside/pitfall_models-hp-powder-traps
 - **pitfall_models-hp-powder-traps** — 長砲改模型、實際血量、殉爆：踩到的坑
