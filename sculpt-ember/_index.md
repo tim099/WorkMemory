@@ -9,4 +9,5 @@
 - **knowhow_ember-transform-rules** — 餘燼號從憲法號搬部件的換算（插層、甲板類、拉長、艏斜桅）與已知撞點
 
 ## pitfall
+- **pitfall_portlid-outlier-residual** — 砲門蓋板凸出物要照擬合平面殘差判；擋路的錨鏈板刻掉一段
 - **pitfall_zero-collision-not-usable** — 0 碰撞 ≠ 放得下：擺放要帶保留區與淨空

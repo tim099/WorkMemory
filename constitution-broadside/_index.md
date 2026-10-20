@@ -9,20 +9,30 @@
 - **decision_helm-two-layer** — 艦長開船兩層：艦長只給期望航速、航速調節挑帆與俥鐘
 - **decision_keymap-system** — 鍵位系統（66_keys.js）：動作表＋三個模式＋三層預設
 - **decision_pack-grid-mirror-diff** — 成品壓縮：格子鏡射＋diff（以及帆、網格、貼圖的量測）
+- **decision_sickbay-musket-20261020** — 開打先上台子與火槍命中率：本小姐定的參數（待 Tim 看）
 - **decision_staffing-bench-oar** — 設施配員、木工台、划槳傳輸鏈、報錯回報（Tim 拍板）
 
 ## knowhow
+- **knowhow_blow-style-fall** — 被打掉的演出 blow=fly｜fall、帆桁停在船上要記撐著的那一格
+- **knowhow_burn-douse-controlled-test** — 著火撲不滅的原因、救火修法與受控實驗的量法
+- **knowhow_crew-fill-bearno-300s** — 量補位要看戰報 bearNo、打 300 秒（120 秒量不到）
 - **knowhow_drive-tube-borrow** — 傳動件穿過船殼那一段借船殼的格；拆出模型會把它截斷
+- **knowhow_furniture-models-from-sculpture** — 道具換成雕好的模型：furnmodels.py ⇒ 37_furnmodels.js、繞向與置中
+- **knowhow_galley-walk-lateen** — 槳帆船：甲板 meta walk（中央走道）與三角帆桁 rig=lateen
 - **knowhow_headless-async-audio-lab** — 無頭驗非同步結果：DevTools 等 Promise、__game 要 debug=1、環境音量 RMS
 - **knowhow_headless-game-measure** — Blockside 無頭量測：?debug=1、run 與 live 的差別、閉包函式的 hook
 - **knowhow_input-controllers** — 控制器 71_ctrl.js 與輸入對拍腳本
 - **knowhow_lineclear-relative** — 讓開砲線要看相對砲線的速度（射手與目標內插）
 - **knowhow_maelstrom-architecture** — 大漩渦怎麼接進遊戲（VX 單一入口、參數表、量法）
 - **knowhow_next-batch-plan** — 下一批：降旗設定、人手史料化、裝填公式、長砲損壞分級、站位修正（含史料出處）  ↔ constitution-broadside/state_wip-2026-10-12
+- **knowhow_oar-test-ship** — 槳的量測：測試槳船怎麼做、示範模式不吃鍵盤、划槳方向用數字驗
 - **knowhow_perf-budget-16ships** — 16 艘時每格畫面的成本分布、量具（rprof／frames）、三個減負的開關  ↔ pitfall_stale-vxk-cache
+- **knowhow_report-mailto-discord** — 錯誤回報：mailto 2083 字上限、預設郵件程式壞掉 ⇒ 改送 Discord webhook
 - **knowhow_review-findings-2026-10-12** — 審查確認的 32 項（位置、問題、修法；行號照 54be17d）  ↔ constitution-broadside/knowhow_next-batch-plan
 - **knowhow_rooms-ropecheck-tools** — 艙房、掛著的模型、繩的檢查：新量具（__game 與 ropecheck.py）
 - **knowhow_sculpt-regen-sync-models** — 重跑雕刻產生程式後同步：已拆成模型的格子別補回去（只刻／精確濾）
+- **knowhow_sinkflood-cost** — 沉船進水給人看：花費跟水量走、同時最多 2 艘、斷船那一截拿掉
+- **knowhow_trailer-probe-survey-frames** — 宣傳片逐格讀狀態、定期檢查一幀幾 ms 的量法
 - **knowhow_turret-layer-pitfalls** — 砲塔層會咬人的幾格（開放砲盾要平台、砲班黏著砲、彈藥箱連鎖、框只包砲塔）
 
 ## pitfall
@@ -35,6 +45,8 @@
 - **pitfall_gpu-arrays-midline-comment** — 多船 GPU 改貼圖陣列、補丁插註解吃掉半行、sed 變 LF
 - **pitfall_hands-swim-cutaway-traps** — 預備水手、剖面、落水求生踩過的坑
 - **pitfall_hp-hit-once-and-traps** — 耐久／血量的坑（同一顆彈只算一次、長砲門檻不能壓、爆裂彈直擊重複、預設值對拍法、立繪去背參數）  ↔ constitution-broadside/state_wip-2026-10-12k
+- **pitfall_hud-jitter-and-alpha-grid** — HUD 數字抖動與半透明格子疊出網格紋（固定欄寬、模擬層平均、小圖縮放貼上）
+- **pitfall_import-reformats-game-json** — admin.py import 會把整份 game.json 重排 ⇒ 照 HEAD 只插入新船那一段
 - **pitfall_load-deco-race** — 載入到一半換畫質「裝飾」⇒ T.h 載入失敗
 - **pitfall_looks-right-2026-10-14** — 照字串找到註解裡的標籤、建置包進別人沒提交的設定、看起來在其實 alive=false 的燈、heredoc 跳脫變 NUL
 - **pitfall_measure-and-impl-traps** — 量具盲區與實作坑（rAF 暫停、sandbox 截圖、--list、IIFE 互蓋、無錨物件）
@@ -47,6 +59,7 @@
 - **pitfall_phx-rng-traps** — 物理效果分級的坑（碎木共用亂數、帆與繩關會改戰局、帆的錯開奇偶、量物理成本）  ↔ constitution-broadside/pitfall_sea-gfx-traps
 - **pitfall_plurk-response-lag** — 噗浪回應送出 200、回讀 0 則：對面晚了兩三分鐘才寫進去
 - **pitfall_prop-iron-armor** — 會轉的體素件照鐵甲算擊穿 ⇒ 一格都打不掉
+- **pitfall_push-dev-local-ahead** — 推 dev 前本機 dev 要等於遠端；管線會吞掉 ff 失敗
 - **pitfall_rooms-hud-ropes-traps** — 艙房、HUD、浮空繩這一天的坑（同名函式、canvas 定位、shrink-to-fit、錨不是綁點）
 - **pitfall_rope-end-guess-by-distance** — 繩的端點照距離猜綁在哪，猜到旁邊的模型就跟著斷（哨兵號繩梯、憲法號 shroud）
 - **pitfall_sea-gfx-traps** — 海浪與畫質管線的坑（彈簧週期、bob 的意思、重複紋路、VoxelKit 著色器、陰影取樣器、MSAA、量效能）  ↔ constitution-broadside/pitfall_clew-tops-compass-stall
