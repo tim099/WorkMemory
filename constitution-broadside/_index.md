@@ -8,6 +8,7 @@
 - **decision_gunner-ammo-by-aim-zone** — 砲長照瞄準位置挑彈＋艦長指揮砲長
 - **decision_helm-two-layer** — 艦長開船兩層：艦長只給期望航速、航速調節挑帆與俥鐘
 - **decision_keymap-system** — 鍵位系統（66_keys.js）：動作表＋三個模式＋三層預設
+- **decision_mixed-material-gun-hp** — 混合材質（厚度乘數＋線性混合、matMap）與砲血量公式
 - **decision_pack-grid-mirror-diff** — 成品壓縮：格子鏡射＋diff（以及帆、網格、貼圖的量測）
 - **decision_sickbay-musket-20261020** — 開打先上台子與火槍命中率：本小姐定的參數（待 Tim 看）
 - **decision_staffing-bench-oar** — 設施配員、木工台、划槳傳輸鏈、報錯回報（Tim 拍板）
@@ -21,6 +22,7 @@
 - **knowhow_galley-walk-lateen** — 槳帆船：甲板 meta walk（中央走道）與三角帆桁 rig=lateen
 - **knowhow_headless-async-audio-lab** — 無頭驗非同步結果：DevTools 等 Promise、__game 要 debug=1、環境音量 RMS
 - **knowhow_headless-game-measure** — Blockside 無頭量測：?debug=1、run 與 live 的差別、閉包函式的 hook
+- **knowhow_helm-torque-reads** — 操舵力矩讀舵的哪幾格：份量與還剩幾成，不讀舵面大小、max_deg
 - **knowhow_input-controllers** — 控制器 71_ctrl.js 與輸入對拍腳本
 - **knowhow_lineclear-relative** — 讓開砲線要看相對砲線的速度（射手與目標內插）
 - **knowhow_maelstrom-architecture** — 大漩渦怎麼接進遊戲（VX 單一入口、參數表、量法）
