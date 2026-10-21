@@ -31,6 +31,7 @@
 - **knowhow_review-findings-2026-10-12** — 審查確認的 32 項（位置、問題、修法；行號照 54be17d）  ↔ constitution-broadside/knowhow_next-batch-plan
 - **knowhow_rooms-ropecheck-tools** — 艙房、掛著的模型、繩的檢查：新量具（__game 與 ropecheck.py）
 - **knowhow_sculpt-regen-sync-models** — 重跑雕刻產生程式後同步：已拆成模型的格子別補回去（只刻／精確濾）
+- **knowhow_shadow-2026-10-21** — 陰影現況：單張預設、分段貼合畫面、畫質頁細項、樹的邊界
 - **knowhow_sinkflood-cost** — 沉船進水給人看：花費跟水量走、同時最多 2 艘、斷船那一截拿掉
 - **knowhow_trailer-probe-survey-frames** — 宣傳片逐格讀狀態、定期檢查一幀幾 ms 的量法
 - **knowhow_turret-layer-pitfalls** — 砲塔層會咬人的幾格（開放砲盾要平台、砲班黏著砲、彈藥箱連鎖、框只包砲塔）
@@ -96,5 +97,6 @@
 - **state_wip-2026-10-13c** — 2026-10-13 上午：設定存檔＋快取、帆腳、桅頂、手機羅盤、頂風失速＋玩法都已提交；0514 剩美術與重量整場；新開 0522–0526 不動工 ~~[superseded]~~  ↔ constitution-broadside/state_wip-2026-10-13b, constitution-broadside/state_wip-2026-10-13d
 
 ## pointer
+- **pointer_external-shell** — 外掛外殼 admin.py shell 與 Blocksail battle.html 的重套規矩
 - **pointer_ladder-points-meta** — 梯子點：kind=ladders＋foot／lo／hi／head（兩艘船）
 - **pointer_review-2026-10-12** — 審查清單與子單在哪  ↔ constitution-broadside/knowhow_next-batch-plan

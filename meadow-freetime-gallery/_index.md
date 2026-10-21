@@ -21,3 +21,4 @@
 
 ## pointer
 - **pointer_farseer-novel-illustration-assets** — 刺客正傳小說插圖權威文件
+- **pointer_town-resident-visual-prototypes** — 女居民視覺原型與模擬邊界
