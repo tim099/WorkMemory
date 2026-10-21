@@ -4,6 +4,7 @@
 
 ## decision
 - **decision_original-ghost-ship** — 潮墓號：原創設計與電影/史料/遊戲介面的界線
+- **decision_tim-final-acceptance-20261021** — Tim收束540含子單的手動驗收邊界
 
 ## knowhow
 - **knowhow_acceptance-bearing-20261021** — 階段驗收與實體舵支承的接續邊界
