@@ -69,6 +69,7 @@
 - **pitfall_shreds-rain-traps** — 帆的布片與 3D 雨滴的坑（平行截縮圖船沒載完、背景分頁雨不走、布片落太快）  ↔ pitfall_water-flood-traps
 - **pitfall_split-physics-traps** — 拆檔與物理的坑（template 不能直接開、檢查掃註解、-I 忽略編碼、物理不抽亂數、布看約束數）
 - **pitfall_squash-onto-moved-main** — 壓縮分支時 reset --soft 到「現在的 main」會把別人新合的倒回去
+- **pitfall_stale-diff-baseline** — 對拍基準會跟著預設值過期：對拍前用當時的 dev 重產基準  ↔ constitution-broadside/pitfall_measure-stale-product
 - **pitfall_stale-vxk-cache** — _cache 的 .vxk 落後 ⇒ 成品默默換成舊船；反向對照要拿「上一版提交的成品」比  ↔ pitfall_ui-hud-relayout-traps
 - **pitfall_taskkill-chrome-too-broad** — 停無頭 Chrome 不要照程式名殺 —— 照 profile 路徑篩
 - **pitfall_ui-hud-relayout-traps** — 介面重排一整串的坑（無頭最窄 500、rAF 背景停、innerHTML 重畫吃 click、帆雙層抵銷、?cmd 讀太早、固定風偏一邊、拿掉文字前先想用途）
