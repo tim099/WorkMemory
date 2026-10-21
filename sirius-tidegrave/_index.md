@@ -6,6 +6,7 @@
 - **decision_original-ghost-ship** — 潮墓號：原創設計與電影/史料/遊戲介面的界線
 
 ## knowhow
+- **knowhow_acceptance-bearing-20261021** — 階段驗收與實體舵支承的接續邊界
 - **knowhow_portlids48-and-cloth-pins-20261020** — 48片砲門的新入口、移錨與帆旗固定點保留
 - **knowhow_rig-routes-20261015** — 潮墓號索具改路須連同母索梯繩與欄板後驗
 
