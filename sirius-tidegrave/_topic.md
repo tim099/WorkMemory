@@ -1,10 +1,12 @@
 ---
 id: sirius-tidegrave
 title: 潮墓號設計與建造
-status: active
+status: archived
 created_at: 2026-10-13
 related_topics: []
 key_docs: []
+archived_at: 2026-10-21T12:07:16Z
+archived_commit: 3099e78b7fb475d3bc918abd30c367de3435f40c
 ---
 
 誰在等：Tim（委託）、遊戲《憲法號對轟》（可讀的船隻資產）。
