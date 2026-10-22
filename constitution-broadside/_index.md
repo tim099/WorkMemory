@@ -25,9 +25,11 @@
 - **knowhow_helm-torque-reads** — 操舵力矩讀舵的哪幾格：份量與還剩幾成，不讀舵面大小、max_deg
 - **knowhow_input-controllers** — 控制器 71_ctrl.js 與輸入對拍腳本
 - **knowhow_lineclear-relative** — 讓開砲線要看相對砲線的速度（射手與目標內插）
+- **knowhow_maelstrom-1022-helm-takeover** — 大漩渦 10-22：接管航行表、電腦的邊緣、眼往下拖、漏斗裡的雨  ↔ constitution-broadside/knowhow_maelstrom-architecture
 - **knowhow_maelstrom-architecture** — 大漩渦怎麼接進遊戲（VX 單一入口、參數表、量法）
 - **knowhow_next-batch-plan** — 下一批：降旗設定、人手史料化、裝填公式、長砲損壞分級、站位修正（含史料出處）  ↔ constitution-broadside/state_wip-2026-10-12
 - **knowhow_oar-test-ship** — 槳的量測：測試槳船怎麼做、示範模式不吃鍵盤、划槳方向用數字驗
+- **knowhow_per-type-cache-at-ship-creation** — 開船照船型快取：怎麼找重的、怎麼驗逐欄相同、怎麼在忙的機器上量
 - **knowhow_perf-budget-16ships** — 16 艘時每格畫面的成本分布、量具（rprof／frames）、三個減負的開關  ↔ pitfall_stale-vxk-cache
 - **knowhow_report-mailto-discord** — 錯誤回報：mailto 2083 字上限、預設郵件程式壞掉 ⇒ 改送 Discord webhook
 - **knowhow_review-findings-2026-10-12** — 審查確認的 32 項（位置、問題、修法；行號照 54be17d）  ↔ constitution-broadside/knowhow_next-batch-plan
@@ -66,12 +68,13 @@
 - **pitfall_rooms-hud-ropes-traps** — 艙房、HUD、浮空繩這一天的坑（同名函式、canvas 定位、shrink-to-fit、錨不是綁點）
 - **pitfall_rope-end-guess-by-distance** — 繩的端點照距離猜綁在哪，猜到旁邊的模型就跟著斷（哨兵號繩梯、憲法號 shroud）
 - **pitfall_sea-gfx-traps** — 海浪與畫質管線的坑（彈簧週期、bob 的意思、重複紋路、VoxelKit 著色器、陰影取樣器、MSAA、量效能）  ↔ constitution-broadside/pitfall_clew-tops-compass-stall
-- **pitfall_sea-level-zero-assumptions** — 寫死海面＝0 的地方：水面一凹下去就靜默出錯
+- **pitfall_sea-level-zero-assumptions-v2** — 寫死海面＝0 的地方：水面一凹下去就靜默出錯（含雨）  ↔ constitution-broadside/pitfall_sea-level-zero-assumptions
 - **pitfall_shared-worktree-mixed-build** — Blockside 共用工作區：在工作區建的成品會包進別人施工到一半的改動（Tim 測到的「卡死」）
 - **pitfall_shreds-rain-traps** — 帆的布片與 3D 雨滴的坑（平行截縮圖船沒載完、背景分頁雨不走、布片落太快）  ↔ pitfall_water-flood-traps
 - **pitfall_split-physics-traps** — 拆檔與物理的坑（template 不能直接開、檢查掃註解、-I 忽略編碼、物理不抽亂數、布看約束數）
 - **pitfall_squash-onto-moved-main** — 壓縮分支時 reset --soft 到「現在的 main」會把別人新合的倒回去
 - **pitfall_stale-diff-baseline** — 對拍基準會跟著預設值過期：對拍前用當時的 dev 重產基準  ↔ constitution-broadside/pitfall_measure-stale-product
+- **pitfall_stale-entry-vs-ships** — 「入口跟 ships/ 不是同一次建置」＝ 測試站快取的舊入口配新船檔
 - **pitfall_stale-vxk-cache** — _cache 的 .vxk 落後 ⇒ 成品默默換成舊船；反向對照要拿「上一版提交的成品」比  ↔ pitfall_ui-hud-relayout-traps
 - **pitfall_taskkill-chrome-too-broad** — 停無頭 Chrome 不要照程式名殺 —— 照 profile 路徑篩
 - **pitfall_ui-hud-relayout-traps** — 介面重排一整串的坑（無頭最窄 500、rAF 背景停、innerHTML 重畫吃 click、帆雙層抵銷、?cmd 讀太早、固定風偏一邊、拿掉文字前先想用途）
@@ -79,6 +82,7 @@
 - **pitfall_window-keydown-capture** — 同掛 window 的 keydown：stopPropagation 擋不住；data-k 圓鈕不要再掛 onclick
 - **pitfall_worktree-crlf-build** — Blockside 新 worktree 是 CRLF：game.json 內嵌進成品 ⇒ 同一個 HEAD 建出不同的 index.html  ↔ constitution-broadside/decision_blockside-coding-scope
 - **pitfall_wrapup-0514-202610121204** — 收工紀錄 TASK-0514：《憲法號對轟》開發進度
+- **pitfall_sea-level-zero-assumptions** — 寫死海面＝0 的地方：水面一凹下去就靜默出錯 ~~[superseded]~~  ↔ constitution-broadside/pitfall_sea-level-zero-assumptions-v2
 
 ## state
 - **state_fps-2026-10-16b** — 第一人稱（TASK-0649）第四版：碰撞三段、跳得進洞、過梁低頭；量的時候會咬人的  ↔ constitution-broadside/state_fps-2026-10-16

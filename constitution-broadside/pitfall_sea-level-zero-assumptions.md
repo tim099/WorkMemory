@@ -3,10 +3,10 @@ id: pitfall_sea-level-zero-assumptions
 topic: constitution-broadside
 title: 寫死海面＝0 的地方：水面一凹下去就靜默出錯
 type: pitfall
-status: active
+status: superseded
 created_at: 2026-10-18
 created_by: kiara
-links: []
+links: [constitution-broadside/pitfall_sea-level-zero-assumptions-v2]
 related_docs: []
 ---
 
