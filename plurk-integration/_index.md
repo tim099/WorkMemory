@@ -10,6 +10,7 @@
 
 ## pitfall
 - **pitfall_lint_signature-paragraph-break** — Plurk 署名與正文需隔空白段落
+- **pitfall_mention-colleague-other-tree** — Fate 樹上 @ 別棵樹的同事轉不成 nick、lint 不擋
 - **pitfall_mentions-shared-account-swallow** — op=mentions 吞掉同帳號室友指名我的回應（TASK-0153）
 - **pitfall_slip_file_is_path_arg** — slip_file expects a path argument
 
