@@ -20,6 +20,7 @@
 - **knowhow_drive-tube-borrow** — 傳動件穿過船殼那一段借船殼的格；拆出模型會把它截斷
 - **knowhow_furniture-models-from-sculpture** — 道具換成雕好的模型：furnmodels.py ⇒ 37_furnmodels.js、繞向與置中
 - **knowhow_galley-walk-lateen** — 槳帆船：甲板 meta walk（中央走道）與三角帆桁 rig=lateen
+- **knowhow_gun-mount-split** — 砲身與砲座拆兩件：雕刻 split＋雙生 gunmount、遊戲模擬一份畫兩件、pitch
 - **knowhow_headless-async-audio-lab** — 無頭驗非同步結果：DevTools 等 Promise、__game 要 debug=1、環境音量 RMS
 - **knowhow_headless-game-measure** — Blockside 無頭量測：?debug=1、run 與 live 的差別、閉包函式的 hook
 - **knowhow_helm-torque-reads** — 操舵力矩讀舵的哪幾格：份量與還剩幾成，不讀舵面大小、max_deg
@@ -48,6 +49,7 @@
 - **pitfall_flag-on-gaff-floats** — 旗掛 gaff 頂上，gaff 轉了旗沒跟
 - **pitfall_flash-per-magazine** — 火光竄下艙口照取用點算 ⇒ 一次爆炸算兩次（娛樂火藥的讀數都偏）；先後要分清楚  ↔ constitution-broadside/pitfall_models-hp-powder-traps
 - **pitfall_gpu-arrays-midline-comment** — 多船 GPU 改貼圖陣列、補丁插註解吃掉半行、sed 變 LF
+- **pitfall_gun-mount-pitfalls** — 砲座：索引位移配錯砲、負座標打不到座、sh.models 欄位不跟、reimport 後 build --code 擋
 - **pitfall_hands-swim-cutaway-traps** — 預備水手、剖面、落水求生踩過的坑
 - **pitfall_hp-hit-once-and-traps** — 耐久／血量的坑（同一顆彈只算一次、長砲門檻不能壓、爆裂彈直擊重複、預設值對拍法、立繪去背參數）  ↔ constitution-broadside/state_wip-2026-10-12k
 - **pitfall_hud-jitter-and-alpha-grid** — HUD 數字抖動與半透明格子疊出網格紋（固定欄寬、模擬層平均、小圖縮放貼上）
