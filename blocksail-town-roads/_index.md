@@ -13,3 +13,5 @@
 - **pitfall_lot-bank-overrides-road-z** — 地塊的邊坡最後套：地塊旁邊幾公尺的路面不照規劃的 z
 - **pitfall_narrow-road-grid-and-4m-cells** — 窄路網格碎掉、4 m 格的轉角、worktree 的換行雜訊（2026-10-23）
 - **pitfall_need-before-terrain** — 取地形前沒 W.need ⇒ 量到粗略層（和平港假埋 13 m）
+- **pitfall_testmap-copy-chunk-id** — 複製測試圖要改每個地形塊檔裡的海域 id
+- **pitfall_use-without-model-silent-skip** — 規劃的用途挑不到模型時遊戲靜靜跳過（只有 skip 看得到）

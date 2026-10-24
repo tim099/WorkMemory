@@ -80,6 +80,7 @@
 - **pitfall_stale-diff-baseline** — 對拍基準會跟著預設值過期：對拍前用當時的 dev 重產基準  ↔ constitution-broadside/pitfall_measure-stale-product
 - **pitfall_stale-entry-vs-ships** — 「入口跟 ships/ 不是同一次建置」＝ 測試站快取的舊入口配新船檔
 - **pitfall_stale-vxk-cache** — _cache 的 .vxk 落後 ⇒ 成品默默換成舊船；反向對照要拿「上一版提交的成品」比  ↔ pitfall_ui-hud-relayout-traps
+- **pitfall_stutter-measurement-traps** — 量卡頓的三個假象：拿掉上限、取樣器開始、城鎮模式的海域窗不跟鏡頭
 - **pitfall_taskkill-chrome-too-broad** — 停無頭 Chrome 不要照程式名殺 —— 照 profile 路徑篩
 - **pitfall_ui-hud-relayout-traps** — 介面重排一整串的坑（無頭最窄 500、rAF 背景停、innerHTML 重畫吃 click、帆雙層抵銷、?cmd 讀太早、固定風偏一邊、拿掉文字前先想用途）
 - **pitfall_water-flood-traps** — 船邊水花與進水粒子的坑（白沫池滿、船頭浪被蓋、照樣抽亂數、設定檔汙染縮圖、粒子進水少的原因、自由液面）

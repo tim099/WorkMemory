@@ -3,6 +3,8 @@
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
 ## decision
+- **decision_build-grade-by-density-pending** — 待拍板：高密度住宅要不要只能用營造 2、3 級蓋
+- **decision_crop-field-render** — 田裡的作物：照塊分組、不投影子、3D 300 m、放大 1.8（菜 2.25）
 - **decision_fields-block-roads** — 路穿不過田、田不擋自己那幾欄、田外框滿 4 m
 
 ## knowhow
