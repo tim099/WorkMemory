@@ -5,6 +5,7 @@
 ## decision
 - **decision_blockside-coding-scope** — 改 Blockside 先開 Coding 場：要 build 的人 scope 含 index.html，範圍重疊就開 worktree  ↔ constitution-broadside/pitfall_shared-worktree-mixed-build
 - **decision_blockside-pack-fingerprint** — 遊戲獨立成 Blockside、成品預設壓縮、.vxk 內容指紋與換機器 cache
+- **decision_csm-split-fixed-length** — 分段陰影的分界不再照比例縮放：長度照公尺數、從 z0 起算
 - **decision_gunner-ammo-by-aim-zone** — 砲長照瞄準位置挑彈＋艦長指揮砲長
 - **decision_helm-two-layer** — 艦長開船兩層：艦長只給期望航速、航速調節挑帆與俥鐘
 - **decision_keymap-system** — 鍵位系統（66_keys.js）：動作表＋三個模式＋三層預設
@@ -54,6 +55,7 @@
 - **pitfall_hp-hit-once-and-traps** — 耐久／血量的坑（同一顆彈只算一次、長砲門檻不能壓、爆裂彈直擊重複、預設值對拍法、立繪去背參數）  ↔ constitution-broadside/state_wip-2026-10-12k
 - **pitfall_hud-jitter-and-alpha-grid** — HUD 數字抖動與半透明格子疊出網格紋（固定欄寬、模擬層平均、小圖縮放貼上）
 - **pitfall_import-reformats-game-json** — admin.py import 會把整份 game.json 重排 ⇒ 照 HEAD 只插入新船那一段
+- **pitfall_ladcheck-head-probe** — ladcheck 梯頂出口：擋路物只列前 1–4 格，挑格前先畫站位平面圖
 - **pitfall_load-deco-race** — 載入到一半換畫質「裝飾」⇒ T.h 載入失敗
 - **pitfall_looks-right-2026-10-14** — 照字串找到註解裡的標籤、建置包進別人沒提交的設定、看起來在其實 alive=false 的燈、heredoc 跳脫變 NUL
 - **pitfall_measure-and-impl-traps** — 量具盲區與實作坑（rAF 暫停、sandbox 截圖、--list、IIFE 互蓋、無錨物件）

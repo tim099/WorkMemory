@@ -2,6 +2,9 @@
 
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
+## decision
+- **decision_csm-split-fixed-length** — 分段陰影的分界不照比例縮放
+
 ## knowhow
 - **knowhow_r3-sail-rag-islands** — 帆破洞毛邊（R3）與斷開那一塊不畫：資料、開關、量法
 - **knowhow_wrapup-0781-202610211020** — 收工紀錄 TASK-0781：《Blockside》render 管線大修：批次繪製（減 draw call）…

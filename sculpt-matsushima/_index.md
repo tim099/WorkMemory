@@ -4,6 +4,7 @@
 
 ## knowhow
 - **knowhow_metal-needs-smooth** — 模型要看起來是金屬：material ＋ 網格平滑，Blocksail 要另外重套
+- **knowhow_rigging-rests-on** — 索具在 apply_rigging.py、繩端綁模型要 ropecheck fix、模型坐在模型上用 rests_on
 
 ## pitfall
 - **pitfall_tops-rails-posts** — 桅樓要自己一層甲板、平台別開洞、細欄杆不反光、撐柱先量船寬
