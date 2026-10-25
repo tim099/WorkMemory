@@ -11,6 +11,7 @@
 - **decision_keymap-system** — 鍵位系統（66_keys.js）：動作表＋三個模式＋三層預設
 - **decision_mixed-material-gun-hp** — 混合材質（厚度乘數＋線性混合、matMap）與砲血量公式
 - **decision_pack-grid-mirror-diff** — 成品壓縮：格子鏡射＋diff（以及帆、網格、貼圖的量測）
+- **decision_rope-end-yard-follows-declared-ends** — 繩端跟不跟帆桁轉：照作品寫明的 ends，座標端點才照網格猜
 - **decision_sickbay-musket-20261020** — 開打先上台子與火槍命中率：本小姐定的參數（待 Tim 看）
 - **decision_staffing-bench-oar** — 設施配員、木工台、划槳傳輸鏈、報錯回報（Tim 拍板）
 
