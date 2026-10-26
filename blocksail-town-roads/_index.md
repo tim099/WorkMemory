@@ -6,6 +6,7 @@
 - **decision_road-profile-cs** — 路面照 Cities: Skylines：平滑縱斷面＋挖填上限＋路口釘住
 
 ## knowhow
+- **knowhow_deck-surfaces-folk-stairs** — 碼頭、棧橋、樓梯是地形上方的板子：鎮民照面板走、skala 上岸路補根（2026-10-26）
 - **knowhow_road-stairs-wall-joins** — 路接地塊的樓梯、牆接建築：規則、坑、怎麼驗
 
 ## pitfall

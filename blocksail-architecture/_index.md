@@ -5,5 +5,9 @@
 ## decision
 - **decision_save-editor-game-edition** — 存檔兩種同格式、一城一資料夾、分區存；Build／Editor 旗標與城鎮建造權限表
 
+## knowhow
+- **knowhow_river-navigation** — 內陸水體：河開得進去要水面磨平、河口改線、要多深三件一起對（TASK-0768）
+- **knowhow_town-building-style-pipeline** — 新風格的城鎮建築怎麼產、怎麼驗（es 那一套踩過的六個坑）
+
 ## pointer
 - **pointer_architecture-doc** — Blocksail 各系統的索引與施工進度在 docs/ARCHITECTURE.md

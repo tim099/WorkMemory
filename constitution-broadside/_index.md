@@ -5,6 +5,7 @@
 ## decision
 - **decision_blockside-coding-scope** — 改 Blockside 先開 Coding 場：要 build 的人 scope 含 index.html，範圍重疊就開 worktree  ↔ constitution-broadside/pitfall_shared-worktree-mixed-build
 - **decision_blockside-pack-fingerprint** — 遊戲獨立成 Blockside、成品預設壓縮、.vxk 內容指紋與換機器 cache
+- **decision_cargo-fixed-plus-stone** — 載重 ＝ 固定壓艙＋可換壓艙、壓艙物 1 噸精度、admin.py disp
 - **decision_csm-split-fixed-length** — 分段陰影的分界不再照比例縮放：長度照公尺數、從 z0 起算
 - **decision_gunner-ammo-by-aim-zone** — 砲長照瞄準位置挑彈＋艦長指揮砲長
 - **decision_helm-two-layer** — 艦長開船兩層：艦長只給期望航速、航速調節挑帆與俥鐘
