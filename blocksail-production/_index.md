@@ -12,5 +12,6 @@
 - **knowhow_crops-in-game** — 作物與田在遊戲裡：annex ⇒ 清樹、鋪土、種；貼圖集分張
 
 ## pitfall
+- **pitfall_jobless-vs-market-price** — 失業多、田沒人：市場價卡住（開場糧食灌太多、開場需求 0）
 - **pitfall_new-consumer-auto-build** — 加新的「有人吃」之前：上游值不看量、無上限的值往上游亂傳、缺貨訊號只記一道、整串建築順序會變（TASK-0976）
 - **pitfall_townbuild-shared-by-gen-farms** — townBuild 開場農莊也在走：改它要比六座城規劃雜湊
