@@ -15,3 +15,6 @@
 - **pitfall_render-sim-night1** — 房間水面與房間模擬第一階段的坑：return 換行、舊快取、漣漪上限、粒子落進灌滿的空腔
 - **pitfall_room-split** — 切房間的三個坑（門、艙口、梁縫）
 - **pitfall_room-tier-actn-zero** — 第 4 檔 fl.actN 永遠 0：照它判有沒有水的地方會靜默跳過（艙裡的水沒畫）
+
+## pointer
+- **pointer_leakcheck-static** — 漏水檢查（超載極限）是靜態自檢，不是模擬；砲門、門、舵在就不漏
