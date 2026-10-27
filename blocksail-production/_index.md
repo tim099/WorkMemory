@@ -10,6 +10,7 @@
 ## knowhow
 - **knowhow_annex-grid-auto** — 附屬的田：4 m 格子、長方形自動蓋、量格子的邊
 - **knowhow_crops-in-game** — 作物與田在遊戲裡：annex ⇒ 清樹、鋪土、種；貼圖集分張
+- **knowhow_kitchen-meals-ingredients-1013** — 城鎮廚房28道菜與實際食材分列的資料邊界
 
 ## pitfall
 - **pitfall_jobless-vs-market-price** — 失業多、田沒人：市場價卡住（開場糧食灌太多、開場需求 0）

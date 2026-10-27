@@ -3,6 +3,7 @@
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
 ## decision
+- **decision_district-links-hand-drawn** — 城區之間的路手拉、只自動檢查連通（links 欄、town_link.js、town_bake 連通關）
 - **decision_road-profile-cs** — 路面照 Cities: Skylines：平滑縱斷面＋挖填上限＋路口釘住
 
 ## knowhow

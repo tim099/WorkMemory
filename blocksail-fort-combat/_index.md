@@ -6,6 +6,7 @@
 - **decision_fort-is-fixed-ship** — 堡壘 ＝ fixed 的船：照船匯入、fixed 跳過浮力與移動
 
 ## knowhow
+- **knowhow_fort-garrison-from-ledger** — 換上來的堡壘駐軍照城鎮帳那一棟今天幾個兵；手改帳測法  ↔ blocksail-fort-combat/knowhow_town-fort-wake
 - **knowhow_town-fort-wake** — 航海點城裡的堡壘：換成戰鬥單位、開火就敵對；怎麼在地球儀上測  ↔ blocksail-fort-combat/decision_fort-is-fixed-ship
 
 ## pitfall
