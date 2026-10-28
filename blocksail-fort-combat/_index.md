@@ -4,6 +4,7 @@
 
 ## decision
 - **decision_fort-is-fixed-ship** — 堡壘 ＝ fixed 的船：照船匯入、fixed 跳過浮力與移動
+- **decision_fort-one-at-a-time-swapback** — 城裡的堡壘：點了才換、一次一座、離開換回；收船要補序號
 
 ## knowhow
 - **knowhow_fort-garrison-from-ledger** — 換上來的堡壘駐軍照城鎮帳那一棟今天幾個兵；手改帳測法  ↔ blocksail-fort-combat/knowhow_town-fort-wake

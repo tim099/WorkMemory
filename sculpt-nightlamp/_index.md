@@ -15,4 +15,5 @@
 - **pitfall_interior-frame-gaps** — 內板：肋骨之間的縫比憲法號寬 ⇒ 先把肋骨那一層補實
 - **pitfall_planking-cavity-and-ceiling** — 外板：漏水≠封閉空腔、高度上限用每欄S頂、斜面要補橋
 - **pitfall_rails-wall-top** — 欄杆找舷頂：每一層 z 各自找最外的牆，排除艙口圍欄與 tumblehome
+- **pitfall_stern-quarter-glass-gap** — 船尾兩舷窗一格厚的斜玻璃漏水（TASK-1042）
 - **pitfall_zero-collision-search-start-must-collide** — 退到零碰撞的起點要一定碰（v1 從空中起算、第一步就停）

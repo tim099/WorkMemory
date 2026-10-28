@@ -5,6 +5,9 @@
 ## decision
 - **decision_stage0-spec-and-scale** — 第零階段：規格本尊、雙桅、尺寸參照與吃水的設計決定  ↔ sculpt-frigate/decision_keel-calibration
 
+## pitfall
+- **pitfall_falcon-leak-tiller-hole** — 超載極限的漏水是舵柄洞與腰部乾舷，不是縫；漏點不是縫
+
 ## pointer
 - **pointer_nf-stage12-state-v2** — 夜隼號到階段十二：現況、工具、待拍板
 - **pointer_nf-stage12-state** — 夜隼號到階段十二：現況、工具、待拍板 ~~[superseded]~~  ↔ sculpt-night-falcon/pointer_nf-stage12-state-v2

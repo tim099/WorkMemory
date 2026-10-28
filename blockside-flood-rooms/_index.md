@@ -10,6 +10,9 @@
 - **knowhow_local-vs-rebake-ruler** — 驗局部更新別用整艘重切當尺：改數洞
 
 ## pitfall
+- **pitfall_cross-hz-hole-placement** — 跨步長比進水量先對挖了幾格；wsim 讀數例外；半連通用 wpair 量
+- **pitfall_cross-hz-same-cells** — 跨步長比進水量先對挖的格（labSkin 水線取最近一格）；報表 wsim=1 的除錯讀法
+- **pitfall_deck-gap-split-openings** — 甲板缺口的欄托著水（上下開口要照分欄切）＋開口一多會爆掉的三處
 - **pitfall_measure-build** — 量測與建置的坑（無頭計時、worktree 建置、舊模型的步長）
 - **pitfall_merge-dev-dt-reset** — 合併 dev：開局重設步長、讀數跟著 dev 走、?demo 對拍被分頁影響、Blocksail 要重套 battle.html
 - **pitfall_render-sim-night1** — 房間水面與房間模擬第一階段的坑：return 換行、舊快取、漣漪上限、粒子落進灌滿的空腔
