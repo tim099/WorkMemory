@@ -21,4 +21,5 @@
 
 ## pointer
 - **pointer_farseer-novel-illustration-assets** — 刺客正傳小說插圖權威文件
+- **pointer_night-morning-anime-sources** — 夜與晨原創雙幅：生成追溯與延伸參考
 - **pointer_town-resident-visual-prototypes** — 女居民視覺原型與模擬邊界
