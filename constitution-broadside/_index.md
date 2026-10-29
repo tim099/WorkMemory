@@ -45,9 +45,11 @@
 - **knowhow_turret-layer-pitfalls** — 砲塔層會咬人的幾格（開放砲盾要平台、砲班黏著砲、彈藥箱連鎖、框只包砲塔）
 
 ## pitfall
+- **pitfall_boiler-wet-fixed-point** — 鍋爐泡水：動力件檢查預設關、固定點在實心格 ⇒ 永遠不熄；照砲浸水看爐口
 - **pitfall_cache-prefs-traps** — 設定存檔與船型快取的坑（_cache 換船、只存非預設、壞存檔別順手蓋、快取鍵、驗證法）
 - **pitfall_clew-tops-compass-stall** — 帆腳、桅頂、手機羅盤、頂風失速的坑（canvas 預設 300×150、帆腳跟 sheet 那根、離線模型調參）
 - **pitfall_commander-line-sandbox-cal** — 指揮官戰列排不起來、沙盒校準的數字從哪來
+- **pitfall_deck-auto-place-reach** — 甲板道具自動擺：船型層級猜走路不可靠，擺不下改開戰時照走路格補
 - **pitfall_eval-write-per-match** — 長評測要打完一場寫一場
 - **pitfall_flag-on-gaff-floats** — 旗掛 gaff 頂上，gaff 轉了旗沒跟
 - **pitfall_flash-per-magazine** — 火光竄下艙口照取用點算 ⇒ 一次爆炸算兩次（娛樂火藥的讀數都偏）；先後要分清楚  ↔ constitution-broadside/pitfall_models-hp-powder-traps
