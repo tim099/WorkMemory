@@ -10,4 +10,5 @@
 - **knowhow_town-building-style-pipeline** — 新風格的城鎮建築怎麼產、怎麼驗（es 那一套踩過的六個坑）
 
 ## pointer
+- **pointer_age-of-discovery-economy** — 大航海時代經濟學體系背景與貿易機制設計指路（TASK-1096）
 - **pointer_architecture-doc** — Blocksail 各系統的索引與施工進度在 docs/ARCHITECTURE.md
