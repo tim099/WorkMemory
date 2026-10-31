@@ -4,6 +4,7 @@
 
 ## decision
 - **decision_build-pace-3** — 建築名額 7 ⇒ 3 天、奢侈品打五折、教堂留料（TASK-1021）
+- **decision_cookshop-fare-1022** — 外食卡在料不是店 ⇒ 另開便餐＋小飯館吃便宜料（TASK-1022）
 - **decision_opening-list** — 開局建造清單：起始檔只寫種類與座數，第 2 天照清單蓋到崗位 80%（TASK-1071）
 - **decision_opening-works-yard** — 開局補缺口、工地兩倍、公共工程、自動蓋服務建築與營造廠（TASK-1023）
 

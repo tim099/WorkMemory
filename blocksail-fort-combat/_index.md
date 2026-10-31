@@ -13,3 +13,6 @@
 ## pitfall
 - **pitfall_fort-flag-and-es-fort** — 堡壘的旗照城的勢力；es-fort 還不能換成戰鬥單位
 - **pitfall_fort-open-gaps** — 堡壘第一版的缺口：砲組不跨半邊、船穿得過、平衡沒調  ↔ blocksail-fort-combat/decision_fort-is-fixed-ship
+
+## state
+- **state_fort-closed-readings** — 結單時的狀態：修繕驗法、修繕天數讀數、鐵砲缺口沒動  ↔ blocksail-fort-combat/pitfall_fort-open-gaps

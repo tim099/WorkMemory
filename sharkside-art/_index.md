@@ -4,3 +4,6 @@
 
 ## decision
 - **decision_approved-mascot-cutout** — 看板娘以Tim透明定稿為權威，命名交gura
+
+## knowhow
+- **knowhow_tracked-png-before-integration** — 圖檔落盤到遊戲採用之間有追蹤清單邊界
