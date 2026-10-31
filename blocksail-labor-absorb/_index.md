@@ -5,15 +5,19 @@
 ## decision
 - **decision_build-pace-3** — 建築名額 7 ⇒ 3 天、奢侈品打五折、教堂留料（TASK-1021）
 - **decision_cookshop-fare-1022** — 外食卡在料不是店 ⇒ 另開便餐＋小飯館吃便宜料（TASK-1022）
+- **decision_fare-rich-1022** — 便餐照寬裕度：日用那一條、lo 0.5 hi 3（Tim 拍板；奢侈品那一條會順週期）  ↔ blocksail-labor-absorb/decision_cookshop-fare-1022
 - **decision_opening-list** — 開局建造清單：起始檔只寫種類與座數，第 2 天照清單蓋到崗位 80%（TASK-1071）
 - **decision_opening-works-yard** — 開局補缺口、工地兩倍、公共工程、自動蓋服務建築與營造廠（TASK-1023）
 
 ## knowhow
 - **knowhow_cottage-workshop-1108** — 家庭小作坊：失業緩衝的做法與數字（TASK-1108）
+- **knowhow_nation-fund-1055** — 國庫十倍、缺錢補貼、國家出崗位的讀數
 
 ## pitfall
 - **pitfall_auto-claim-pending** — 自動建築連挑、服務建築：要扣掉還沒生效的那一份
 - **pitfall_auto-cost-swallowed** — 自動建築的造價被同一行的註解吃掉兩天（73b8f68 → TASK-1071 修）
 - **pitfall_consume-off-tools** — CONSUME 關掉的小城工具：新需求要照舊
 - **pitfall_demand-vs-slots** — 加需求不等於加崗位：名額才是瓶頸
+- **pitfall_list-fields-cobweb** — 開局清單的田第一個播種月一起換作物：蛛網效應的失業潮（TASK-1136）  ↔ blocksail-labor-absorb/pitfall_region-shared-gap
 - **pitfall_opening-list-placement** — 幾百座自動建築一次蓋 ⇒ 擺放、重放、規劃過期的坑（TASK-1071）
+- **pitfall_region-shared-gap** — 同一區的大城先吃掉區的缺口：後輪的城開局補不滿（聖皮耶）

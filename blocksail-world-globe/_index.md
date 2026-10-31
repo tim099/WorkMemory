@@ -13,3 +13,6 @@
 - **pitfall_new-sea-area-set** — 新的一片海域另開一套（--set）分開抽：火山島、母岩分兩半、碎片、海洋分區
 - **pitfall_parallel-region-claim** — 同一片海域兩個人同時做：開工前看 main 與看板，撞了以有單有出處的為準
 - **pitfall_town-hash-baseline** — 重抽後比城鎮雜湊：基準要在同一個 commit 量（main 會被別人推走）
+
+## pointer
+- **pointer_coast-fill-relief** — 補陸地（coast fill: 1）＋局部等高線表：在哪、怎麼畫、坑
