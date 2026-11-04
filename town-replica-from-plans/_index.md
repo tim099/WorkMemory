@@ -3,6 +3,7 @@
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
 ## knowhow
+- **knowhow_atlantic-island-town-recipe** — 大西洋的島蓋城：自己一區檔、泡水平帶寫 floor、bathy 索引只改那幾格、數船用 rep.fleet.trade
 - **knowhow_carve-harbour-back** — 填掉的港池挖回世界地圖（carve）：塗在填海深度之後、對照組與逐環比
 - **knowhow_historic-piers-blank-town** — 手擺城的港口：照史料位置擺棧橋＋T 字頭、探針量到 7 m、形狀是遊戲用的
 - **knowhow_new-island-town-recipe** — 新蓋一座小安地列斯的城：量岸差、修岸、拉港口等深線、挑種子、城區、開場檔、航線快取

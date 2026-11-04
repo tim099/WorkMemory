@@ -6,6 +6,7 @@
 - **decision_build-grade-by-density-pending** — 待拍板：高密度住宅要不要只能用營造 2、3 級蓋
 - **decision_crop-field-render** — 田裡的作物：照塊分組、不投影子、3D 300 m、放大 1.8（菜 2.25）
 - **decision_fields-block-roads** — 路穿不過田、田不擋自己那幾欄、田外框滿 4 m
+- **decision_history-filter-subclimate-farms-nobuild** — 照史實篩作物與建築：細氣候區、farms、noBuild
 - **decision_producers-table** — 配方與生產者兩層：BSW.PRODUCERS 一張效率表
 - **decision_rich-eat-order-variety** — TASK-1166 吃飯：錢多的那一層先買（richFirst）、花樣湊不滿就讓回來（varietyFill）
 - **decision_school-hospital-levels-1064** — 學校、醫院、捐獻、教育與健康水平怎麼定的（TASK-1064）
