@@ -25,6 +25,7 @@
 - **pitfall_new-good-needs-start-row** — 新貨物不會自己長出來：開場特產列＋消費端
 - **pitfall_reverse-control-new-tables** — 新表的反向對照要刪鍵；main 的 b.cost 被註解吃掉
 - **pitfall_townbuild-shared-by-gen-farms** — townBuild 開場農莊也在走：改它要比六座城規劃雜湊
+- **pitfall_upidle-idle-cap-hides-input-value** — 缺料停工的建築照滿產算 ⇒ 值傳不到缺的料（AUTO.upIdle）
 
 ## pointer
 - **pointer_consume-needs-prosp-1108** — 需要表、繁榮度（TASK-1108）的開關、讀數與開著的

@@ -9,6 +9,7 @@
 - **knowhow_navmesh-block-reuse** — 導航網一塊一塊照用、城鎮規劃指紋只看碰到的、管線先後
 
 ## pitfall
+- **pitfall_bathy-index-splice-edits-mask** — 拼等深線索引：自己的部分還有 edits 一筆、mask 一圈
 - **pitfall_full-reextract-memory** — 整份重抽：4,899 張圖磚的資料夾、兩小時、地中海那一框將近 20 GB（機器忙會 OOM）
 - **pitfall_globe-save-ui-pitfalls** — 地球儀存讀檔與面板：同一物件比不出改動、details 收起還量得到高度、橫捲軸、進城按鍵太早
 - **pitfall_harbour-lines-far-interp** — 港口改線會讓幾公里外的海底跟著變深

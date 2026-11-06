@@ -3,6 +3,7 @@
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
 ## knowhow
+- **knowhow_far-district-harbour** — 有港口的遠城區（倫敦 Blackwall，TASK-1227）：berthMax 要自己寫、townDocks、地形框、驗法
 - **knowhow_river-port-seville** — 長河港（塞維亞）：水深、台地、岸坡、中心城區、入口點、合 main 的順序
 
 ## pitfall

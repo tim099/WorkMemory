@@ -53,6 +53,7 @@
 - **pitfall_eval-write-per-match** — 長評測要打完一場寫一場
 - **pitfall_flag-on-gaff-floats** — 旗掛 gaff 頂上，gaff 轉了旗沒跟
 - **pitfall_flash-per-magazine** — 火光竄下艙口照取用點算 ⇒ 一次爆炸算兩次（娛樂火藥的讀數都偏）；先後要分清楚  ↔ constitution-broadside/pitfall_models-hp-powder-traps
+- **pitfall_furled-sail-floating-ropes** — 收帆後 sheet、tack 浮在帆張開的位置：三條畫法有一條漏接
 - **pitfall_gpu-arrays-midline-comment** — 多船 GPU 改貼圖陣列、補丁插註解吃掉半行、sed 變 LF
 - **pitfall_gun-mount-pitfalls** — 砲座：索引位移配錯砲、負座標打不到座、sh.models 欄位不跟、reimport 後 build --code 擋
 - **pitfall_hands-swim-cutaway-traps** — 預備水手、剖面、落水求生踩過的坑
