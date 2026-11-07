@@ -18,6 +18,7 @@
 - **pitfall_med-fine-extraction** — 地中海細區：疊兩套等高線、窄水道被封、原始圖磚在哪
 - **pitfall_new-sea-area-set** — 新的一片海域另開一套（--set）分開抽：火山島、母岩分兩半、碎片、海洋分區
 - **pitfall_parallel-region-claim** — 同一片海域兩個人同時做：開工前看 main 與看板，撞了以有單有出處的為準
+- **pitfall_route-water-in-fingerprints** — route.js、water.js 在烘焙指紋裡：玩家行為放 globe.html，尋路圖缺邊補法
 - **pitfall_terrain-window-dependence** — terrain.js 框大框小會變（REACH 外的最近島嶼）—— 一塊單獨算＝整片一起算要量
 - **pitfall_town-hash-baseline** — 重抽後比城鎮雜湊：基準要在同一個 commit 量（main 會被別人推走）
 
