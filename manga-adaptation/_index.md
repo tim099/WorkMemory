@@ -12,6 +12,7 @@
 
 ## pitfall
 - **pitfall_hand-chirality-v2** — 驗手要量左右，不只量位置（分鏡註也會把作畫推錯手）  ↔ manga-adaptation/pitfall_hand-chirality
+- **pitfall_lunar-eclipse-monotonic-discipline** — 無字分鏡中月蝕推進的單調性與日冕清除
 - **pitfall_reported-vs-landed** — 報了兩筆編輯，落地一筆 —— 所以要逐排驗收不是逐頁
 - **pitfall_reroll-contamination** — 「只改了 X」要用 diff 的 bbox 去量 —— 重抽會把已經簽過的格子一起換掉，而它們不會喊
 - **pitfall_self-contradicting-spec** — 規格自相矛盾：作畫者照字面做，兩次都不可能對
